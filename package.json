@@ -1,0 +1,21 @@
+{
+  "name": "curewith3d",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "16.0.1",
+    "react": "19.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.2.0",
+    "react-fast-marquee": "^1.6.5",
+    "react-slick": "^0.31.0",
+    "react-sticky-el": "^2.1.1",
+    "react-tabs": "^6.1.0",
+    "react-type-animation": "^3.2.0"
+  }
+}
