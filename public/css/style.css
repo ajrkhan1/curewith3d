@@ -2319,7 +2319,7 @@ margin-bottom: 15px !important;
 }
 
 .about-us-one-left-boxx {
-    background-image: url(../images/main/3d-aboutus.jpg);
+    background-image: url(/images/main/3d-aboutus.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2330,7 +2330,7 @@ margin-bottom: 15px !important;
 }
 
 .about-us-one-left-boxx2 {
-    background-image: url(../images/main/ourexpertise.jpg);
+    background-image: url(/images/main/ourexpertise.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
