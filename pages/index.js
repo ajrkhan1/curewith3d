@@ -1,7 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import React from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
@@ -146,7 +143,7 @@ arrow:true,
 									<div class="ihbox-style-area">
 										<div class="pbmit-ihbox-style-3">
 											<div class="pbmit-ihbox-box d-flex">
-												<a class="pbmin-lightbox-video" href="https://www.youtube.com/watch?v=iCbE6lRf2PU">
+												<a class="pbmin-lightbox-video" href="#">
 													<div class="pbmit-ihbox-icon">
 														<div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
 															<i class="fa fa-play"></i>
@@ -155,7 +152,7 @@ arrow:true,
 												</a>
 												<div class="pbmit-ihbox-contents">
 													<h2 class="pbmit-element-title">
-														<a href="https://www.youtube.com/watch?v=iCbE6lRf2PU">
+														<a href="#">
 															<span class="pbmit-button-text">Watch Video</span>
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
@@ -216,8 +213,8 @@ arrow:true,
 								<div class="col-md-12 col-xl-6">
 									<div class="about-three-content">
 										<div class="pbmit-heading-subheading animation-style2 mb-10">
-											<h4 class="pbmit-subtitle">We are</h4>
-											<h2 class="pbmit-title">Welcome to Curewith3D</h2>
+											<h4 class="pbmit-subtitle">Welcome to Curewith3D</h4>
+											<h2 class="pbmit-title">We are</h2>
 											<div class="pbmit-heading-desc">
 												CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models. From segmentation and 3D modelling to surgical planning and follow-up support, we help patients understand their path and feel supported every step of the way. Based in India and connected globally, we deliver quality care and cost-effective solutions that make a difference.
 											</div>
@@ -431,14 +428,14 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/service/service-img-01.jpg" class="img-fluid" alt="" />
+																<img src="/images/main/patient-specific-implants.jpg" class="img-fluid" alt="" />
 															</div>
 														</div>
 													</div>
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="service-details.html">Patient-Specific Implants </a>
+																<a href="#">Patient-Specific Implants </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Biocompatible 3D-printed implants customized to individual patient anatomy.
@@ -448,7 +445,7 @@ arrow:true,
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="service-details.html" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -468,14 +465,14 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/service/service-img-02.jpg" class="img-fluid" alt="" />
+																<img src="/images/main/anatomical-models.jpg" class="img-fluid" alt="" />
 															</div>
 														</div>
 													</div>
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="service-details.html">Anatomical Models  </a>
+																<a href="#">Anatomical Models  </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Detailed pre-surgical planning models that enable surgeons to visualize and practice complex cases.
@@ -485,7 +482,7 @@ arrow:true,
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="service-details.html" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -505,24 +502,24 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/service/service-img-03.jpg" class="img-fluid" alt="" />
+																<img src="/images/main/virtual-surgery planning.jpg" class="img-fluid" alt="" />
 															</div>
 														</div>
 													</div>
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="service-details.html">Virtual Surgery Planning  </a>
+																<a href="#">Virtual Surgery Planning  </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Advanced digital simulations using patient-specific 3D models to rehearse surgeries.
 															</div>
 														</div>
 													</div>
-												</div>
+												</div>												
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="service-details.html" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -542,14 +539,14 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/service/service-img-04.jpg" class="img-fluid" alt="" />
+																<img src="/images/main/custom-surgical-guides.jpg" class="img-fluid" alt="" />
 															</div>
 														</div>
 													</div>
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="service-details.html">Custom Surgical Guides </a>
+																<a href="#">Custom Surgical Guides </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Patient-specific surgical guides with millimeter-perfect accuracy during complex orthopedic, dental, and maxillofacial procedures.
@@ -559,7 +556,7 @@ arrow:true,
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="service-details.html" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -579,14 +576,14 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/service/service-img-05.jpg" class="img-fluid" alt="" />
+																<img src="/images/main/medical-device-prototyping.jpg" class="img-fluid" alt="" />
 															</div>
 														</div>
 													</div>
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="service-details.html">Medical Device Prototyping </a>
+																<a href="#">Medical Device Prototyping </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Rapid prototyping services for medical device manufacturers and innovators developing next-gen healthcare solutions.
@@ -596,7 +593,7 @@ arrow:true,
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="service-details.html" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -616,14 +613,14 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="images/homepage-2/service/service-img-06.jpg" class="img-fluid" alt="" />
+																<img src="/images/main/medical-education-model.jpg" class="img-fluid" alt="" />
 															</div>
 														</div>
 													</div>
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="service-details.html">Patient Education Models </a>
+																<a href="#">Patient Education Models </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Visual anatomical models that help you communicate diagnoses & treatment plans effectively to patients.
@@ -633,7 +630,7 @@ arrow:true,
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="service-details.html" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -956,38 +953,28 @@ arrow:true,
 										<h4 class="pbmit-subtitle">Contact Us</h4>
 										<h2 class="pbmit-title">Transform Your Surgical Precision Today</h2>
 									</div>
-									<form>
-										<div class="row">
-											<div class="col-md-6">
-												<select class="form-select">
-													<option value="Choose a Service">Choose a Service</option>
-													<option value="Residential Cleaning">Residential Cleaning</option>
-													<option value="Office Cleaning">Office Cleaning</option>
-													<option value="Domestic Cleaning">Domestic Cleaning</option>
-													<option value="Carpet 6Cleaning">Carpet 6Cleaning</option>
-												</select>
-											</div>
-											<div class="col-md-6">
-												<select class="form-select">
-													<option value="Type of Clean">Type of Clean</option>
-													<option value="Domestic">Domestic</option>
-													<option value="Sweeping">Sweeping</option>
-													<option value="Custodian">Custodian</option>
-													<option value="Vacuum">Vacuum</option>
-												</select>
-											</div>
-											<div class="col-md-6">
-												<input type="text" class="form-control" placeholder="Total Floor Area (sq ft)" name="Total" required />
-											</div>
+									<form className="formsc">
+										<div class="row">											
 											<div class="col-md-6">
 												<input type="text" class="form-control" placeholder="Your Name" name="your-name" required />
 											</div>
 											<div class="col-md-6">
 												<input name="emial-address" class="form-control" placeholder="Email Address" required />
 											</div>
+											<div class="col-md-6">											
+												<input type="text" class="form-control" name="phone" maxlength="13" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
+											</div>
 											<div class="col-md-6">
+												<select class="form-select" name="services" required>
+													<option value="">Choose a Service</option>
+													<option value="3D Surgical Models">3D Surgical Models</option>
+													<option value="Patient Specific Implants">Patient Specific Implants</option>
+													<option value="Custom 3D Printed Surgical Guides">Custom 3D Printed Surgical Guides</option>
+												</select>
+											</div>
+											<div class="col-md-12">
 												<div class="input-text-group">
-													<p>Submit this information and we will send you the cost for the service.</p>
+													<textarea name="message" cols="40" rows="10" class="form-control" placeholder="Message" required></textarea>
 												</div>
 											</div>
 										</div>

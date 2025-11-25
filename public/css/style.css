@@ -2365,6 +2365,10 @@ margin-bottom: 15px !important;
     color: #000;
 }
 
+.formsc .form-control{ color: #fff; border: 1px solid #fff !important;}
+.formsc .form-control::placeholder{color: #fff;}
+.formsc .form-select{ color: #fff; border: 1px solid #fff !important;}
+
 .pb-5{padding-bottom: 5px;}
 .pb-10{padding-bottom: 10px;}
 .pb-15{padding-bottom: 15px;}

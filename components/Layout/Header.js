@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import React from 'react'
-import Sticky from 'react-sticky-el';
 
 export default function Header() {
     
   return (
     <>
 
+
 <header class="site-header header-style-1">
+
 			<div class="">
 				<div class="pbmit-bg-color-white">
 					<div class="container-fluid">
@@ -39,7 +40,7 @@ export default function Header() {
 												</span>
 												<ul class="navigation clearfix">
 													<li class="dropdown active">
-														<a href="#">Home</a>														
+														<a href="/">Home</a>														
 													</li>
 													<li><a href="about-us">About Us</a></li>
 													
@@ -76,12 +77,12 @@ export default function Header() {
 									</a>
 								</div>
 								<div class="pbmit-header-search-btn">
-									<a href="#" title="Search">
+									{/* <a href="#" title="Search">
 										<i class="pbmit-base-icon-search-1"></i>
-									</a>
+									</a> */}
 								</div>
 								<div class="pbmit-header-button2">
-									<a class="pbmit-btn" href="contact-us.html">
+									<a class="pbmit-btn" href="/contact-us">
 										<span class="pbmit-button-content-wrapper">
 											<span class="pbmit-button-icon">
 												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
