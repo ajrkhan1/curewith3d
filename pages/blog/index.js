@@ -2,14 +2,9 @@ import Head from "next/head";
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
 
-async function getPosts() {
-    const response = await fetch('https://wordpress-1457894-5992008.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&per_page=30');
-    const posts = await response.json();
-    return posts;
-}
 
 export async function getServerSideProps() {
-   const res = await fetch('https://wordpress-1457894-5992008.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&per_page=30')
+   const res = await fetch('https://wordpress-1457894-6024746.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&per_page=30')
    const posts = await res.json()
 
 
@@ -97,7 +92,7 @@ export default function index({posts, cats}) {
 								<div class="pbmit-featured-container">
 									<div class="pbmit-featured-img-wrapper">
 										<div class="pbmit-featured-wrapper">
-											<img src={getpost.uagb_featured_image_src.large[0]} class="img-fluid" alt=""/>
+											<img src={getpost.yoast_head_json.og_image.url} class="img-fluid" alt=""/>
 										</div>
 									</div>
 								</div>
@@ -110,7 +105,7 @@ export default function index({posts, cats}) {
 										</div>
 										<div class="pbmit-meta-category-wrapper pbmit-meta-line">
 											<div class="pbmit-meta-category">
-												<a href="blog-classic.html" rel="category tag">Chemistry</a>
+												<a href="#" rel="category tag">Chemistry</a>
 											</div>
 										</div>
 									</div>
