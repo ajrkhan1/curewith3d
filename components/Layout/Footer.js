@@ -70,12 +70,12 @@ export default function Footer() {
 							<div class="widget pbmit-two-column-menu">
 								<h2 class="widget-title">Useful Link</h2>
 								<ul>
-									<li><a href="our-history.html">Home</a></li>
-									<li><a href="about-us.html">About</a></li>
+									<li><a href="/">Home</a></li>
+									<li><a href="/about-us">About</a></li>
 									<li><a href="contact-us.html">Service</a></li>
-									<li><a href="contact-us.html">Pricing</a></li>
-									<li><a href="contact-us.html">Blog</a></li>
-									<li><a href="contact-us.html">Contact</a></li>
+									<li><a href="/3d-designs">3D Designs</a></li>
+									<li><a href="/blog">Blog</a></li>
+									<li><a href="/contact-us">Contact</a></li>
 								</ul>
 							</div>
 						</div>

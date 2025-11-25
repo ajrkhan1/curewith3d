@@ -92,7 +92,7 @@ export default function index({posts, cats}) {
 								<div class="pbmit-featured-container">
 									<div class="pbmit-featured-img-wrapper">
 										<div class="pbmit-featured-wrapper">
-											<img src={getpost.yoast_head_json.og_image.url} class="img-fluid" alt=""/>
+											<a href={`/blog/${getpost.slug}`}><img src={getpost.yoast_head_json.og_image[0].url} class="img-fluid" alt=""/></a>
 										</div>
 									</div>
 								</div>
@@ -105,12 +105,12 @@ export default function index({posts, cats}) {
 										</div>
 										<div class="pbmit-meta-category-wrapper pbmit-meta-line">
 											<div class="pbmit-meta-category">
-												<a href="#" rel="category tag">Chemistry</a>
+												<a href="#" rel="category tag"> 3d Printing</a>
 											</div>
 										</div>
 									</div>
 									<h3 class="pbmit-post-title">
-										<a href="#">{getpost.title.rendered}</a>
+										<a href={`/blog/${getpost.slug}`}>{getpost.title.rendered}</a>
 									</h3>
 									<div class="pbminfotech-box-desc">
 										Most laboratory is a facility that provides controlled conditions in which… 

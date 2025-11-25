@@ -17,7 +17,7 @@ export default function Header() {
 								<div class="site-branding">
 									<h1 class="site-title">
 										<a href="/">
-											<img class="logo-img" src="images/logo.svg" alt="Xleb"/>
+											<img class="logo-img" src="/images/logo.svg" alt="Curewith3d"/>
 										</a>
 									</h1>
 								</div>

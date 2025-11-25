@@ -2368,6 +2368,7 @@ margin-bottom: 15px !important;
 .formsc .form-control{ color: #fff; border: 1px solid #fff !important;}
 .formsc .form-control::placeholder{color: #fff;}
 .formsc .form-select{ color: #fff; border: 1px solid #fff !important;}
+.ajimgfull{width: 100%;}
 
 .pb-5{padding-bottom: 5px;}
 .pb-10{padding-bottom: 10px;}
