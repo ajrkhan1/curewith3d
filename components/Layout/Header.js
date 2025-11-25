@@ -52,13 +52,16 @@ export default function Header() {
 															<li><a href="/custom-3d-printed-surgical-guides">Custom 3D Printed Surgical Guides</a></li>
 														</ul>
 													</li>
-													<li class="dropdown">
+													{/* <li class="dropdown">
 														<a href="/healthcare-uses">Healthcare Uses</a>
 														<ul>
 															<li><a href="/3d-surgical-models">3D Surgical Models</a></li>
 															<li><a href="/patient-specific-implants">Patient Specific Implants</a></li>
 															<li><a href="/custom-3d-printed-surgical-guides">Custom 3D Printed Surgical Guides</a></li>
 														</ul>
+													</li> */}
+													<li>
+														<a href="/3d-designs">3D Designs</a>													
 													</li>
 													<li>
 														<a href="/blog">Blog</a>													

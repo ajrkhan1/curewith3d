@@ -653,8 +653,8 @@ arrow:true,
 				<section class="section-lgx pt-40 pb-40 about-three-bg pbmit-bg-color-white mt-50 mb-50">
 					<div class="container">
 						<div class="pbmit-heading-subheading text-center animation-style2">
-							<h4 class="pbmit-subtitle">Why Curewith3D?</h4>
-							<h2 class="pbmit-title">Because precision begins before the incision.</h2>
+							{/* <h4 class="pbmit-subtitle">Why Curewith3D?</h4> */}
+							<h2 class="pbmit-title">Specialties We Serve </h2>
 						</div>
 						<Tabs>
 							<div class="pbmit-tab maintabs">
@@ -663,7 +663,7 @@ arrow:true,
 										<Tab>
 											<span class="nav-item">
 												<a class="nav-link" aria-selected="true" role="tab">
-													<span>Proven Accuracy</span>
+													<span>Orthopedics</span>
 													<i class=" pbmit-base-icon-black-arrow-1"></i>
 												</a>
 											</span>
@@ -672,7 +672,7 @@ arrow:true,
 										<Tab>
 											<span class="nav-item">
 												<a class="nav-link" aria-selected="true" role="tab">
-													<span>Faster Turnaround</span>
+													<span>Oral & Maxillofacial Surgery</span>
 													<i class=" pbmit-base-icon-black-arrow-1"></i>
 												</a>
 											</span>
@@ -680,7 +680,7 @@ arrow:true,
 										<Tab>
 											<span class="nav-item">
 												<a class="nav-link" aria-selected="true" role="tab">
-													<span>Cost-Effective Solutions </span>
+													<span>Neurosurgery</span>
 													<i class=" pbmit-base-icon-black-arrow-1"></i>
 												</a>
 											</span>
@@ -688,15 +688,7 @@ arrow:true,
 										<Tab>
 											<span class="nav-item">
 												<a class="nav-link" aria-selected="true" role="tab">
-													<span>Regulatory Compliance </span>
-													<i class=" pbmit-base-icon-black-arrow-1"></i>
-												</a>
-											</span>
-										</Tab>
-										<Tab>
-											<span class="nav-item">
-												<a class="nav-link" aria-selected="true" role="tab">
-													<span>Dedicated Support</span>
+													<span>Oncology & Reconstructive Surgery </span>
 													<i class=" pbmit-base-icon-black-arrow-1"></i>
 												</a>
 											</span>
@@ -712,20 +704,26 @@ arrow:true,
 														<img src="images/homepage-1/tab/tab-img-01.jpg" class="img-fluid" alt="" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
-														<h2>Well Ensure You Always Covid 19 Vaccine.</h2>
-														<div>We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall sales. Give us a call.</div>
+														<h2>Orthopedics</h2>
+														<div>Precision and predictability are critical in orthopedic surgery, where millimeters can determine long-term patient outcomes. Our advanced 3D planning solutions support surgeons in trauma management, joint replacement, limb reconstruction, and complex deformity correction surgeries. </div>
 														<ul>
 															<li class="list-group-item">
-																Access Expert Advice For A Thriving Life
+																Custom orthopedic surgical cutting guides or "jigs"
 															</li>
 															<li class="list-group-item">
-																Benefits Of Health Conscious Living
+																Osteotomy, drill, and screw guides
 															</li>
 															<li class="list-group-item">
-																Benefits Of Proactive Health Management
+																Patient specific orthopedic implants
 															</li>
 															<li class="list-group-item">
-																Countless Benefits Of Prioritizing Health
+																Customized anatomical models
+															</li>
+															<li class="list-group-item">
+																Bespoke pelvic implants
+															</li>
+															<li class="list-group-item">
+																Virtual Surgery Planning (VSP)
 															</li>
 														</ul>
 													</div>
@@ -741,20 +739,32 @@ arrow:true,
 														<img src="images/homepage-1/tab/tab-img-02.jpg" class="img-fluid" alt="" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
-														<h2>Coronavirus disease (COVID-19): Vaccines,</h2>
-														<div>There are many variations of passages of Lorem Ipsumbut the majority have suffered alteration in some form, by injected humour, or words which dont look even.</div>
+														<h2>Oral & Maxillofacial Surgery </h2>
+														<div>Craniofacial cases require exact anatomical restoration to protect aesthetics and function. Our advanced custom 3D-printed solutions elevate surgical precision in facial trauma repair, congenital corrections, corrective jaw surgery, & craniofacial reconstructions.</div>
 														<ul>
 															<li class="list-group-item">
-																Access Expert Advice For A Thriving Life
+																Patient-specific implants 
 															</li>
 															<li class="list-group-item">
-																Benefits Of Health Conscious Living
+																Cutting guides for Fibula free flap reconstruction 
 															</li>
 															<li class="list-group-item">
-																Benefits Of Proactive Health Management
+																Custom mandibular and maxillary splints 
 															</li>
 															<li class="list-group-item">
-																Countless Benefits Of Prioritizing Health
+																Ankylosis release cutting guides 
+															</li>
+															<li class="list-group-item">
+																Custom surgical guides for Bilateral Sagittal Split Osteotomy (BSSO) 
+															</li>
+															<li class="list-group-item">
+																Custom subperiosteal mplants 
+															</li>
+															<li class="list-group-item">
+																Bespoke Anatomical models 
+															</li>
+															<li class="list-group-item">
+																Virtual surgery planning (VSP) 
 															</li>
 														</ul>
 													</div>
@@ -770,21 +780,27 @@ arrow:true,
 														<img src="images/homepage-1/tab/tab-img-03.jpg" class="img-fluid" alt="" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
-														<h2>Genetics research is the scientific discipline.</h2>
-														<div>We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall sales. Give us a call.</div>
+														<h2>Neurosurgery  </h2>
+														<div>Advanced 3D-printed, custom-fit spinal and cranial solutions engineered to achieve precise anatomical reconstruction and biomechanical stability. Developed to restore cranial and spinal defects while minimizing intraoperative complication risk. </div>
 														<ul>
 															<li class="list-group-item">
-																Access Expert Advice For A Thriving Life
+																Patient-specific anatomical models of brain & spine
 															</li>
 															<li class="list-group-item">
-																Benefits Of Health Conscious Living
+																Custom PEEK Cranial Plates 
 															</li>
 															<li class="list-group-item">
-																Benefits Of Proactive Health Management
+																3D printed custom titanium cranial plates
 															</li>
 															<li class="list-group-item">
-																Countless Benefits Of Prioritizing Health
+																Custom Spinal Cages
 															</li>
+															<li class="list-group-item">
+																Bespoke Spinal Jigs
+															</li>
+															<li class="list-group-item">
+																Virtual Surgery Planning (VSP)
+															</li>															
 														</ul>
 													</div>
 												</div>
@@ -799,20 +815,14 @@ arrow:true,
 														<img src="images/homepage-1/tab/tab-img-04.jpg" class="img-fluid" alt="" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
-														<h2>Traditional approaches to laboratory diagnosis.</h2>
-														<div>There are many variations of passages of Lorem Ipsumbut the majority have suffered alteration in some form, by injected humour, or words which dont look even.</div>
+														<h2>Oncology & Reconstructive Surgery</h2>
+														<div>Integrated solutions supporting precise tumor resection with safe surgical margins, followed by high-fidelity reconstructive outcomes that promote optimal post-resection restoration & faster recovery.</div>
 														<ul>
 															<li class="list-group-item">
-																Access Expert Advice For A Thriving Life
+																Tumor resection guides
 															</li>
 															<li class="list-group-item">
-																Benefits Of Health Conscious Living
-															</li>
-															<li class="list-group-item">
-																Benefits Of Proactive Health Management
-															</li>
-															<li class="list-group-item">
-																Countless Benefits Of Prioritizing Health
+																Virtual Surgery Planning (VSP)
 															</li>
 														</ul>
 													</div>
@@ -820,35 +830,7 @@ arrow:true,
 											</div>
 										</div>
 									</TabPanel>
-									<TabPanel>
-										<div class="tab-pane" id="tab-2-5" role="tabpanel">
-											<div class="pbmit-column-inner">
-												<div class="row g-0 align-items-center">
-													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="images/homepage-1/tab/tab-img-05.jpg" class="img-fluid" alt="" />
-													</div>
-													<div class="col-md-12 col-xl-7 pbmit-tab-list">
-														<h2>Blood stem cells and blood cell development.</h2>
-														<div>We help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers, and growing overall sales. Give us a call.</div>
-														<ul>
-															<li class="list-group-item">
-																Access Expert Advice For A Thriving Life
-															</li>
-															<li class="list-group-item">
-																Benefits Of Health Conscious Living
-															</li>
-															<li class="list-group-item">
-																Benefits Of Proactive Health Management
-															</li>
-															<li class="list-group-item">
-																Countless Benefits Of Prioritizing Health
-															</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</TabPanel>
+							
 								</div>
 							</div>
 						</Tabs>
@@ -861,7 +843,8 @@ arrow:true,
 						<div class="row">
 							<div className="col-sm-12">
 								<div class="pbmit-heading-subheading text-center animation-style2">							
-									<h2 class="pbmit-title">Specialties We Serve </h2>
+									<h2 class="pbmit-title">Why Curewith3D?</h2>
+									<p>Because precision begins before the incision.</p>
 								</div>
 							</div>
 							<div className="col-sm-3">
@@ -871,11 +854,11 @@ arrow:true,
 											<div class="pbmit-icon-wrapper">
 												<img src="/images/main/we-serve-orthopedics.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
-													Orthopedics
+													Proven Accuracy 
 												</h2>
 											</div>
 											<div class="pbmit-content-wrapper">
-												<div class="pbmit-heading-desc">Custom guides, implants, and anatomical models for trauma, joint replacement, and deformity correction surgeries. </div>
+												<div class="pbmit-heading-desc">Surgical guides with sub-millimeter precision.</div>
 											</div>
 										</div>
 									</div>
@@ -888,11 +871,11 @@ arrow:true,
 											<div class="pbmit-icon-wrapper">
 												<img src="/images/main/we-serve-oral.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
-													Oral & Maxillofacial Surgery
+													Faster Turnaround 
 												</h2>
 											</div>
 											<div class="pbmit-content-wrapper">
-												<div class="pbmit-heading-desc">3D-planned osteotomy guides and anatomical reconstructions that enhance precision in facial reconstruction and trauma repair. </div>
+												<div class="pbmit-heading-desc">Digital workflow enables rapid production.</div>
 											</div>
 										</div>
 
@@ -906,11 +889,11 @@ arrow:true,
 											<div class="pbmit-icon-wrapper">
 											<img src="/images/main/we-serve-neurosurgery.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
-													Neurosurgery
+													Regulatory Compliance 
 												</h2>
 											</div>
 											<div class="pbmit-content-wrapper">
-												<div class="pbmit-heading-desc">Pateint specific implants, cutting guides, 3D printed pedicle screws, and models designed for predictable implant placement and prosthetic planning.</div>
+												<div class="pbmit-heading-desc">Full compliance with medical device regulations, quality management standards, and sterilization protocols.</div>
 											</div>
 										</div>
 
@@ -924,11 +907,11 @@ arrow:true,
 											<div class="pbmit-icon-wrapper">
 												<img src="/images/main/we-serve-oncology.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
-													Oncology & Reconstructive Surgery
+													Dedicated Support
 												</h2>
 											</div>
 											<div class="pbmit-content-wrapper">
-												<div class="pbmit-heading-desc">Tumor resection guides and reconstruction planning tools supporting safe margins and optimal post-resection restoration.</div>
+												<div class="pbmit-heading-desc">24/7 support team available throughout the design, production, and implementation process.</div>
 											</div>
 										</div>
 
