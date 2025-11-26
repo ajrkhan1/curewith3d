@@ -9,7 +9,7 @@ export default function Footer() {
 					<div class="row align-items-center">
 						<div class="col-md-12 col-xl-4">
 							<div class="pbmit-footer-logo">
-								<img src="/images/logo.svg" alt=""/>
+								<img src="/images/curewith3dfooter.png" alt=""/>
 							</div>	
 						</div>
 						<div class="col-md-12 col-xl-8">
