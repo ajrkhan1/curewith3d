@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
+import { GhostNavbar } from "react-hamburger-menus";
+import "react-hamburger-menus/dist/style.css";
 
 export default function Header() {
     
@@ -73,6 +75,7 @@ export default function Header() {
 									</nav>
 								</div>
 							</div>
+					
 							<div class="pbmit-right-box d-flex align-items-center">
 								<div class="pbmit-header-button">
 									<a href="tel:+91-920-555-98-04">
@@ -102,6 +105,7 @@ export default function Header() {
 				</div>
 			</div>
 		</header>
+		
 
      </>
   )

@@ -140,73 +140,73 @@ export default function Home() {
 
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Brain Anatomy Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model2.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/anatomical-heart-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Anatomical Heart Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model3.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/lung-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Lung Anatomy Model </h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model4.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/eye-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Eye Anatomy Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model5.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/ear-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Ear Anatomy Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model6.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/hand-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Hand Anatomy Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model7.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/foot-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Foot Anatomy Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model8.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/anatomical-spine-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Anatomical Spine Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model9.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/neck-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Neck Anatomy Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model10.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/pelvis-3d-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Pelvis 3D Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model11.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/scapula-3d-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Scapula 3D Model</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model12.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/3d-surgical-models/all/3d-model-of-knee-joint.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>3D Model of Knee Joint</h5>
                                                 </div>
                                             </div>
