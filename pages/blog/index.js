@@ -118,7 +118,7 @@ export default function index({posts, cats}) {
 								</div>
 								<div class="pbmit-shape-wraper">
 									<div class="pbmit-shape-wraper-inner">
-										<a class="pbmit-blog-btn" href="blog-single-details.html" title="Hospital Labs Focused on Patients Begin Here.">
+										<a class="pbmit-blog-btn" href={`/blog/${getpost.slug}`} title="Hospital Labs Focused on Patients Begin Here.">
 											<span class="pbmit-button-icon-wrapper">
 												<span class="pbmit-button-icon">
 													<i class="pbmit-base-icon-black-arrow-1"></i>
