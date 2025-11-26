@@ -509,6 +509,9 @@ ul.pbmit-contact-info{
 }
  .site-header{
      position: relative;
+         position: sticky;
+         z-index: 99999999999999999;
+         top: 0;
 }
  .site-header .site-branding img {
      max-width: 100%;
