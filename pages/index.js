@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
 import CountUp, { useCountUp } from 'react-countup';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { TypeAnimation } from 'react-type-animation';
 
 
 export default function Home() {
@@ -16,21 +17,21 @@ export default function Home() {
 	});
 
 	var settings = {
-		dots: true,
-
+		dots: false,
 		infinite: true,
 		speed: 500,
-		slidesToShow: 4,
+		slidesToShow: 1,
 		slidesToScroll: 1,
 		initialSlide: 0,
+		autoplay:true,
+		autoplaySpeed: 1600,
 		responsive: [
 			{
 				breakpoint: 1024,
 				settings: {
-					slidesToShow: 4,
+					slidesToShow: 1,
 					slidesToScroll: 1,
-					infinite: true,
-					dots: true
+					infinite: true,				
 				}
 			},
 			{
@@ -135,7 +136,54 @@ arrow:true,
 			</Head>
 			<div class="page-content">
 
-				<section class="about-us-section-one fadeIn animated">
+				<section className="bannercx pt-30 pb-30">
+					<div className="container">
+						<div className="row align-items-center">
+							<div className="col-sm-6">
+								<h1 className="h1cba">Unmatched Accuracy. Unrivaled Confidence.</h1>
+								<h2 class="bannetexth">
+									<TypeAnimation
+								
+										sequence={[
+									
+										'With Customized Dental Implants',		
+										800,	
+										'With Customized Orthopedic Implants  ',		
+										800,
+										'With Customized Surgical Guides',		
+										800,
+													
+										]}
+										speed={10}
+										deletionSpeed={5}
+										repeat={Infinity}										
+									/>
+									</h2>
+									<p>CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models.</p>
+									{/* <h2 className="h2bannerh">with Custom Surgical Guides.</h2> */}
+							</div>
+							<div className="col-sm-1"></div>
+							<div className="col-sm-5">
+								<Slider {...settings}>
+									<div className="bannersl">
+								     	 <img src="/images/main/slider/1.png" class="img-fluid w-100" alt="Brain Anatomy Model"/> 
+									</div>
+									<div className="bannersl">
+								     	 <img src="/images/main/slider/2.png" class="img-fluid w-100" alt="Brain Anatomy Model"/> 
+									</div>
+									<div className="bannersl">
+								     	 <img src="/images/main/slider/3.png" class="img-fluid w-100" alt="Brain Anatomy Model"/> 
+									</div>
+									<div className="bannersl">
+								     	 <img src="/images/main/slider/4.png" class="img-fluid w-100" alt="Brain Anatomy Model"/> 
+									</div>
+								</Slider>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				{/* <section class="about-us-section-one fadeIn animated">
 					<div class="container-fluid p-0">
 						<div class="row g-0">
 							<div class="col-md-12 col-xl-6">
@@ -179,9 +227,7 @@ arrow:true,
 							</div>
 							<div class="col-md-12 col-xl-6">
 								<div class="about-us-one-right-box pbmit-bg-color-global">
-									<div class="pbmit-heading-subheading animation-style5">
-										{/* <h4 class="pbmit-subtitle">Best Solutions For Laboratory</h4> */}
-										{/* <h2 class="big-title">Transforming Healthcare with Precision 3D Medical Solutions</h2> */}
+									<div class="pbmit-heading-subheading animation-style5">							
 										<h4 class="small-title">Transforming Healthcare with Precision 3D Medical Solutions</h4>
 									</div>
 									<p class="pbmit-text">India's Leading 3D Medical Printing Innovation Hub for Patient-Specific Surgical Solutions</p>
@@ -199,8 +245,9 @@ arrow:true,
 							</div>
 						</div>
 					</div>
-				</section>
-
+				</section> */}
+<br/>
+<br/>
 				<section class="about-three-bg section-lg pbmit-bg-color-white">
 					<div class="container">
 						<div class="pb-5">
@@ -355,46 +402,27 @@ arrow:true,
 								<div class="swiper-wrapper">
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Consecte">
-												Consecte
+											<h2 class="pbmit-element-title" data-text="3D Surgical Models">
+												3D Surgical Models
 											</h2>
 										</div>
 									</article>
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Immunology">
-												Immunology
+											<h2 class="pbmit-element-title" data-text="Patient Specific Implants">
+												Patient Specific Implants
 											</h2>
 										</div>
 									</article>
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Equipment">
-												Equipment
+											<h2 class="pbmit-element-title" data-text="Custom 3D Printed Surgical Guides">
+												Custom 3D Printed Surgical Guides
 											</h2>
 										</div>
 									</article>
-									<article class="pbmit-marquee-effect-style-1 swiper-slide">
-										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Medicine">
-												Medicine
-											</h2>
-										</div>
-									</article>
-									<article class="pbmit-marquee-effect-style-1 swiper-slide">
-										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Scientific">
-												Scientific
-											</h2>
-										</div>
-									</article>
-									<article class="pbmit-marquee-effect-style-1 swiper-slide">
-										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Research">
-												Research
-											</h2>
-										</div>
-									</article>
+									
+									
 								</div>
 							</Marquee>
 						</div>

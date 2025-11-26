@@ -2369,6 +2369,18 @@ margin-bottom: 15px !important;
 .formsc .form-control::placeholder{color: #fff;}
 .formsc .form-select{ color: #fff; border: 1px solid #fff !important;}
 .ajimgfull{width: 100%;}
+.bannercx{
+     background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/main/curewith3d-anner.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: 2;
+}
+.bannetexth{color: #0060aa; font-size: 36px;}
+.h2bannerh{color: #e51a4a; font-size: 20px;}
+.h1cba{color: #343434; font-size: 50px; line-height: 58px;}
 
 .pb-5{padding-bottom: 5px;}
 .pb-10{padding-bottom: 10px;}
