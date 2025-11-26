@@ -464,7 +464,7 @@ arrow:true,
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="#">Patient-Specific Implants </a>
+																<a href="/patient-specific-implants">Patient-Specific Implants </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Biocompatible 3D-printed implants customized to individual patient anatomy.
@@ -472,6 +472,81 @@ arrow:true,
 														</div>
 													</div>
 												</div>
+												<div class="pbmit-shape-wraper">
+													<div class="pbmit-shape-wraper-inner">
+														<a class="pbmit-service-btn" href="/patient-specific-implants" title="Elemental Analysis">
+															<span class="pbmit-button-icon-wrapper">
+																<span class="pbmit-button-icon">
+																	<i class="pbmit-base-icon-black-arrow-1"></i>
+																</span>
+															</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+
+									<article class="pbmit-service-style-4 swiper-slide">
+										<div class="pbminfotech-post-item">
+											<div class="pbminfotech-box-content">
+												<div class="pbmit-box-content-wrap">
+													<div class="pbmit-service-image-wrapper">
+														<div class="pbmit-featured-img-wrapper">
+															<div class="pbmit-featured-wrapper">
+																<img src="/images/main/custom-surgical-guides.jpg" class="img-fluid" alt="" />
+															</div>
+														</div>
+													</div>
+													<div class="pbmit-box-content-inner">
+														<div class="pbmit-contant-box">
+															<h3 class="pbmit-service-title">
+																<a href="#">Custom Surgical Guides </a>
+															</h3>
+															<div class="pbmit-service-description">
+																Patient-specific surgical guides with millimeter-perfect accuracy during complex orthopedic, dental, and maxillofacial procedures.
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="pbmit-shape-wraper">
+													<div class="pbmit-shape-wraper-inner">
+														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
+															<span class="pbmit-button-icon-wrapper">
+																<span class="pbmit-button-icon">
+																	<i class="pbmit-base-icon-black-arrow-1"></i>
+																</span>
+															</span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</article>
+
+
+									<article class="pbmit-service-style-4 swiper-slide">
+										<div class="pbminfotech-post-item">
+											<div class="pbminfotech-box-content">
+												<div class="pbmit-box-content-wrap">
+													<div class="pbmit-service-image-wrapper">
+														<div class="pbmit-featured-img-wrapper">
+															<div class="pbmit-featured-wrapper">
+																<img src="/images/main/virtual-surgery planning.jpg" class="img-fluid" alt="" />
+															</div>
+														</div>
+													</div>
+													<div class="pbmit-box-content-inner">
+														<div class="pbmit-contant-box">
+															<h3 class="pbmit-service-title">
+																<a href="#">Virtual Surgery Planning  </a>
+															</h3>
+															<div class="pbmit-service-description">
+																Advanced digital simulations using patient-specific 3D models to rehearse surgeries.
+															</div>
+														</div>
+													</div>
+												</div>												
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
 														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
@@ -524,80 +599,7 @@ arrow:true,
 										</div>
 									</article>
 
-									<article class="pbmit-service-style-4 swiper-slide">
-										<div class="pbminfotech-post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbmit-box-content-wrap">
-													<div class="pbmit-service-image-wrapper">
-														<div class="pbmit-featured-img-wrapper">
-															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/virtual-surgery planning.jpg" class="img-fluid" alt="" />
-															</div>
-														</div>
-													</div>
-													<div class="pbmit-box-content-inner">
-														<div class="pbmit-contant-box">
-															<h3 class="pbmit-service-title">
-																<a href="#">Virtual Surgery Planning  </a>
-															</h3>
-															<div class="pbmit-service-description">
-																Advanced digital simulations using patient-specific 3D models to rehearse surgeries.
-															</div>
-														</div>
-													</div>
-												</div>												
-												<div class="pbmit-shape-wraper">
-													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
-															<span class="pbmit-button-icon-wrapper">
-																<span class="pbmit-button-icon">
-																	<i class="pbmit-base-icon-black-arrow-1"></i>
-																</span>
-															</span>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="pbmit-service-style-4 swiper-slide">
-										<div class="pbminfotech-post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbmit-box-content-wrap">
-													<div class="pbmit-service-image-wrapper">
-														<div class="pbmit-featured-img-wrapper">
-															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/custom-surgical-guides.jpg" class="img-fluid" alt="" />
-															</div>
-														</div>
-													</div>
-													<div class="pbmit-box-content-inner">
-														<div class="pbmit-contant-box">
-															<h3 class="pbmit-service-title">
-																<a href="#">Custom Surgical Guides </a>
-															</h3>
-															<div class="pbmit-service-description">
-																Patient-specific surgical guides with millimeter-perfect accuracy during complex orthopedic, dental, and maxillofacial procedures.
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="pbmit-shape-wraper">
-													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
-															<span class="pbmit-button-icon-wrapper">
-																<span class="pbmit-button-icon">
-																	<i class="pbmit-base-icon-black-arrow-1"></i>
-																</span>
-															</span>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
+									
 									<article class="pbmit-service-style-4 swiper-slide">
 										<div class="pbminfotech-post-item">
 											<div class="pbminfotech-box-content">
