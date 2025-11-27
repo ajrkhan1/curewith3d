@@ -21,12 +21,49 @@ export default function Home() {
 		infinite: true,
 		fade: true,
 		waitForAnimate: false,
-		speed: 3000,
+		speed: 2000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		initialSlide: 0,
 		autoplay:true,
-		autoplaySpeed: 1600,
+		autoplaySpeed: 3500,
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,				
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					initialSlide: 2
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	};
+
+	var weserve = {
+		dots: false,
+		infinite: true,
+		waitForAnimate: false,
+		speed: 1000,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		initialSlide: 0,
+		autoplay:true,
+		autoplaySpeed: 3500,
 		responsive: [
 			{
 				breakpoint: 1024,
@@ -92,7 +129,7 @@ export default function Home() {
 
 	var settings2 = {
 		dots: false,
-arrow:true,
+        arrow:true,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 1,
@@ -680,13 +717,222 @@ arrow:true,
 						</div>
 					</div>
 				</section>
-
-
-
-				<section class="section-lgx pt-40 pb-40 about-three-bg pbmit-bg-color-white mt-50 mb-50">
+                <section class="section-lgx pt-40 pb-40 about-three-bg pbmit-bg-color-white mt-50 mb-50">
 					<div class="container">
-						<div class="pbmit-heading-subheading text-center animation-style2">
-							{/* <h4 class="pbmit-subtitle">Why Curewith3D?</h4> */}
+						<div class="pbmit-heading-subheading text-center animation-style2">						
+							<h2 class="pbmit-title">Specialties We Serve </h2>
+						</div>
+							<div class="pbmit-tab2 maintabs imgbx">								
+								<div class="tab-content">	
+                                        <Slider {...weserve}>
+											
+										<div class="tab-pane show active" id="tab-2-1" role="tabpanel">
+											<div class="pbmit-column-innerx">
+												<div class="row g-0 align-items-center">												
+													<div class="col-md-12 col-xl-5 pbmit-tab-img">
+														<img src="images/homepage-1/tab/tab-img-01.jpg" class="img-fluid" alt="" />
+													</div>
+													<div class="col-md-12 col-xl-7 pbmit-tab-list">	
+														<div className="innerx">
+															<h2>Orthopedics</h2>													
+														<div>Our advanced 3D planning solutions support surgeons in trauma management, joint replacement, limb reconstruction, and complex deformity correction surgeries. </div>
+													
+														<ul class="list-group ajrt">
+															
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Osteotomy, drill, and screw guides
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Patient specific orthopedic implants
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Customized anatomical models
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Bespoke pelvic implants
+															</li>
+															{/* 
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Virtual Surgery Planning (VSP)
+															</li> */}
+														</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+								
+										<div class="tab-pane" id="tab-2-2" role="tabpanel">
+											<div class="pbmit-column-innerx">
+												<div class="row g-0 align-items-center">
+													<div class="col-md-12 col-xl-5 pbmit-tab-img">
+														<img src="images/homepage-1/tab/tab-img-02.jpg" class="img-fluid" alt="" />
+													</div>
+													<div class="col-md-12 col-xl-7 pbmit-tab-list">
+														<div className="innerx">
+														<h2>Oral & Maxillofacial Surgery </h2>
+														<div>Our advanced custom 3D-printed solutions elevate surgical precision in facial trauma repair, congenital corrections, corrective jaw surgery, & craniofacial reconstructions.</div>
+														<ul class="list-group ajrt">
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Patient-specific implants 
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Cutting guides for Fibula free flap reconstruction 
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Custom mandibular and maxillary splints 
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Ankylosis release cutting guides 
+															</li>
+															{/* <li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Custom surgical guides for Bilateral Sagittal Split Osteotomy (BSSO) 
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Custom subperiosteal mplants 
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Bespoke Anatomical models 
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Virtual surgery planning (VSP) 
+															</li> */}
+														</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									
+										<div class="tab-pane" id="tab-2-3" role="tabpanel">
+											<div class="pbmit-column-innerx">
+												<div class="row g-0 align-items-center">
+													<div class="col-md-12 col-xl-5 pbmit-tab-img">
+														<img src="images/homepage-1/tab/tab-img-03.jpg" class="img-fluid" alt="" />
+													</div>
+													<div class="col-md-12 col-xl-7 pbmit-tab-list">
+														<div className="innerx">
+														<h2>Neurosurgery  </h2>
+														{/* <div>Advanced 3D-printed, custom-fit spinal and cranial solutions engineered to achieve precise anatomical reconstruction and biomechanical stability. Developed to restore cranial and spinal defects while minimizing intraoperative complication risk. </div> */}
+														<div>Advanced 3D-printed, custom-fit spinal and cranial solutions engineered to achieve precise anatomical reconstruction and biomechanical stability.</div>
+														<ul class="list-group ajrt">
+														
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Custom PEEK Cranial Plates 
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																3D printed custom titanium cranial plates
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Custom Spinal Cages
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Bespoke Spinal Jigs
+															</li>
+															{/* 
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Virtual Surgery Planning (VSP)
+															</li> */}
+														</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+								
+										<div class="tab-pane" id="tab-2-4" role="tabpanel">
+											<div class="pbmit-column-innerx">
+												<div class="row g-0 align-items-center">
+													<div class="col-md-12 col-xl-5 pbmit-tab-img">
+														<img src="images/homepage-1/tab/tab-img-04.jpg" class="img-fluid" alt="" />
+													</div>
+													<div class="col-md-12 col-xl-7 pbmit-tab-list">
+														<div className="innerx">
+														<h2>Oncology & Reconstructive Surgery</h2>
+														<div>Integrated solutions supporting precise tumor resection with safe surgical margins, followed by high-fidelity reconstructive outcomes that promote optimal post-resection restoration & faster recovery.</div>
+														<ul class="list-group ajrt">
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Tumor resection guides
+															</li>
+															<li class="list-group-item">
+																<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+																Virtual Surgery Planning (VSP)
+															</li>
+														</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div> 
+                                   </Slider>
+								</div>
+							</div>					
+					</div>
+				</section>
+
+
+				{/* <section class="section-lgx pt-40 pb-40 about-three-bg pbmit-bg-color-white mt-50 mb-50">
+					<div class="container">
+						<div class="pbmit-heading-subheading text-center animation-style2">						
 							<h2 class="pbmit-title">Specialties We Serve </h2>
 						</div>
 						<Tabs>
@@ -868,7 +1114,7 @@ arrow:true,
 							</div>
 						</Tabs>
 					</div>
-				</section>
+				</section> */}
 
 
 				<section class="px-xl-4 px-2 weserve">
@@ -1940,9 +2186,9 @@ arrow:true,
 						</div>
 						</div>
 					</div>
-					</section>
+				</section>
 
-			<section class="pbmit-bg-color-secondary testimonial-sec-two mb-40">
+		    	<section class="pbmit-bg-color-secondary testimonial-sec-two mb-40">
 				<div class="container-fluid p-0">
 					<div class="row g-0">
 						<div class="col-md-12 col-xl-6">
@@ -2053,7 +2299,7 @@ arrow:true,
 						</div>
 					</div>
 				</div>
-			</section>
+			    </section>
 
 
 

@@ -2380,6 +2380,15 @@ margin-bottom: 15px !important;
 .bannetexth{color: #0060aa; font-size: 36px;}
 .h2bannerh{color: #e51a4a; font-size: 20px;}
 .h1cba{color: #343434; font-size: 50px; line-height: 58px;}
+.imgbx img{border-radius: 30px;}
+.imgbx .innerx{padding:0 10px;}
+.imgbx .innerx h2{font-size: 22px; font-weight: 500 !important;}
+.imgbx .pbmit-column-innerx{
+    border-left: 5px solid #e51d4e;
+    border-right: 5px solid #0060aa;
+    border-radius: 35px;
+}
+.imgbx .tab-pane{padding: 10px;}
 
 .pb-5{padding-bottom: 5px;}
 .pb-10{padding-bottom: 10px;}
