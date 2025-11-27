@@ -215,7 +215,7 @@ arrow:true,
 							<div class="row g-0">
 								<div class="col-md-12 col-xl-6">
 									<div class="video-box pr-30">
-										<video class="pbmit-video about-video" src="https://www.auxein.com/wp-content/uploads/2022/06/Auxein_intro.mov" autoplay="" loop muted="muted" playsinline=""></video>
+										<video class="pbmit-video about-video" src="/images/main/video.mp4" autoplay="" loop muted="muted" playsinline=""></video>
 									</div>
 								</div>
 								<div class="col-md-12 col-xl-6">

@@ -255,7 +255,7 @@ arrow:true,
 							<div class="row g-0">
 								<div class="col-md-12 col-xl-6">
 									<div class="video-box">
-										<video class="pbmit-video" src="https://www.medcad.com/wp-content/uploads/2025/05/medcad-home-v3.mp4" autoplay="" loop muted="muted" playsinline=""></video>
+										<video class="pbmit-video" src="/images/main/video.mp4" autoplay="" loop muted="muted" playsinline=""></video>
 									</div>
 								</div>
 								<div class="col-md-12 col-xl-6">
