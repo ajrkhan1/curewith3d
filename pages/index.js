@@ -140,7 +140,7 @@ arrow:true,
 					<div className="container">
 						<div className="row align-items-center">
 							<div className="col-sm-6">
-								<h2 className="h2bannerh">Get</h2>
+								{/* <h2 className="h2bannerh">Get</h2> */}
 								<h1 className="h1cba">Unmatched Accuracy. Unrivaled Confidence.</h1>
 								<h2 class="bannetexth">
 									<TypeAnimation
