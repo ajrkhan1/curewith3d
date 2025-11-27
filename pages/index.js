@@ -19,7 +19,9 @@ export default function Home() {
 	var settings = {
 		dots: false,
 		infinite: true,
-		speed: 500,
+		fade: true,
+		waitForAnimate: false,
+		speed: 3000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		initialSlide: 0,
