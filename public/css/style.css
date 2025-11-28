@@ -2390,6 +2390,8 @@ margin-bottom: 15px !important;
 }
 .imgbx .tab-pane{padding: 10px;}
 
+.work-process img{width: 55px;}
+
 .pb-5{padding-bottom: 5px;}
 .pb-10{padding-bottom: 10px;}
 .pb-15{padding-bottom: 15px;}
@@ -2508,9 +2510,9 @@ margin-bottom: 15px !important;
     How It Work
 ------------------------*/
 .work-process{position: relative;}
-.step-num {background: #e5194a; border-radius: 50%; box-shadow: 0 12px 20px 0 rgba(117, 178, 240, 0.4); color: #ffffff; display: inline-block; font-size: 18px; font-weight: 600; height: 50px; right: 0; line-height: 55px; position: absolute; text-align: center; top: 0; width: 50px;}
+.step-num {background: #e5194a; border-radius: 50%; box-shadow: 0 12px 20px 0 rgba(117, 178, 240, 0.4); color: #ffffff; display: inline-block; font-size: 18px; font-weight: 600; height: 50px; right: 0; line-height: 50px; position: absolute; text-align: center; top: 0; width: 50px;}
 .theme-bg .work-process h4, .theme-bg .work-process p{color: #ffffff;}
-.step-icon {background: #0060aa; width:140px; height:140px; position: relative; border: 3px solid #fafaff; border-radius: 50%; line-height: 140px; font-size: 40px; text-align: center; color: #fff;}
+.step-icon {background: #0060aa; width:140px; height:140px; position: relative; border: 3px solid #fafaff; border-radius: 50%; line-height: 120px; font-size: 40px; text-align: center; color: #fff;}
 .step-icon span {position: relative;}
 .step-icon span::after, .step-icon span::before {border-radius: 50%; content: ""; height: 40px; position: absolute; width: 40px; z-index: -1;}
 .step-icon span::after {background: #cdf3f6; height: 25px; left: -10px; top: 5px; width: 25px;}

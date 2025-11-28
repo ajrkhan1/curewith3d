@@ -2110,7 +2110,9 @@ export default function Home() {
 								<span></span>
 							</div>
 							<div class="step-num-box">
-								<div class="step-icon"><span><i class="fa fa-lightbulb-o"></i></span>
+								<div class="step-icon"><span>
+									<img src="/images/main/process/p1.png" class="img-fluid" alt="" />
+								</span>
 								</div>
 								<div class="step-num">01</div>
 							</div>
@@ -2127,7 +2129,7 @@ export default function Home() {
 								<span></span>
 							</div>
 							<div class="step-num-box">
-								<div class="step-icon"><span><i class="fa fa-rocket"></i></span>
+								<div class="step-icon"><span><img src="/images/main/process/p2.png" class="img-fluid" alt="" /></span>
 								</div>
 								<div class="step-num">02</div>
 							</div>
@@ -2144,7 +2146,7 @@ export default function Home() {
 								<span></span>
 							</div>
 							<div class="step-num-box">
-								<div class="step-icon"><span><i class="fa fa-check-square"></i></span>
+								<div class="step-icon"><span><img src="/images/main/process/p3.png" class="img-fluid" alt="" /></span>
 								</div>
 								<div class="step-num">03</div>
 							</div>
@@ -2161,7 +2163,7 @@ export default function Home() {
 								<span></span>
 							</div>
 							<div class="step-num-box">
-								<div class="step-icon"><span><i class="fa fa-check-square"></i></span>
+								<div class="step-icon"><span><img src="/images/main/process/p4.png" class="img-fluid" alt="" /></span>
 								</div>
 								<div class="step-num">04</div>
 							</div>
@@ -2174,7 +2176,7 @@ export default function Home() {
 						<div class="col">
 							<div class="work-process">
 							<div class="step-num-box">
-								<div class="step-icon"><span><i class="fa fa-check-square"></i></span>
+								<div class="step-icon"><span><img src="/images/main/process/p5.png" class="img-fluid" alt="" /></span>
 								</div>
 								<div class="step-num">05</div>
 							</div>
