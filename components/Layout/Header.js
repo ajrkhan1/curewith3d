@@ -66,6 +66,10 @@ export default function Header() {
 														<a href="/3d-designs">3D Designs</a>													
 													</li>
 													<li>
+														<a href="/clinical-3d-cases">Clinical 3D Cases</a>													
+													</li>
+												
+													<li>
 														<a href="/blog">Blog</a>													
 													</li>
 													<li><a href="/contact-us">Contact Us</a></li>
