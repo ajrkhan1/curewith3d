@@ -1131,7 +1131,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/we-serve-orthopedics.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/proven-accuracy.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
 													Proven Accuracy 
 												</h2>
@@ -1148,7 +1148,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/we-serve-oral.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/faster-turnaround.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
 													Faster Turnaround 
 												</h2>
@@ -1166,7 +1166,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-											<img src="/images/main/we-serve-neurosurgery.jpg" class="img-fluid" alt=""/>
+											<img src="/images/main/regulatory-compliance.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
 													Regulatory Compliance 
 												</h2>
@@ -1184,7 +1184,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/we-serve-oncology.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/24x7-support.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
 													Dedicated Support
 												</h2>
