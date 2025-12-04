@@ -62,7 +62,7 @@ export default function Home() {
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 			</Head>
 
-		<div class="surgicalmodelbg">
+		<div class="custom-3D-printed-surgical-guides-banner">
 			<div class="container">
 				<div class="pbmit-title-bar-content">
 					<div class="pbmit-title-bar-content-inner">
@@ -296,39 +296,25 @@ export default function Home() {
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
 											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
-												Our Implant Categories
+												3D Surgical Models
 											</h2>
 										</div>
 									</article>
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
 											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
-												Our Implant Categories
+												Patient Specific Implants
 											</h2>
 										</div>
 									</article>
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
 											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
-												Our Implant Categories
-											</h2>
-										</div>
-									</article>
-									<article class="pbmit-marquee-effect-style-1 swiper-slide">
-										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
-												Our Implant Categories
+												Custom 3D Printed Surgical Guides
 											</h2>
 										</div>
 									</article>
 								
-									<article class="pbmit-marquee-effect-style-1 swiper-slide">
-										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
-												Our Implant Categories
-											</h2>
-										</div>
-									</article>
 								</div>
 							</Marquee>
 						</div>

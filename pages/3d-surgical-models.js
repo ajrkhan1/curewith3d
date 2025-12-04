@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
 import CountUp, { useCountUp } from 'react-countup';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { TypeAnimation } from 'react-type-animation';
 
 
 export default function Home() {
@@ -65,13 +66,24 @@ export default function Home() {
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 			</Head>
 
-		<div class="surgicalmodelbg">
+		<div class="surgical-models-banne">
 			<div class="container">
 				<div class="pbmit-title-bar-content">
 					<div class="pbmit-title-bar-content-inner">
 						<div class="pbmit-tbar">
 							<div class="pbmit-tbar-inner container">
-								<h1 class="pbmit-tbar-title">3D Surgical Models</h1>
+								<h1 class="pbmit-tbar-title">
+									<TypeAnimation
+								
+										sequence={[
+										100,
+										'3D Surgical Models',		
+										800,						
+										]}
+										speed={10}
+										deletionSpeed={5}
+										repeat={Infinity}										
+									/></h1>
 							</div>
 						</div>
 						<div class="pbmit-breadcrumb">

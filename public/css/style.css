@@ -2392,6 +2392,46 @@ margin-bottom: 15px !important;
 
 .work-process img{width: 55px;}
 
+
+.patient-specific-implants {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/main/service/patient-specific-implants-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: 2;
+}
+.patient-specific-implants .pbmit-tbar-title{ color: #0060aa;}
+.patient-specific-implants .pbmit-breadcrumb-inner {color: #383838;}
+.patient-specific-implants .pbmit-breadcrumb-inner a{color: #383838;}
+
+.surgical-models-banne{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/main/service/3d-surgical-models-banne.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: 2;
+}
+.surgical-models-banne .pbmit-tbar-title{ color: #0060aa;}
+.surgical-models-banne .pbmit-breadcrumb-inner {color: #383838;}
+.surgical-models-banne .pbmit-breadcrumb-inner a{color: #383838;}
+
+.custom-3D-printed-surgical-guides-banner {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/main/service/custom-3D-printed-surgical-guides-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: 2;
+}
+.custom-3D-printed-surgical-guides-banner .pbmit-tbar-title{ color: #0060aa;}
+.custom-3D-printed-surgical-guides-banner .pbmit-breadcrumb-inner {color: #383838;}
+.custom-3D-printed-surgical-guides-banner .pbmit-breadcrumb-inner a{color: #383838;}
+
 .pb-5{padding-bottom: 5px;}
 .pb-10{padding-bottom: 10px;}
 .pb-15{padding-bottom: 15px;}
