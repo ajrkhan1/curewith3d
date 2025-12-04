@@ -168,7 +168,7 @@ export default function Home() {
 											</div>
 											<div class="pbmit-content-wrapper">
 												<div class="pbmit-heading-desc">
-													We co-design with your surgical team to understand surgery/tumor margins, alignment angles, resection depths, and fixation preferences before we print.
+													We co-design with your surgical team to understand tumor margins, alignment angles, resection depths & fixation angles.
 												</div>
 											</div>
 										</div>
@@ -187,7 +187,7 @@ export default function Home() {
 											</div>
 											<div class="pbmit-content-wrapper">
 												<div class="pbmit-heading-desc">
-													Each 3D surgical guide is designed with precision to the millimetre, ensuring confidence in resections, osteotomies, and implant insertions, no matter how complex the anatomy. 
+													Each 3D surgical guide is designed with precision, ensuring confidence in resections, osteotomies, & implant insertions. 
 												</div>
 											</div>
 										</div>
