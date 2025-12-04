@@ -730,7 +730,7 @@ export default function Home() {
 											<div class="pbmit-column-innerx">
 												<div class="row g-0 align-items-center">												
 													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="images/homepage-1/tab/tab-img-01.jpg" class="img-fluid" alt="" />
+														<img src="/images/main/orthopedic.jpg" class="img-fluid" alt="" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">	
 														<div className="innerx">
@@ -781,7 +781,7 @@ export default function Home() {
 											<div class="pbmit-column-innerx">
 												<div class="row g-0 align-items-center">
 													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="images/homepage-1/tab/tab-img-02.jpg" class="img-fluid" alt="" />
+														<img src="/images/main/oral-maxillofacial-surgery.jpg" class="img-fluid" alt="" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
 														<div className="innerx">
@@ -847,7 +847,7 @@ export default function Home() {
 											<div class="pbmit-column-innerx">
 												<div class="row g-0 align-items-center">
 													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="images/homepage-1/tab/tab-img-03.jpg" class="img-fluid" alt="" />
+														<img src="/images/main/neurosurgery.jpg" class="img-fluid" alt="" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
 														<div className="innerx">
@@ -898,7 +898,7 @@ export default function Home() {
 											<div class="pbmit-column-innerx">
 												<div class="row g-0 align-items-center">
 													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="images/homepage-1/tab/tab-img-04.jpg" class="img-fluid" alt="" />
+														<img src="/images/main/oncology-and-reconstructive-surgery.jpg" class="img-fluid" alt="" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
 														<div className="innerx">
