@@ -188,21 +188,21 @@ export default function Home() {
 								<div class="swiper-wrapper">
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
+											<h2 class="pbmit-element-title" data-text="3D Surgical Models">
 												3D Surgical Models
 											</h2>
 										</div>
 									</article>
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
+											<h2 class="pbmit-element-title" data-text="Patient Specific Implants">
 												Patient Specific Implants
 											</h2>
 										</div>
 									</article>
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
+											<h2 class="pbmit-element-title" data-text="Custom 3D Printed Surgical Guides">
 												Custom 3D Printed Surgical Guides
 											</h2>
 										</div>

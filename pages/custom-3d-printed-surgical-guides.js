@@ -238,56 +238,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				<section className="mb-30 mt-50">
-					<div class="container pbmit-bg-color-white borderradius">
-						<div class="about-three-bg pt-30 pb-30">
-							<div class="row g-0 align-items-center">
-								<div class="col-md-12 col-xl-6">
-									<div class="video-box pt-20 pb-20 pl-30 pr-60">
-										<img src="images/main/service/3d-surgical-models/8449.jpg" class="img-fluid w-100 imgreduis20" alt="Brain Anatomy Model"/>
-									</div>
-								</div>
-								<div class="col-md-12 col-xl-6">
-									<div class="about-three-content">
-										<div class="pbmit-heading-subheading animation-style2 mb-10">											
-											<h2 class="pbmit-title">What Are Patient-Specific Surgical Implants? </h2>
-											<p>
-												3D surgical implants are custom-designed medical devices created using patient-specific CT/MRI scans. These implants are digitally modeled and 3D printed using biocompatible materials such as titanium and PEEK. Compared to traditional options, 3D printed medical implants offer: 
-											</p>
-											<ul class="list-group ajrt">
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Perfect anatomical fit 
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Shorter surgery times 
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Fewer complications 
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Faster healing 
-														</li>                                                        
-													</ul>
-										</div>									
-									 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
+			
 				<section class="section-mdb pb-30 pt-30">
 					<div class="container-fluid">
 						<div class="swiper-slider marquee">
@@ -295,21 +246,21 @@ export default function Home() {
 								<div class="swiper-wrapper">
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
+											<h2 class="pbmit-element-title" data-text="3D Surgical Models">
 												3D Surgical Models
 											</h2>
 										</div>
 									</article>
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
+											<h2 class="pbmit-element-title" data-text="Patient Specific Implants">
 												Patient Specific Implants
 											</h2>
 										</div>
 									</article>
 									<article class="pbmit-marquee-effect-style-1 swiper-slide">
 										<div class="pbmit-tag-wrapper">
-											<h2 class="pbmit-element-title" data-text="Our Implant Categories">
+											<h2 class="pbmit-element-title" data-text="Custom 3D Printed Surgical Guides">
 												Custom 3D Printed Surgical Guides
 											</h2>
 										</div>
@@ -331,33 +282,38 @@ export default function Home() {
 										<div class="row align-items-center servicepage">
 											<div class="col-md-12 col-xl-12 text-center">
 												<div class="pbmit-heading">
-														<h3 class="pbmit-title">3D Orthopedic Implants</h3>
-                                                        <p class="pbmit-text">We offer fully personalized solutions for orthopedic reconstruction and trauma cases: </p>
+														<h3 class="pbmit-title">Orthopedic Surgical Guides & Jigs </h3>                                                       
 													</div>
 											</div>
 
-                                            <div className="col-sm-3">
+                                            <div className="col">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Knee Replacement Implants</h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Custom orthopedic jigs.jpg" class="img-fluid w-100" alt="Custom orthopedic jigs"/>
+                                                    <h5>Custom orthopedic jigs</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-sm-3">
+                                            <div className="col">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model2.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Hip Replacement Implants</h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Bone alignment surgical jigs.jpg" class="img-fluid w-100" alt="Bone alignment surgical jigs"/>
+                                                    <h5>Bone alignment surgical jigs</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-sm-3">
+                                            <div className="col">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model3.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>3D Joint Replacement Implants</h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Joint-specific cutting guides.jpg" class="img-fluid w-100" alt="Joint-specific cutting guides"/>
+                                                    <h5>Joint-specific cutting guides</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-sm-3">
+                                            <div className="col">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model4.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Custom plates and fixation devices</h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Distal tibia osteotomy guides.jpg" class="img-fluid w-100" alt="Distal tibia osteotomy guides"/>
+                                                    <h5>Distal tibia osteotomy guides </h5>
+                                                </div>
+                                            </div>
+											<div className="col">
+                                                <div class="innerbox">
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Tumor resection guide.jpg" class="img-fluid w-100" alt="Tumor resection guide"/>
+                                                    <h5>Tumor resection guides </h5>
                                                 </div>
                                             </div>                                          
 										
@@ -381,35 +337,40 @@ export default function Home() {
 										<div class="row align-items-center servicepage">
 											<div class="col-md-12 col-xl-12 text-center">
 												<div class="pbmit-heading">
-														<h3 class="pbmit-title">Trauma Implants </h3>
-                                                        <p class="pbmit-text">Fractures, bone loss, and deformities require precision. We provide: </p>
+														<h3 class="pbmit-title">Dental & Maxillofacial Surgical Guides</h3>                                                        
 													</div>
 											</div>
 
-                                            <div className="col-sm-4">
+                                            <div className="col">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Patient-specific 3D trauma implants </h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Custom dental guides.jpg" class="img-fluid w-100" alt="Custom dental guides"/>
+                                                    <h5>Custom dental guides</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-sm-4">
+                                            <div className="col">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model2.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Anatomically contoured plates </h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Cutting guides for Fibula free flap reconstruction.jpg" class="img-fluid w-100" alt="Cutting guides for Fibula free flap reconstruction"/>
+                                                    <h5>Cutting guides for Fibula free flap reconstruction</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-sm-4">
+                                            <div className="col">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model3.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Bone defect fillers and spacers </h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Custom mandibular and maxillary splints.jpg" class="img-fluid w-100" alt="Custom mandibular and maxillary splints"/>
+                                                    <h5>Custom mandibular and maxillary splints</h5>
                                                 </div>
                                             </div>
-                                            {/* <div className="col-sm-3">
+                                            <div className="col">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model4.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Custom plates and fixation devices</h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Ankylosis release cutting guides.jpg" class="img-fluid w-100" alt="Ankylosis release cutting guides"/>
+                                                    <h5>Ankylosis release cutting guides</h5>
                                                 </div>
-                                            </div>                                           */}
+                                            </div> 
+											<div className="col">
+                                                <div class="innerbox">
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/BSSO.jpg" class="img-fluid w-100" alt="BSSO"/>
+                                                    <h5>Custom surgical guides for BSSO</h5>
+                                                </div>
+                                            </div>                                          
 										
 										</div>
 									</div>
@@ -431,35 +392,29 @@ export default function Home() {
 										<div class="row align-items-center servicepage">
 											<div class="col-md-12 col-xl-12 text-center">
 												<div class="pbmit-heading">
-														<h3 class="pbmit-title">Cranial & Spine Implants</h3>
-                                                        <p class="pbmit-text">Our 3D spine implants support vertebral body reconstruction and fusion procedures:</p>
+														<h3 class="pbmit-title">Cranial & Spinal Surgical Guides </h3>                                                        
 													</div>
 											</div>
 
                                             <div className="col-sm-4">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Cranial implant </h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Cranial Cutting Guide.jpg" class="img-fluid w-100" alt="Cranial Cutting Guide"/>
+                                                    <h5>Cranial surgical guides</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-4">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model2.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Vertebral implants</h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Spinal-Jigs.jpg" class="img-fluid w-100" alt="Spinal-Jigs"/>
+                                                    <h5>Custom spinal jigs</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-4">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model3.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Surgical guides for accurate placement</h5>
+                                                    <img src="/images/main/service/custom-3d-printed-surgical-guides/Pedicle screw placement.jpg" class="img-fluid w-100" alt="Pedicle screw placement"/>
+                                                    <h5>Pedicle screw placement</h5>
                                                 </div>
                                             </div>
-                                            {/* <div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model4.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Custom plates and fixation devices</h5>
-                                                </div>
-                                            </div>                                           */}
+                                               
 										
 										</div>
 									</div>
@@ -471,55 +426,60 @@ export default function Home() {
 				</div>
             </section>
 
-			<section class="site-content service-details pb-10 pt-10">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 col-xl-12">						
-							<div class="pbmit-entry-content">
-								<div class="pbmit-service_content">									 
-									<div class="">
-										<div class="row align-items-center servicepage">
-											<div class="col-md-12 col-xl-12 text-center">
-												<div class="pbmit-heading">
-														<h3 class="pbmit-title">Dental and Maxillofacial Implants</h3>
-                                                        <p class="pbmit-text">We manufacture custom-designed dental implants for surgical precision and patient satisfaction:</p>
-													</div>
-											</div>
 
-                                            <div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Tooth Implants</h5>
-                                                </div>
-                                            </div>
-                                            <div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model2.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Chin Implants</h5>
-                                                </div>
-                                            </div>
-                                            <div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model3.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Full-jaw reconstruction guides</h5>
-                                                </div>
-                                            </div>
-                                            <div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model4.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Patient-specific dental implant</h5>
-                                                </div>
-                                            </div>
-										
-										</div>
+			   <section className="mb-30">
+					<div class="container pbmit-bg-color-white borderradius">
+						<div class="about-three-bg pt-30 pb-30">
+							<div class="row g-0 align-items-center">
+								<div class="col-md-12 col-xl-6">
+									<div class="video-box pt-20 pb-20 pl-30 pr-60">
+										<img src="images/main/service/3d-surgical-models/8449.jpg" class="img-fluid w-100 imgreduis20" alt="Brain Anatomy Model"/>
+									</div>
+								</div>
+								<div class="col-md-12 col-xl-6">
+									<div class="about-three-content">
+										<div class="pbmit-heading-subheading animation-style2 mb-10">											
+											<h2 class="pbmit-title">Why Do Our Partners Trust Us?</h2>
+											<ul class="list-group ajrt">
+														<li class="list-group-item">
+															<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+															100% Anatomical Fit
+														</li>
+														<li class="list-group-item">
+															<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+															Pre-Vetted Surgical Plans
+														</li>
+														<li class="list-group-item">
+															<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+															Faster Turnaround Time
+														</li>
+														<li class="list-group-item">
+															<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+															Uncompromised Quality
+														</li>
+                                                        <li class="list-group-item">
+															<span class="pbmit-icon-list-icon">
+																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
+															</span>
+															End to end collaboration
+														</li>
+													</ul>
+										</div>									
+									 
 									</div>
 								</div>
 							</div>
 						</div>
-					 
 					</div>
-				</div>
-            </section>
+				</section>
 
             
 

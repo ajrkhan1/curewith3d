@@ -2279,6 +2279,9 @@ margin-bottom: 15px !important;
     background: #5c5b55;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-bottom: 10px;
 }
 
 .servicepage .innerbox img{
