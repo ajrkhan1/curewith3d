@@ -2,13 +2,23 @@ import Link from 'next/link'
 import React from 'react'
 import { GhostNavbar } from "react-hamburger-menus";
 import "react-hamburger-menus/dist/style.css";
+import ReactDOM from 'react-dom'
+import Snowfall from 'react-snowfall'
 
 export default function Header() {
     
   return (
     <>
 
-
+<Snowfall
+  color="red"
+  snowflakeCount={100}
+  style={{
+    position: 'fixed',
+    width: '100vw',
+    height: '100vh',
+  }}
+/>
 <header class="site-header header-style-1">
 
 			<div class="">

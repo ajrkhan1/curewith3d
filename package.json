@@ -24,9 +24,11 @@
     "react-hamburger-menus": "^1.0.12",
     "react-portable-text": "^0.6.0",
     "react-slick": "^0.31.0",
+    "react-snowfall": "^2.4.0",
     "react-sticky-el": "^2.1.1",
     "react-tabs": "^6.1.0",
     "react-type-animation": "^3.2.0",
+    "react-xmas-tree": "^1.1.0",
     "yet-another-react-lightbox": "^3.25.0"
   },
   "devDependencies": {
