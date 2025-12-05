@@ -9,7 +9,8 @@ export default function Document() {
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content=""/>
-  <link href="https://db.onlinewebfonts.com/c/53a3cef0c0ed585b6cad9aa75447cb2f?family=Kommon+Grotesk" rel="stylesheet"/>
+    <meta name="google-site-verification" content="Kpw1hVWizbKSNomY9ho3JeQRfLOM8OHq9Cb189nmtVg" />
+    <link href="https://db.onlinewebfonts.com/c/53a3cef0c0ed585b6cad9aa75447cb2f?family=Kommon+Grotesk" rel="stylesheet"/>
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
 
 		<link rel="stylesheet" href="/css/fontawesome.css"/>
