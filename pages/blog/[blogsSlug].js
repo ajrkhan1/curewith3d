@@ -25,7 +25,7 @@ export async function getServerSideProps(context) {
 
 
    const posturl = context.params.blogsSlug;
-   const res = await fetch(`https://wordpress-1457894-6024746.cloudwaysapps.com/wp-json/wp/v2/posts?slug=${posturl}`)
+   const res = await fetch(`https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?slug=${posturl}`)
    const posts = await res.json()
 
    const getfeedback = await fetch(`https://kbblogs.vercel.app/api/posts/feed/${posturl}`)
@@ -217,7 +217,7 @@ console.log(posts)
 								<ul className="recent-post-list">
 									<li className="recent-post-list-li"> 
 										<a className="recent-post-thum" href="#">
-											<img src="https://wordpress-1457894-6024746.cloudwaysapps.com/wp-content/uploads/2025/11/Everything-You-Didnt-Know-You-Needed-to-Know-About-3D-Printing.webp" className="img-fluid" alt=""/>
+											<img src="https://wordpress-1457894-6050110.cloudwaysapps.com/wp-content/uploads/2025/11/Everything-You-Didnt-Know-You-Needed-to-Know-About-3D-Printing.webp" className="img-fluid" alt=""/>
 										</a>
 										<div className="pbmit-rpw-content">
 											<span className="pbmit-rpw-title">
@@ -230,7 +230,7 @@ console.log(posts)
 									</li>
                                     <li className="recent-post-list-li"> 
 										<a className="recent-post-thum" href="#">
-											<img src="https://wordpress-1457894-6024746.cloudwaysapps.com/wp-content/uploads/2025/11/How-3D-anatomical-models-have-changed-the-medical-field-1.webp" className="img-fluid" alt=""/>
+											<img src="https://wordpress-1457894-6050110.cloudwaysapps.com/wp-content/uploads/2025/11/How-3D-anatomical-models-have-changed-the-medical-field-1.webp" className="img-fluid" alt=""/>
 										</a>
 										<div className="pbmit-rpw-content">
 											<span className="pbmit-rpw-title">
@@ -243,7 +243,7 @@ console.log(posts)
 									</li>
                                     <li className="recent-post-list-li"> 
 										<a className="recent-post-thum" href="#">
-											<img src="https://wordpress-1457894-6024746.cloudwaysapps.com/wp-content/uploads/2025/11/5-Ways-3D-Printing-is-Quietly-Reshaping-Healthcare-1.webp" className="img-fluid" alt=""/>
+											<img src="https://wordpress-1457894-6050110.cloudwaysapps.com/wp-content/uploads/2025/11/5-Ways-3D-Printing-is-Quietly-Reshaping-Healthcare-1.webp" className="img-fluid" alt=""/>
 										</a>
 										<div className="pbmit-rpw-content">
 											<span className="pbmit-rpw-title">
