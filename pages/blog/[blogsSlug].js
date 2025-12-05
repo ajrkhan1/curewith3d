@@ -256,7 +256,7 @@ console.log(posts)
 									</li>
                                     <li className="recent-post-list-li"> 
 										<a className="recent-post-thum" href="#">
-											<img src="https://wordpress-1457894-6024746.cloudwaysapps.com/wp-content/uploads/2025/11/98566.webp" className="img-fluid" alt=""/>
+											<img src="https://wordpress-1457894-6050110.cloudwaysapps.com/wp-content/uploads/2025/11/98566.webp" className="img-fluid" alt=""/>
 										</a>
 										<div className="pbmit-rpw-content">
 											<span className="pbmit-rpw-title">

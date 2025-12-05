@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 
 export async function getServerSideProps() {
-   const res = await fetch('https://wordpress-1457894-6024746.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&per_page=30')
+   const res = await fetch('https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&per_page=30')
    const posts = await res.json()
 
 
