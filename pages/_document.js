@@ -35,7 +35,7 @@ export default function Document() {
 
 		<link rel="stylesheet" href="/css/responsive.css"></link>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJM43TJ6XX"></script>
+{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJM43TJ6XX"></script>
 
 <script
             dangerouslySetInnerHTML={{
@@ -47,7 +47,7 @@ export default function Document() {
   gtag('config', 'G-ZJM43TJ6XX');
           `,
             }}
-          />
+          /> */}
     </Head>
       <body>
         <Main />
