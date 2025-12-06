@@ -34,20 +34,6 @@ export default function Document() {
 		<link rel="stylesheet" href="/css/style.css"/>
 
 		<link rel="stylesheet" href="/css/responsive.css"></link>
-
-{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJM43TJ6XX"></script>
-
-<script
-            dangerouslySetInnerHTML={{
-              __html: `
-               window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZJM43TJ6XX');
-          `,
-            }}
-          /> */}
     </Head>
       <body>
         <Main />
