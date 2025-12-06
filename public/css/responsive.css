@@ -1277,6 +1277,37 @@ body {
 
 @media(max-width:767px) {
 	/*=== Section-Padding ===*/
+	.h1cba{font-size: 28px; line-height: 37px;}
+	.bannetexth {font-size: 28px;}
+	.about-three-bg {margin: 0 0px;}
+	.testimonial-two-box .pbmit-heading-subheading .pbmit-title {
+        font-size: 24px;
+        line-height: 33px;
+    }
+	    .pbmit-testimonial-style-2 .pbminfotech-testimonial-text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+	    .pbmit-testimonial-style-2 .pbmit-box-content-wrap {
+        padding: 46px 0px 0px 0;
+    }
+	    .testimonial-sec-two {
+        margin: 0px 0px;
+    }
+	    .testimonial-sec-two {
+        padding: 11px 10px 18px 15px;
+    }
+	    .pbmit-marquee-effect-style-1 .pbmit-element-title {
+        font-size: 30px;
+        line-height: 26px !important;
+    }
+	    .contact-one-form-area .pbmit-heading-subheading .pbmit-title {
+        font-size: 26px;
+        line-height: 33px;
+    }
+
+
+
 	.section-xl{
 		padding-top: 60px;
 		padding-bottom: 40px;
