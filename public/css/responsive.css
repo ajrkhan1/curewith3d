@@ -1278,7 +1278,7 @@ body {
 @media(max-width:767px) {
 	/*=== Section-Padding ===*/
 	.h1cba{font-size: 28px; line-height: 37px;}
-	.bannetexth {font-size: 28px;}
+	.bannetexth {font-size: 28px; min-height: 70px;}
 	.about-three-bg {margin: 0 0px;}
 	.testimonial-two-box .pbmit-heading-subheading .pbmit-title {
         font-size: 24px;
