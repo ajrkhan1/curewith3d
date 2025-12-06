@@ -485,7 +485,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-					<div class="container-fluid">
+					<div class="container-fluid padingRL">
 						<div class="swiper-slider">
 							<div class="swiper-wrapper1">
 								<Slider {...settings1}>
