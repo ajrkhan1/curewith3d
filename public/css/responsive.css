@@ -1305,6 +1305,10 @@ body {
         font-size: 26px;
         line-height: 33px;
     }
+	    .about-three-bg .pbmit-video {
+        width: 100%;
+        height: auto;
+    }
 
 
 
@@ -1772,10 +1776,10 @@ body {
 		display: none;
 	}
 	/*=== Homepage 03 ===*/
-	.about-three-bg .pbmit-video{
-		width: 320px;
-		height: 280px;
-	}
+	    .about-three-bg .pbmit-video {
+        width: 100%;
+        height: auto;
+    }
 	/*=== Team Member Detail ===*/ 
 	.pbmit-team-single .pbmit-team-detail{
 		padding: 45px 25px 70px;
