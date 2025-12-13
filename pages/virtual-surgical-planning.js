@@ -254,7 +254,7 @@ export default function Home() {
 											<div className="col-sm-3">
                                                 <div class="innerbox">
                                                     <img src="images/main/service/3d-surgical-models/all/neck-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Pelvic organ planning</h5>
+                                                    <h5>Pelvic tumor planning</h5>
                                                 </div>
                                             </div>
 											<div className="col-sm-3">
