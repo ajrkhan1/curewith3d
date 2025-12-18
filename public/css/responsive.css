@@ -1972,7 +1972,7 @@ body {
 		color: var(--pbmit-global-color);
    }
 	.main-menu .navigation > li > ul , .main-menu .navigation > li > ul > li > ul {
-		min-width: 250px;
+		min-width: 255px;
 		position: absolute;
 		padding: 8px 0;
 		top: 100%;
