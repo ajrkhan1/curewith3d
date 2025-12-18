@@ -54,7 +54,7 @@ export default function Header() {
 													<li class="dropdown active">
 														<a href="/">Home</a>														
 													</li>
-													<li><a href="about-us">About Us</a></li>
+													<li><a href="/about-us">About Us</a></li>
 													
 													<li class="dropdown">
 														<a href="#">Services</a>

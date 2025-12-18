@@ -49,7 +49,7 @@ export default function Footer() {
 										</li>
 									
 										<li class="pbmit-social-li pbmit-social-linkedin">
-											<a title="LinkedIn" href="linkedin.com/company/curewith3d" target="_blank">
+											<a title="LinkedIn" href="https://www.linkedin.com/company/curewith3d" target="_blank">
 												<span><i class="pbmit-base-icon-linkedin-in"></i></span>
 											</a>
 										</li>
@@ -68,7 +68,7 @@ export default function Footer() {
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><a href="/about-us">About</a></li>
-									<li><a href="contact-us.html">Service</a></li>
+									<li><a href="#">Service</a></li>
 									<li><a href="/3d-designs">3D Designs</a></li>
 									<li><a href="/blog">Blog</a></li>
 									<li><a href="/contact-us">Contact</a></li>

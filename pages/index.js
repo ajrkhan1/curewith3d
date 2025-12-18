@@ -578,7 +578,7 @@ export default function Home() {
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="#">Virtual Surgery Planning  </a>
+																<a href="/virtual-surgical-planning">Virtual Surgery Planning  </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Advanced digital simulations using patient-specific 3D models to rehearse surgeries.
@@ -588,7 +588,7 @@ export default function Home() {
 												</div>												
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="/virtual-surgical-planning" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>

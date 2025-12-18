@@ -336,7 +336,7 @@ export default function Home() {
 							</div>
 						</div>
                         <div class="col-md-12 col-xl-5 fadeInLeft animated">
-								<div class="contact-one-bg ml-30 mr-0"></div>
+								<div class="contact-one-bg mr-0"></div>
 							</div>
 					</div>
 				</div>
