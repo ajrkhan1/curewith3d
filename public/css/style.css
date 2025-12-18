@@ -2422,6 +2422,19 @@ margin-bottom: 15px !important;
 .surgical-models-banne .pbmit-breadcrumb-inner {color: #383838;}
 .surgical-models-banne .pbmit-breadcrumb-inner a{color: #383838;}
 
+.vsp-models-banne{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/main/service/vsp-models-banne.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: 2;
+}
+.vsp-models-banne .pbmit-tbar-title{ color: #0060aa;}
+.vsp-models-banne .pbmit-breadcrumb-inner {color: #383838;}
+.vsp-models-banne .pbmit-breadcrumb-inner a{color: #383838;}
+
 .custom-3D-printed-surgical-guides-banner {
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url(../images/main/service/custom-3D-printed-surgical-guides-banner.jpg);

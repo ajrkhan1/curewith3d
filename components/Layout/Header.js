@@ -58,11 +58,11 @@ export default function Header() {
 													
 													<li class="dropdown">
 														<a href="#">Services</a>
-														<ul>
-															<li><a href="/3d-surgical-models">3D Surgical Models</a></li>
+														<ul>															
 															<li><a href="/patient-specific-implants">Patient Specific Implants</a></li>
 															<li><a href="/custom-3d-printed-surgical-guides">Custom 3D Printed Surgical Guides</a></li>
 															<li><a href="/virtual-surgical-planning">Virtual Surgical Planning</a></li>
+															<li><a href="/3d-surgical-models">3D Surgical Models</a></li>
 														</ul>
 													</li>
 													{/* <li class="dropdown">

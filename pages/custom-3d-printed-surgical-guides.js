@@ -161,7 +161,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/we-serve-orthopedics.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/service/custom-3d-printed-surgical-guides/True End-to-End Collaboration.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
 													True End-to-End Collaboration
 												</h2>
@@ -180,7 +180,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/we-serve-oral.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/service/custom-3d-printed-surgical-guides/Precision That Speaks for Itself.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
 													Precision That Speaks for Itself
 												</h2>
@@ -200,7 +200,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-											<img src="/images/main/we-serve-neurosurgery.jpg" class="img-fluid" alt=""/>
+											<img src="/images/main/service/custom-3d-printed-surgical-guides/Rapid Turnaround, Global Delivery.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
 													Rapid Turnaround, Global Delivery
 												</h2>
@@ -220,7 +220,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/we-serve-oncology.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/service/custom-3d-printed-surgical-guides/Regulatory-Ready Process.jpg" class="img-fluid" alt=""/>
 												<h2 class="pbmit-element-title">
 													Regulatory-Ready Process
 												</h2>

@@ -166,8 +166,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Curewith3D | Medical 3D Printing Services for Healthcare</title>
-				<meta name="description" content="Discover how medical 3D printing innovates patient care by creating precise physical models from digital designs." />
+				<title>Curewith3D: Top Dental & Orthopedic Implant Manufacturer</title>
+				<meta name="description" content="Curewith3D is India's leading brand providing patient-specific surgical solutions, such as custom dental & orthopedic implant, surgical guides, models & VSP" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>

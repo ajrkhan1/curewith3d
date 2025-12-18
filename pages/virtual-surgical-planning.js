@@ -66,7 +66,7 @@ export default function Home() {
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 			</Head>
 
-		<div class="surgical-models-banne">
+		<div class="vsp-models-banne">
 			<div class="container">
 				<div class="pbmit-title-bar-content">
 					<div class="pbmit-title-bar-content-inner">
@@ -151,25 +151,25 @@ export default function Home() {
 
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Osteotomies</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/anatomical-heart-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Custom fibula flap planning.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Custom fibula flap planning</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/lung-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Alignment corrections.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Alignment corrections</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/eye-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Trauma reconstruction</h5>
                                                 </div>
                                             </div>
@@ -199,19 +199,19 @@ export default function Home() {
 
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/ear-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Mandible and maxilla reconstruction.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Mandible and maxilla reconstruction </h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/hand-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Facial trauma.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Facial trauma</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/foot-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Distraction planning.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Distraction planning</h5>
                                                 </div>
                                             </div>
@@ -241,25 +241,25 @@ export default function Home() {
 
                                              <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/anatomical-spine-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Renal resections.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Renal resections</h5>
                                                 </div>
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/neck-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Liver lesion planning.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Liver lesion planning</h5>
                                                 </div>
                                             </div>
 											<div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/neck-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/pelvis tumor VSP.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Pelvic tumor planning</h5>
                                                 </div>
                                             </div>
 											<div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/neck-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/vsp/Tumors adjacent to vessels or ducts.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Tumors adjacent to vessels or ducts</h5>
                                                 </div>
                                             </div>
