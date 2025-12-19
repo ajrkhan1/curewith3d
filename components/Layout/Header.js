@@ -4,6 +4,8 @@ import { GhostNavbar } from "react-hamburger-menus";
 import "react-hamburger-menus/dist/style.css";
 import ReactDOM from 'react-dom'
 import Snowfall from 'react-snowfall'
+import { ResponsiveNavbar } from "react-hamburger-menus";
+import "react-hamburger-menus/dist/style.css";
 
 export default function Header() {
     
@@ -20,7 +22,96 @@ export default function Header() {
   }}
 />
 <header class="site-header header-style-1">
+{/* <ResponsiveNavbar
 
+    styles={{
+      navigation: { fontFamily: 'Arial, Helvetica, sans-serif' },
+      navigationBarSmall: {
+        backgroundColor: 'aliceblue',
+      },
+      navigationCardSmall: {
+        backgroundColor: 'aliceblue',
+      },
+    }}
+  >
+     <nav class="mean-nav dblock">
+                        <ul class="navbar-nav m-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link active">SERVICES <i class="bx bx-chevron-down"></i></a>
+                                
+                                    <ul class="dropdown-menu" style={{ display: "none" }}>
+                                        <li class="nav-item">
+                                            <a href="/products-services/slii-experience" class="nav-link">Experience™</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/blanchard-management-essentials" class="nav-link">Management Essentials</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/self-leadership" class="nav-link">Self Leadership</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/coaching-essentials" class="nav-link">Coaching Essentials</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/building-trust" class="nav-link">Building Trust</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/leading-people-through-change" class="nav-link">Leading People Through Change</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/team-leadership" class="nav-link">Team Leadership</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/customer-service-training" class="nav-link">Legendary Service</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/online-learning-training" class="nav-link">Online Learning</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/coaching-services" class="nav-link">Coaching Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/products-services/conversational-capacity" class="nav-link">Conversational Capacity</a>
+                                        </li>
+                                    </ul>
+                                <a class="mean-expand" href="#" style={{ "font-size": "18px" }}>+</a></li>
+                                <li class="nav-item">
+                                    <a href="/how-we-work-with-you" class="nav-link">sfsdfsdf</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/events-workshop" class="nav-link">EVENTS &amp; WORKSHOP
+                                        <i class="bx bx-chevron-down"></i></a>
+                                    <ul class="dropdown-menu" style={{ display: "none" }}>
+                                        <li class="nav-item d-none">
+                                            <a href="/events-workshops/program-experience-webinar" class="nav-link">Program Experience &amp; Webinars</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="/events-workshops/virtual-public-workshop" class="nav-link">Virtual Public Workshops</a>
+                                        </li>
+                                    </ul>
+                                <a class="mean-expand" href="#" style={{ "font-size": "18px" }}>+</a></li>
+
+                                <li class="nav-item">
+                                    <a href="/about-us" class="nav-link">ABOUT US<i class="bx bx-chevron-down"></i></a>
+                                    <ul class="dropdown-menu" style={{ display: "none" }}>
+                                        <li class="nav-item">
+                                            <a href="/about-us/meet-the-team" class="nav-link">Meet The Team</a>
+                                        </li>
+                                    </ul>
+                                <a class="mean-expand" href="#" style={{ "font-size": "18px" }}>+</a></li>
+                                
+                                <li class="nav-item">
+                                    <a href="/blog" class="nav-link">BLOG</a>
+                                </li>
+
+                                <li class="nav-item mean-last">
+                                    <a href="/get-started" class="nav-link">GET STARTED</a>
+                                </li>
+
+
+                            </ul>                           
+                     </nav>
+      </ResponsiveNavbar> */}
 			<div class="">
 				<div class="pbmit-bg-color-white">
 					<div class="container-fluid">
@@ -75,13 +166,14 @@ export default function Header() {
 													</li> */}
 													<li>
 														<a href="/3d-designs">3D Designs</a>													
-													</li>
-													<li>
-														<a href="/clinical-3d-cases">Clinical 3D Cases</a>													
-													</li>
+													</li>											
 												
-													<li>
-														<a href="/blog">Blog</a>													
+													<li class="dropdown">
+														<a href="#">Recourse</a>
+														<ul>															
+															<li><a href="/recourse/blog/">Blogs</a></li>
+															<li><a href="/recourse/case-studies/">Case Studies</a></li>
+														</ul>
 													</li>
 													<li><a href="/contact-us">Contact Us</a></li>
 												</ul>
