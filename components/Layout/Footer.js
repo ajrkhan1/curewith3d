@@ -68,31 +68,25 @@ export default function Footer() {
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><a href="/about-us">About</a></li>
-									<li><a href="#">Service</a></li>
+									<li><a href="/recourse/case-studies">Case Studies</a></li>
 									<li><a href="/3d-designs">3D Designs</a></li>
-									<li><a href="/blog">Blog</a></li>
+									<li><a href="/recourse/blog">Blog</a></li>
 									<li><a href="/contact-us">Contact</a></li>
 								</ul>
 							</div>
 						</div>
-						<div class="pbmit-footer-widget-col-3 col-md-3">
-							<div class="widget widget_text">
-								<h2 class="widget-title">Working Time</h2>
-								<div class="pbmit-timelist-wrapper">
-									<ul class="pbmit-timelist-list">
-										<li>
-											<span class="pbmit-timelist-time">Mon - Fri: 9.00am - 5.00pm</span>
-										</li>
-										<li>
-											<span class="pbmit-timelist-time">Saturday: 10.00am - 6.00pm</span>
-										</li>
-										<li>
-											<span class="pbmit-timelist-time">Sunday Closed</span>
-										</li>
-									</ul>
-								</div>
+						<div class="pbmit-footer-widget-col-2 col-md-3">
+							<div class="widget pbmit-two-column-menu">
+								<h2 class="widget-title">Service</h2>
+								<ul>
+									<li><a href="/patient-specific-implants">Patient Specific Implants</a></li>
+									<li><a href="/custom-3d-printed-surgical-guides">Custom 3D Printed Surgical Guides</a></li>
+									<li><a href="/virtual-surgical-planning">Virtual Surgery Planning (VSP)</a></li>
+									<li><a href="/3d-surgical-models">3D Surgical Models</a></li>
+								</ul>
 							</div>
 						</div>
+				 
 						<div class="pbmit-footer-widget-col-4 col-md-3">
 							<aside class="widget">
 								<h2 class="widget-title">Say Hello</h2>
