@@ -169,10 +169,10 @@ export default function Header() {
 													</li>											
 												
 													<li class="dropdown">
-														<a href="#">Recourse</a>
+														<a href="#">resources</a>
 														<ul>															
-															<li><a href="/recourse/blog/">Blogs</a></li>
-															<li><a href="/recourse/case-studies/">Case Studies</a></li>
+															<li><a href="/resources/blog/">Blogs</a></li>
+															<li><a href="/resources/case-studies/">Case Studies</a></li>
 														</ul>
 													</li>
 													<li><a href="/contact-us">Contact Us</a></li>

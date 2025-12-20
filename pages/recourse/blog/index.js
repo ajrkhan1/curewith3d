@@ -74,12 +74,12 @@ export default function index({posts, cats}) {
 
                     {/* <div className="col-sm-6">
                       <div className="blog-item">
-                      <a href={`/recourse/blog/${getpost.posturl}`}>
+                      <a href={`/resources/blog/${getpost.posturl}`}>
                       <img src={getpost.uagb_featured_image_src.large[0]} alt={getpost.ImageAlt}/>
                       </a>
                         <div className="content">
                         <span><i className='bx bx-time'></i>{moment(getpost.ModifiedDate).format('MMMM DD Y')}</span>
-                        <h3><a href={`/recourse/blog/${getpost.posturl}`}>{getpost.title.rendered}</a></h3>                        
+                        <h3><a href={`/resources/blog/${getpost.posturl}`}>{getpost.title.rendered}</a></h3>                        
                         </div>
                       </div>
                     </div>            */}
@@ -93,7 +93,7 @@ export default function index({posts, cats}) {
 								<div class="pbmit-featured-container">
 									<div class="pbmit-featured-img-wrapper">
 										<div class="pbmit-featured-wrapper">
-											<a href={`/recourse/blog/${getpost.slug}`}><img src={getpost.yoast_head_json.og_image[0].url} class="img-fluid" alt=""/></a>
+											<a href={`/resources/blog/${getpost.slug}`}><img src={getpost.yoast_head_json.og_image[0].url} class="img-fluid" alt=""/></a>
 										</div>
 									</div>
 								</div>
@@ -111,7 +111,7 @@ export default function index({posts, cats}) {
 										</div>
 									</div>
 									<h3 class="pbmit-post-title">
-										<a href={`/recourse/blog/${getpost.slug}`}>{getpost.title.rendered}</a>
+										<a href={`/resources/blog/${getpost.slug}`}>{getpost.title.rendered}</a>
 									</h3>
 									<div class="pbminfotech-box-desc">
 										Most laboratory is a facility that provides controlled conditions in which… 
@@ -119,7 +119,7 @@ export default function index({posts, cats}) {
 								</div>
 								<div class="pbmit-shape-wraper">
 									<div class="pbmit-shape-wraper-inner">
-										<a class="pbmit-blog-btn" href={`/recourse/blog/${getpost.slug}`} title="Hospital Labs Focused on Patients Begin Here.">
+										<a class="pbmit-blog-btn" href={`/resources/blog/${getpost.slug}`} title="Hospital Labs Focused on Patients Begin Here.">
 											<span class="pbmit-button-icon-wrapper">
 												<span class="pbmit-button-icon">
 													<i class="pbmit-base-icon-black-arrow-1"></i>
