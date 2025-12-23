@@ -13,6 +13,7 @@
     "@syncfusion/ej2-navigations": "^32.1.19",
     "cursor-style": "^1.3.6",
     "dom-mousemove-dispatcher": "^1.0.1",
+    "moment": "^2.30.1",
     "next": "^16.0.7",
     "next-sanity": "^11.6.8",
     "next-sanity-client": "^1.0.8",

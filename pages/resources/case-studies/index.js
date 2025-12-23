@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
+import  moment from 'moment'
 
 
 export async function getServerSideProps() {
@@ -100,12 +101,12 @@ export default function index({posts, cats}) {
 									<div class="pbmit-date-wraper d-flex align-items-center">
 										<div class="pbmit-meta-date-wrapper pbmit-meta-line">
 											<div class="pbmit-meta-date">
-												<span class="pbmit-post-date">4  Nov, 2024</span>
+												<span class="pbmit-post-date">{moment(getpost.date).format('MMMM DD Y')}</span>
 											</div>
 										</div>
 										<div class="pbmit-meta-category-wrapper pbmit-meta-line">
 											<div class="pbmit-meta-category">
-												<a href="#" rel="category tag"> 3d Printing</a>
+												<a href="/" rel="category tag"> Curewith3D</a>
 											</div>
 										</div>
 									</div>

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import  moment from 'moment'
 
 
 // export async function getStaticPaths() {
@@ -80,52 +81,43 @@ console.log(posts)
 							<div className="col-md-12">
 								<article>
 									<div className="post blog-classic"> 
-										<div className="pbmit-img-wrapper">
-											<div className="pbmit-featured-img-wrapper">
-												<div className="pbmit-featured-wrapper">
-													<a href="#">
-														<img className="ajimgfull" src={posts.yoast_head_json.og_image[0].url} alt={posts.ImageAlt} />
-													</a>
-												</div>
-											</div>  
-											<span className="pbmit-meta pbmit-meta-cat">
-												<i className="pbmit-base-icon-calendar-3"></i>
-												<a href="#" rel="category tag"> 3d Printing</a>
-											</span>
-										</div>
-										<div className="pbmit-blog-classic-inner">
-											<div className="pbmit-blog-meta pbmit-blog-meta-top">	
-												<div className="pbmit-meta pbmit-meta-cat">
-													<a href="#" rel="category tag">Chemistry</a>
-												</div>
-												<span className="pbmit-meta pbmit-meta-author">
-													<i className="pbmit-base-icon-user-3"></i>by<a className="pbmit-author-link" href="#">CureWith3d</a>
-												</span>	
-												<span className="pbmit-meta pbmit-meta-date">
-													<i className="pbmit-base-icon-calendar-3"></i>
-													<a href="blog-single-details.html" rel="bookmark">
-														<time className="entry-date published" datetime="2023-08-29T09:05:54+00:00"> 04 Nov 2025 </time>
-														<time className="updated pbmit-hide" datetime="2023-10-19T05:42:54+00:00"> 22 Nov 2025 </time>
-													</a>
-												</span>
-												<span className="pbmit-meta pbmit-meta-comments pbmit-comment-bigger-than-zero">
-													<i className="pbmit-base-icon-comment-empty"></i>3 Comments
-												</span>
-											</div>
-											<div className="pbmit-entry-content">
-												<div dangerouslySetInnerHTML={{ __html: posts.content.rendered }} />
-											</div>
-											{/* <div className="pbmit-blog-meta-bottom">
-												<div className="pbmit-blog-meta-bottom-left">
-													<span className="pbmit-meta-tags">
-														<a href="#" rel="tag">equipment</a>
-														<a href="#" rel="tag">Forensic</a>
-														<a href="#" rel="tag">Gemological</a>
-													</span>
-												</div>
-											</div> */}
-										</div>   
-									</div> 
+																			<div className="pbmit-img-wrapper">
+																				<div className="pbmit-featured-img-wrapper">
+																					<div className="pbmit-featured-wrapper">
+																						<a href="#">
+																							<img className="ajimgfull" src={posts.yoast_head_json.og_image[0].url} alt={posts.ImageAlt} />
+																						</a>
+																					</div>
+																				</div>  
+																			
+																			</div>
+																			<div className="pbmit-blog-classic-inner">
+																				<div className="pbmit-blog-meta pbmit-blog-meta-top">												
+																					<span className="pbmit-meta pbmit-meta-author">
+																						<i className="pbmit-base-icon-user-3"></i>by<a className="pbmit-author-link" href="/">CureWith3d</a>
+																					</span>	
+																					<span className="pbmit-meta pbmit-meta-date">
+																						<i className="pbmit-base-icon-calendar-3"></i>
+																						<a href="blog-single-details.html" rel="bookmark">
+																							<time className="entry-date published" datetime="2023-08-29T09:05:54+00:00">{moment(posts.date).format('MMMM DD Y')}</time>
+																							<time className="updated pbmit-hide" datetime="2023-10-19T05:42:54+00:00"> 22 Nov 2025 </time>
+																						</a>
+																					</span>												
+																				</div>
+																				<div className="pbmit-entry-content">
+																					<div dangerouslySetInnerHTML={{ __html: posts.content.rendered }} />
+																				</div>
+																				{/* <div className="pbmit-blog-meta-bottom">
+																					<div className="pbmit-blog-meta-bottom-left">
+																						<span className="pbmit-meta-tags">
+																							<a href="#" rel="tag">equipment</a>
+																							<a href="#" rel="tag">Forensic</a>
+																							<a href="#" rel="tag">Gemological</a>
+																						</span>
+																					</div>
+																				</div> */}
+																			</div>   
+																		</div>
 									{/* <nav className="navigation post-navigation" aria-label="Posts">
 										<div className="nav-links">
 											<div className="nav-previous">
