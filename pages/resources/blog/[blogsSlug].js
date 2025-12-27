@@ -1,258 +1,180 @@
-import Head from "next/head";
-import React from "react";
-import  moment from 'moment'
+import Head from "next/head"
+import Image from "next/image"
+import React from "react"
+import moment from "moment/min/moment.min"
 
+// 🔹 STATIC PATHS (FAST)
+export async function getStaticPaths() {
+  const res = await fetch(
+    "https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_fields=slug&per_page=50"
+  )
+  const posts = await res.json()
 
-// export async function getStaticPaths() {
-//     const res = await fetch('https://kenblanchardcompanies.in/kenblanchard/wp-json/wp/v2/posts?_embed&per_page=30')
-//     const detailposts = await res.json()
-//     const paths = detailposts.map((post) => ({
-//       params: {
-//            blogsSlug: post.slug,
-//            leftsidebar: detailposts
-//         },
-//     }))
-//     return { paths, fallback: false }
-//   }
+  const paths = posts.map(post => ({
+    params: { blogsSlug: post.slug },
+  }))
 
-  
-
-export async function getServerSideProps(context) {
-   const post5 = await fetch('https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories_exclude=8')
-   const posts5 = await post5.json()
-
-
-
-   const posturl = context.params.blogsSlug;
-   const res = await fetch(`https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?slug=${posturl}`)
-   const posts = await res.json()
-
-
-   return {
-       props: {
-           posts:posts[0],
-           posts5,
-       },
-   }
+  return {
+    paths,
+    fallback: "blocking",
+  }
 }
 
+// 🔹 STATIC PROPS + ISR (AUTO CACHE)
+export async function getStaticProps({ params }) {
+  const posturl = params.blogsSlug
 
-const singleblog = ({ posts, posts5}) => {
-console.log(posts)
+  const [postRes, recentRes] = await Promise.all([
+    fetch(
+      `https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?slug=${posturl}&_embed`
+    ),
+    fetch(
+      "https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories_exclude=8&per_page=10"
+    ),
+  ])
+
+  const postData = await postRes.json()
+  const recentData = await recentRes.json()
+
+  if (!postData || postData.length === 0) {
+    return { notFound: true }
+  }
+
+  return {
+    props: {
+      posts: postData[0],
+      posts5: recentData,
+    },
+    revalidate: 3600, // 🔁 1 hour
+  }
+}
+
+const SingleBlog = ({ posts, posts5 }) => {
   return (
     <>
       <Head>
-      <title>{posts.title.rendered}</title>
-      <meta name="description" content={posts.yoast_head_json.og_description}/>
-      <link rel="icon" href="/favicon.ico" />
-      
-      {/* Twitter */}
-      {/* <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="@blanchard_india" />
-      <meta name="twitter:creator" content="@blanchard_india" />
-      <meta name="twitter:title" content={posts.Title} />
-      <meta name="twitter:description" content="" />
-      <meta name="twitter:image" content={posts.ImageURL} />
-      <meta property="twitter:url" content={posts.posturl} /> */}
-    
-      {/* Open Graph / Facebook */}
-      {/* <meta property="og:locale" content="en-in" />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Blanchard International" />
-      <meta property="og:title" content={posts.Title} />
-      <meta property="og:description" content="" />
-      <meta property="og:image" name="image" content={posts.ImageURL} />
-      <meta property="og:url" content={posts.posturl} /> */}
-
+        <title>{posts.title.rendered}</title>
+        <meta
+          name="description"
+          content={posts.yoast_head_json?.og_description || ""}
+        />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-     <div className="page-content"> 
-		<section className="site-content blog-details">
-			<div className="container">
-				<div className="row">
-					<div className="col-md-12 col-xl-9 blog-left-col">
-						<div className="row">
-							<div className="col-md-12">
-								<article>
-									<div className="post blog-classic"> 
-										<div className="pbmit-img-wrapper">
-											<div className="pbmit-featured-img-wrapper">
-												<div className="pbmit-featured-wrapper">
-													<a href="#">
-														<img className="ajimgfull" src={posts.yoast_head_json.og_image[0].url} alt={posts.ImageAlt} />
-													</a>
-												</div>
-											</div>  
-										
-										</div>
-										<div className="pbmit-blog-classic-inner">
-											<div className="pbmit-blog-meta pbmit-blog-meta-top">												
-												<span className="pbmit-meta pbmit-meta-author">
-													<i className="pbmit-base-icon-user-3"></i>by<a className="pbmit-author-link" href="/">CureWith3d</a>
-												</span>	
-												<span className="pbmit-meta pbmit-meta-date">
-													<i className="pbmit-base-icon-calendar-3"></i>
-													<a href="blog-single-details.html" rel="bookmark">
-														<time className="entry-date published" datetime="2023-08-29T09:05:54+00:00">{moment(posts.date).format('MMMM DD Y')}</time>
-														<time className="updated pbmit-hide" datetime="2023-10-19T05:42:54+00:00"> 22 Nov 2025 </time>
-													</a>
-												</span>												
-											</div>
-											<div className="pbmit-entry-content">
-												<div dangerouslySetInnerHTML={{ __html: posts.content.rendered }} />
-											</div>
-											{/* <div className="pbmit-blog-meta-bottom">
-												<div className="pbmit-blog-meta-bottom-left">
-													<span className="pbmit-meta-tags">
-														<a href="#" rel="tag">equipment</a>
-														<a href="#" rel="tag">Forensic</a>
-														<a href="#" rel="tag">Gemological</a>
-													</span>
-												</div>
-											</div> */}
-										</div>   
-									</div>
-									{/* <nav className="navigation post-navigation" aria-label="Posts">
-										<div className="nav-links">
-											<div className="nav-previous">
-												<a href="blog-single-details.html" rel="prev">
-													<span className="pbmit-post-nav-icon">
-														<i className="pbmit-base-icon-left-arrow-1"></i>
-														<span className="pbmit-post-nav-head">Previous Post</span>
-													</span>
-													<span className="pbmit-post-nav-wrapper">
-														<span className="pbmit-post-nav nav-title">A Guide for Remote Patient Monitoring in a Lab.</span> 
-													</span>
-												</a>
-											</div>
-											<div className="nav-next">
-												<a href="#" rel="next">
-													<span className="pbmit-post-nav-icon">
-														<span className="pbmit-post-nav-head">Next Post</span>
-														<i className="pbmit-base-icon-next"></i>
-													</span>
-													<span className="pbmit-post-nav-wrapper">
-														<span className="pbmit-post-nav nav-title">Exploring Anatomy Methods  in the Lab</span> 
-													</span>
-												</a>
-											</div>
-										</div>
-									</nav> */}
-									{/* <div className="pbmit-author-box">
-										<div className="pbmit-author-image">
-										   <img alt="" src="images/author-img.png" className="img-fluid"/>			
-										</div>
-										<div className="pbmit-author-content">
-										   <span className="pbmit-author-name">
-										  	 <a href="#" title="Posted by admin" rel="author">xlebpbm</a>
-										   </span>
-										   <p className="pbmit-text pbmit-author-bio">Medical laboratory technicians use specialized medical instruments and technology to conduct a variety of testing and analysis on specimens taken from patients. The testing results provide information that physicians.</p>
-										</div>
-									</div> */}
-								</article>
-								
-							</div> 
-						</div>
-					</div>
-					<div className="col-md- col-xl-3 blog-right-col">
-						<aside className="sidebar">
-							
-							{/* <aside className="widget widget-categories">
-								<h2 className="widget-title">Categories</h2>
-								<ul>
-									<li>
-										<span className="pbmit-cat-li">
-											<a href="#">Medical 3D Printing</a>
-											<span className="pbmit-brackets">( 10 )</span>
-										</span>
-									</li>
-									<li>
-										<span className="pbmit-cat-li">
-											<a href="#">Innovation</a>
-											<span className="pbmit-brackets">( 02 )</span>
-										</span>
-									</li>
-									<li>
-										<span className="pbmit-cat-li">
-											<a href="#">Case Study</a>
-											<span className="pbmit-brackets">( 07 )</span>
-										</span>
-									</li>
-									<li>
-										<span className="pbmit-cat-li">
-											<a href="#">3D Trends</a>
-											<span className="pbmit-brackets">( 02 )</span>
-										</span>
-									</li>
-                                    <li>
-										<span className="pbmit-cat-li">
-											<a href="#">3D Models</a>
-											<span className="pbmit-brackets">( 004 )</span>
-										</span>
-									</li>
-                                    <li>
-										<span className="pbmit-cat-li">
-											<a href="#">3D Design</a>
-											<span className="pbmit-brackets">( 03 )</span>
-										</span>
-									</li>
-								</ul>
-							</aside> */}
 
-							<aside className="widget widget-recent-post">
-								<h2 className="widget-title">Recent Blogs</h2>
-								<ul className="recent-post-list">
-									{
-									posts5.slice(0,10).map((getpost)=>{
-										return(
-												<li className="recent-post-list-li"> 
-													<a className="recent-post-thum" href={`/resources/blog/${getpost.slug}`}>
-														<img src={getpost.yoast_head_json.og_image[0].url} class="img-fluid" alt=""/>
-													</a>
-													<div className="pbmit-rpw-content">
-														<span className="pbmit-rpw-title">
-															<a href={`/resources/blog/${getpost.slug}`}>{getpost.title.rendered}</a>
-														</span>
-														<span className="pbmit-rpw-date">
-															<a href={`/resources/blog/${getpost.slug}`}>{moment(getpost.date).format('MMMM DD Y')}</a>
-														</span>
-													</div> 
-												</li>
+      <div className="page-content">
+        <section className="site-content blog-details">
+          <div className="container">
+            <div className="row">
+              {/* LEFT CONTENT */}
+              <div className="col-md-12 col-xl-9 blog-left-col">
+                <article>
+                  <div className="post blog-classic">
+                    <div className="pbmit-img-wrapper">
+                      <div className="pbmit-featured-img-wrapper">
+                        <div className="pbmit-featured-wrapper">
+                          <Image
+                            src={posts.yoast_head_json.og_image[0].url}
+                            alt={posts.title.rendered}
+                            width={1200}
+                            height={630}
+                            className="ajimgfull"
+                            priority
+                          />
+                        </div>
+                      </div>
+                    </div>
 
-												);
-										})
-									}
-								</ul>
-							</aside> 
-							<aside className="widget pbmit-service-ad">
-								<div className="textwidget">
-									<div className="pbmit-service-ads">
-										<div className="pbmit-ads-call">Call +91-920-555-98-04</div>
-										<h4 className="pbmit-ads-subtitle">How We Can</h4>
-										<h3 className="pbmit-ads-title">Help You</h3>
-										<div className="pbmit-ads-btn">
-											<a href="tel:+91-920-555-98-04">
-												<span className="pbmit-button-text">Contact us Now</span>
-												<span className="pbmit-button-icon-wrapper">
-													<span className="pbmit-button-icon">
-														<i className="pbmit-base-icon-black-arrow-1"></i>
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-								</div>
-							</aside>
-						
-						</aside>
-					</div>
-				</div>
-			</div>
-		</section>
-	
-		
-	</div>
+                    <div className="pbmit-blog-classic-inner">
+                      <div className="pbmit-blog-meta pbmit-blog-meta-top">
+                        <span className="pbmit-meta pbmit-meta-author">
+                          <i className="pbmit-base-icon-user-3"></i>
+                          by
+                          <a className="pbmit-author-link" href="/">
+                            CureWith3d
+                          </a>
+                        </span>
+
+                        <span className="pbmit-meta pbmit-meta-date">
+                          <i className="pbmit-base-icon-calendar-3"></i>
+                          <time className="entry-date published">
+                            {moment(posts.date).format("MMMM DD Y")}
+                          </time>
+                        </span>
+                      </div>
+
+                      <div className="pbmit-entry-content">
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: posts.content.rendered,
+                          }}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              {/* RIGHT SIDEBAR */}
+              <div className="col-md-12 col-xl-3 blog-right-col">
+                <aside className="sidebar">
+                  <aside className="widget widget-recent-post">
+                    <h2 className="widget-title">Recent Blogs</h2>
+                    <ul className="recent-post-list">
+                      {posts5.map(post => (
+                        <li key={post.id} className="recent-post-list-li">
+                          <a
+                            className="recent-post-thum"
+                            href={`/resources/blog/${post.slug}`}
+                          >
+                            <Image
+                              src={post.yoast_head_json.og_image[0].url}
+                              alt={post.title.rendered}
+                              width={150}
+                              height={100}
+                              className="img-fluid"
+                              loading="lazy"
+                            />
+                          </a>
+
+                          <div className="pbmit-rpw-content">
+                            <span className="pbmit-rpw-title">
+                              <a href={`/resources/blog/${post.slug}`}>
+                                {post.title.rendered}
+                              </a>
+                            </span>
+                            <span className="pbmit-rpw-date">
+                              {moment(post.date).format("MMMM DD Y")}
+                            </span>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </aside>
+
+                  <aside className="widget pbmit-service-ad">
+                    <div className="pbmit-service-ads">
+                      <div className="pbmit-ads-call">
+                        Call +91-920-555-98-04
+                      </div>
+                      <h4 className="pbmit-ads-subtitle">How We Can</h4>
+                      <h3 className="pbmit-ads-title">Help You</h3>
+                      <div className="pbmit-ads-btn">
+                        <a href="tel:+91-920-555-98-04">
+                          <span className="pbmit-button-text">
+                            Contact us Now
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </aside>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </>
   )
 }
 
-export default singleblog
+export default SingleBlog
