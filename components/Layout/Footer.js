@@ -107,16 +107,15 @@ export default function Footer() {
 				<div class="container">
 					<div class="pbmit-footer-text-inner">
 						<div class="row">
-							<div class="col-md-6">
-							   <div class="pbmit-footer-copyright-text-area"> Copyright © 2025 <a href="#">Curewith3D</a> All Rights Reserved.</div>
+							<div class="col-md-12">
+							   <div class="pbmit-footer-copyright-text-area text-center"> Copyright © 2025 <a href="#">Curewith3D</a> All Rights Reserved.</div>
 							</div>
 							<div class="col-md-6">
 								<div class="pbmit-footer-menu-area">
 									<div class="menu-footer-menu-container">
 										<ul class="pbmit-footer-menu">
-											<li><a href="#">Privacy Policy</a></li>
-											<li><a href="#">Term And Condition</a></li>
-											<li><a href="#">FAQ</a></li>
+											{/* <li><a href="#">Privacy Policy</a></li>
+											<li><a href="#">Term And Condition</a></li> */}
 										</ul>
 									</div>
 								</div>

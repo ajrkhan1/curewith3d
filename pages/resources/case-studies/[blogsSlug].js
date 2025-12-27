@@ -21,36 +21,36 @@ export async function getServerSideProps(context) {
    const post5 = await fetch('https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories=8')
    const posts5 = await post5.json()
 
-   const cat = await fetch('https://kbblogs.vercel.app/api/categories')
-   const cats = await cat.json()
+//    const cat = await fetch('https://kbblogs.vercel.app/api/categories')
+//    const cats = await cat.json()
 
 
    const posturl = context.params.blogsSlug;
    const res = await fetch(`https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?slug=${posturl}`)
    const posts = await res.json()
 
-   const getfeedback = await fetch(`https://kbblogs.vercel.app/api/posts/feed/${posturl}`)
-   console.log(getfeedback)
-   const postfeedback = await getfeedback.json()
+//    const getfeedback = await fetch(`https://kbblogs.vercel.app/api/posts/feed/${posturl}`)
+//    console.log(getfeedback)
+//    const postfeedback = await getfeedback.json()
 
    return {
        props: {
            posts:posts[0],
            posts5,
-           cats,
-           postfeedback
+        //    cats,
+        //    postfeedback
        },
    }
 }
 
 
-const singleblog = ({ posts, posts5, cats, postfeedback }) => {
+const singleblog = ({ posts, posts5 }) => {
 console.log(posts)
   return (
     <>
       <Head>
       <title>{posts.title.rendered}</title>
-      <meta name="description" content="Blanchard Research and Training LLP is the leading training provider in South Asia, with expertise in leadership development across hierarchies. Having a global establishment of over 35 years and operational in India since 2008 by Mr Yogesh Sood who is a veteran in business operations and leadership development."/>
+      {/* <meta name="description" content={posts.yoast_head_json.og_description}/> */}
       <link rel="icon" href="/favicon.ico" />
       
       {/* Twitter */}

@@ -17,7 +17,7 @@ export async function getServerSideProps() {
  }
 
 
-export default function index({posts, cats}) {
+export default function index({posts}) {
 	return (
 		<>
 			<Head>

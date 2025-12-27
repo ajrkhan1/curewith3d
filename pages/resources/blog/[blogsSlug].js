@@ -21,30 +21,23 @@ export async function getServerSideProps(context) {
    const post5 = await fetch('https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories_exclude=8')
    const posts5 = await post5.json()
 
-   const cat = await fetch('https://kbblogs.vercel.app/api/categories')
-   const cats = await cat.json()
 
 
    const posturl = context.params.blogsSlug;
    const res = await fetch(`https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?slug=${posturl}`)
    const posts = await res.json()
 
-   const getfeedback = await fetch(`https://kbblogs.vercel.app/api/posts/feed/${posturl}`)
-   console.log(getfeedback)
-   const postfeedback = await getfeedback.json()
 
    return {
        props: {
            posts:posts[0],
            posts5,
-           cats,
-           postfeedback
        },
    }
 }
 
 
-const singleblog = ({ posts, posts5, cats, postfeedback }) => {
+const singleblog = ({ posts, posts5}) => {
 console.log(posts)
   return (
     <>
