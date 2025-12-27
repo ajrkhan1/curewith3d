@@ -5,16 +5,41 @@ import  moment from 'moment'
 
 
 export async function getServerSideProps() {
-   const res = await fetch('https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories=8')
-   const posts = await res.json()
+ try {
+    const res = await fetch(
+      "https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories=8",
+      {
+        headers: {
+          "Accept": "application/json",
+          "User-Agent": "Mozilla/5.0 (Next.js Server)"
+        }
+      }
+    )
 
+    if (!res.ok) {
+      const text = await res.text()
+      console.error("API Error:", text)
 
-   return {
-     props: {
-       posts
-     },
-   }
- }
+      return {
+        props: { posts: [] }
+      }
+    }
+
+    const posts = await res.json()
+
+    return {
+      props: { posts }
+    }
+
+  } catch (error) {
+    console.error("Fetch failed:", error)
+
+    return {
+      props: { posts: [] }
+    }
+  }
+}
+ 
 
 
 export default function index({posts}) {
