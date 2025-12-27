@@ -50,7 +50,7 @@ console.log(posts)
     <>
       <Head>
       <title>{posts.title.rendered}</title>
-      {/* <meta name="description" content={posts.yoast_head_json.og_description}/> */}
+      <meta name="description" content={posts.yoast_head_json.og_description}/>
       <link rel="icon" href="/favicon.ico" />
       
       {/* Twitter */}

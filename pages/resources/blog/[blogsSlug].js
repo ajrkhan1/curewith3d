@@ -43,7 +43,7 @@ console.log(posts)
     <>
       <Head>
       <title>{posts.title.rendered}</title>
-      <meta name="description" content="Blanchard Research and Training LLP is the leading training provider in South Asia, with expertise in leadership development across hierarchies. Having a global establishment of over 35 years and operational in India since 2008 by Mr Yogesh Sood who is a veteran in business operations and leadership development."/>
+      <meta name="description" content={posts.yoast_head_json.og_description}/>
       <link rel="icon" href="/favicon.ico" />
       
       {/* Twitter */}
