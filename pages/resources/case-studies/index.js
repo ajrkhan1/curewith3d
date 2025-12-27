@@ -94,20 +94,6 @@ export default function index({posts}) {
 					<section class="section-lgx pbmit-element-viewtype-masonry">
 			<div class="container">
 				<div class="row pbmit-element-posts-wrapper">
-
-
-
-                    {/* <div className="col-sm-6">
-                      <div className="blog-item">
-                      <a href={`/resources/case-studies/${getpost.posturl}`}>
-                      <img src={getpost.uagb_featured_image_src.large[0]} alt={getpost.ImageAlt}/>
-                      </a>
-                        <div className="content">
-                        <span><i className='bx bx-time'></i>{moment(getpost.ModifiedDate).format('MMMM DD Y')}</span>
-                        <h3><a href={`/resources/case-studies/${getpost.posturl}`}>{getpost.title.rendered}</a></h3>                        
-                        </div>
-                      </div>
-                    </div>            */}
                
 			{
              posts.map((getpost)=>{
