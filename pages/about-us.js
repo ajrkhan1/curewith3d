@@ -399,7 +399,7 @@ arrow:true,
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="#">Custom Surgical Guides </a>
+																<a href="/custom-3d-printed-surgical-guides">Custom Surgical Guides </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Patient-specific surgical guides with millimeter-perfect accuracy during complex orthopedic, dental, and maxillofacial procedures.
@@ -409,7 +409,7 @@ arrow:true,
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="/custom-3d-printed-surgical-guides" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -437,7 +437,7 @@ arrow:true,
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="#">Virtual Surgery Planning  </a>
+																<a href="/virtual-surgical-planning">Virtual Surgery Planning  </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Advanced digital simulations using patient-specific 3D models to rehearse surgeries.
@@ -447,7 +447,7 @@ arrow:true,
 												</div>												
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="/virtual-surgical-planning" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -474,92 +474,17 @@ arrow:true,
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="#">Anatomical Models  </a>
+																<a href="/3d-surgical-models">Custom Anatomical Models</a>
 															</h3>
 															<div class="pbmit-service-description">
-																Detailed pre-surgical planning models that enable surgeons to visualize and practice complex cases.
+																Detailed pre-surgical planning 3D printed anatomical models that enable surgeons to visualize, plan and practice complex cases.
 															</div>
 														</div>
 													</div>
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
-															<span class="pbmit-button-icon-wrapper">
-																<span class="pbmit-button-icon">
-																	<i class="pbmit-base-icon-black-arrow-1"></i>
-																</span>
-															</span>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									
-									<article class="pbmit-service-style-4 swiper-slide">
-										<div class="pbminfotech-post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbmit-box-content-wrap">
-													<div class="pbmit-service-image-wrapper">
-														<div class="pbmit-featured-img-wrapper">
-															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/medical-device-prototyping.jpg" class="img-fluid" alt="" />
-															</div>
-														</div>
-													</div>
-													<div class="pbmit-box-content-inner">
-														<div class="pbmit-contant-box">
-															<h3 class="pbmit-service-title">
-																<a href="#">Medical Device Prototyping </a>
-															</h3>
-															<div class="pbmit-service-description">
-																Rapid prototyping services for medical device manufacturers and innovators developing next-gen healthcare solutions.
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="pbmit-shape-wraper">
-													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
-															<span class="pbmit-button-icon-wrapper">
-																<span class="pbmit-button-icon">
-																	<i class="pbmit-base-icon-black-arrow-1"></i>
-																</span>
-															</span>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="pbmit-service-style-4 swiper-slide">
-										<div class="pbminfotech-post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbmit-box-content-wrap">
-													<div class="pbmit-service-image-wrapper">
-														<div class="pbmit-featured-img-wrapper">
-															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/medical-education-model.jpg" class="img-fluid" alt="" />
-															</div>
-														</div>
-													</div>
-													<div class="pbmit-box-content-inner">
-														<div class="pbmit-contant-box">
-															<h3 class="pbmit-service-title">
-																<a href="#">Patient Education Models </a>
-															</h3>
-															<div class="pbmit-service-description">
-																Visual anatomical models that help you communicate diagnoses & treatment plans effectively to patients.
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="pbmit-shape-wraper">
-													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="/3d-surgical-models" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>

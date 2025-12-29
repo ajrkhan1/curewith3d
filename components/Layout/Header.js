@@ -154,9 +154,9 @@ export default function Header() {
 															<li><a href="/custom-3d-printed-surgical-guides">Custom 3D Printed Surgical Guides</a></li>
 														</ul>
 													</li> */}
-													<li>
+													{/* <li>
 														<a href="/3d-designs">3D Designs</a>													
-													</li>											
+													</li>											 */}
 												
 													<li class="dropdown">
 														<a href="#">resources</a>

@@ -223,69 +223,7 @@ export default function Home() {
 					</div>
 				</section>
 
-				{/* <section class="about-us-section-one fadeIn animated">
-					<div class="container-fluid p-0">
-						<div class="row g-0">
-							<div class="col-md-12 col-xl-6">
-								<div class="about-us-one-left-box">
-									<div class="ihbox-style-area">
-										<div class="pbmit-ihbox-style-3">
-											<div class="pbmit-ihbox-box d-flex">
-												<a class="pbmin-lightbox-video" href="#">
-													<div class="pbmit-ihbox-icon">
-														<div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
-															<i class="fa fa-play"></i>
-														</div>
-													</div>
-												</a>
-												<div class="pbmit-ihbox-contents">
-													<h2 class="pbmit-element-title">
-														<a href="#">
-															<span class="pbmit-button-text">Watch Video</span>
-															<span class="pbmit-button-icon-wrapper">
-																<span class="pbmit-button-icon">
-																	<i class="pbmit-base-icon-black-arrow-1"></i>
-																</span>
-															</span>
-														</a>
-													</h2>
-												</div>
-											</div>
-											<div class="pbmit-sticky-corner  pbmit-bottom-left-corner">
-												<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-													<path d="M30 30V0C30 16 16 30 0 30H30Z"></path>
-												</svg>
-											</div>
-											<div class="pbmit-sticky-corner pbmit-top-right-corner">
-												<svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
-													<path d="M30 30V0C30 16 16 30 0 30H30Z"></path>
-												</svg>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12 col-xl-6">
-								<div class="about-us-one-right-box pbmit-bg-color-global">
-									<div class="pbmit-heading-subheading animation-style5">							
-										<h4 class="small-title">Transforming Healthcare with Precision 3D Medical Solutions</h4>
-									</div>
-									<p class="pbmit-text">India's Leading 3D Medical Printing Innovation Hub for Patient-Specific Surgical Solutions</p>
-									<a class="pbmit-btn pbmit-btn-blackish" href="#">
-										<span class="pbmit-button-content-wrapper">
-											<span class="pbmit-button-icon">
-												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
-													<path d="m31 50.979c-.362.007-.727-.081-1.049-.28-.929-.572-1.212-1.814-.653-2.742.047-.082 5.886-9.826 17.032-15.958h-43.33c-1.103 0-2-.897-2-2s.897-2 2-2h43.33c-11.084-6.097-16.989-15.884-17.047-15.982-.547-.934-.244-2.177.689-2.73.946-.561 2.192-.236 2.757.715.909 1.45 9.433 14.449 24.722 18.046.915.225 1.549 1.026 1.549 1.952s-.63 1.729-1.532 1.948c-15.354 3.61-23.849 16.626-24.767 18.099-.36.577-1.025.919-1.7.932z"></path>
-												</svg>
-											</span>
-											<span class="pbmit-button-text">Get Started</span>
-										</span>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section> */}
+				
 <br/>
 <br/>
 				<section class="about-three-bg section-lg pbmit-bg-color-white">
@@ -540,7 +478,7 @@ export default function Home() {
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="#">Custom Surgical Guides </a>
+																<a href="/custom-3d-printed-surgical-guides">Custom Surgical Guides </a>
 															</h3>
 															<div class="pbmit-service-description">
 																Patient-specific surgical guides with millimeter-perfect accuracy during complex orthopedic, dental, and maxillofacial procedures.
@@ -550,7 +488,7 @@ export default function Home() {
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="/custom-3d-printed-surgical-guides" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -615,17 +553,17 @@ export default function Home() {
 													<div class="pbmit-box-content-inner">
 														<div class="pbmit-contant-box">
 															<h3 class="pbmit-service-title">
-																<a href="#">Anatomical Models  </a>
+																<a href="/3d-surgical-models">Custom Anatomical Models</a>
 															</h3>
 															<div class="pbmit-service-description">
-																Detailed pre-surgical planning models that enable surgeons to visualize and practice complex cases.
+																Detailed pre-surgical planning 3D printed anatomical models that enable surgeons to visualize, plan and practice complex cases.
 															</div>
 														</div>
 													</div>
 												</div>
 												<div class="pbmit-shape-wraper">
 													<div class="pbmit-shape-wraper-inner">
-														<a class="pbmit-service-btn" href="#" title="Elemental Analysis">
+														<a class="pbmit-service-btn" href="/3d-surgical-models" title="Elemental Analysis">
 															<span class="pbmit-button-icon-wrapper">
 																<span class="pbmit-button-icon">
 																	<i class="pbmit-base-icon-black-arrow-1"></i>
@@ -639,7 +577,7 @@ export default function Home() {
 									</article>
 
 									
-									<article class="pbmit-service-style-4 swiper-slide">
+									{/* <article class="pbmit-service-style-4 swiper-slide">
 										<div class="pbminfotech-post-item">
 											<div class="pbminfotech-box-content">
 												<div class="pbmit-box-content-wrap">
@@ -674,9 +612,9 @@ export default function Home() {
 												</div>
 											</div>
 										</div>
-									</article>
+									</article> */}
 
-									<article class="pbmit-service-style-4 swiper-slide">
+									{/* <article class="pbmit-service-style-4 swiper-slide">
 										<div class="pbminfotech-post-item">
 											<div class="pbminfotech-box-content">
 												<div class="pbmit-box-content-wrap">
@@ -711,7 +649,7 @@ export default function Home() {
 												</div>
 											</div>
 										</div>
-									</article>
+									</article> */}
 								</Slider>
 							</div>
 						</div>
