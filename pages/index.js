@@ -2090,7 +2090,7 @@ export default function Home() {
 							</div>
 							<div class="step-desc">
 								<h4>Approval & Production</h4>
-								<p class="mb-0">Review digital designs, provide feedback, and approve before we proceed with medical-grade 3D printing.</p>
+								<p class="mb-0"> Review the digital surgery plan & take Surgeon's approval before we proceed with medical-grade 3D printing.</p>
 							</div>
 							</div>
 						</div>

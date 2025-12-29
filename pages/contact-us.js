@@ -167,7 +167,7 @@ export default function Home() {
 									</div>
 									<div class="pbmit-btn-wrap">
 										<div class="pbmit-ihbox-btn">
-											<a href="#">
+											<a target="_blank" href="https://www.google.com/maps/place/Curewith3D/data=!4m2!3m1!1s0x0:0x244061915c35ecd0?sa=X&ved=1t:2428&ictx=111">
 												<span class="pbmit-button-text">Read More</span>
 												<span class="pbmit-button-icon-wrapper">
 													<span class="pbmit-button-icon">

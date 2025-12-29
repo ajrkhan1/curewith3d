@@ -193,23 +193,23 @@ export default function Home() {
 										<div class="row align-items-center servicepage">
 											<div class="col-md-12 col-xl-12 text-center">
 												<div class="pbmit-heading">
-                                                    <h3 class="pbmit-title">Maxillofacial Planning</h3>                                                       
+                                                    <h3 class="pbmit-title">Oral Maxillofacial VSP</h3>                                                       
 												</div>
 											</div>
-
-                                            <div className="col-sm-3">
+                                         
+                                            <div className="col-sm-4">
                                                 <div class="innerbox">
                                                     <img src="/images/main/service/vsp/Mandible and maxilla reconstruction.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Mandible and maxilla reconstruction </h5>
                                                 </div>
                                             </div>
-                                            <div className="col-sm-3">
+                                            <div className="col-sm-4">
                                                 <div class="innerbox">
                                                     <img src="/images/main/service/vsp/Facial trauma.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Facial trauma</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-sm-3">
+                                            <div className="col-sm-4">
                                                 <div class="innerbox">
                                                     <img src="/images/main/service/vsp/Distraction planning.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
                                                     <h5>Distraction planning</h5>
