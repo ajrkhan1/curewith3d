@@ -355,7 +355,7 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/patient-specific-implants.jpg" class="img-fluid" alt="" />
+																<a href="/patient-specific-implants"><img src="/images/main/patient-specific-implants.jpg" class="img-fluid" alt="" /></a>
 															</div>
 														</div>
 													</div>
@@ -392,7 +392,7 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/custom-surgical-guides.jpg" class="img-fluid" alt="" />
+																<a href="/custom-3d-printed-surgical-guides"><img src="/images/main/custom-surgical-guides.jpg" class="img-fluid" alt="" /></a>
 															</div>
 														</div>
 													</div>
@@ -430,7 +430,7 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/virtual-surgery planning.jpg" class="img-fluid" alt="" />
+																<a href="/virtual-surgical-planning"><img src="/images/main/virtual-surgery planning.jpg" class="img-fluid" alt="" /></a>
 															</div>
 														</div>
 													</div>
@@ -467,7 +467,7 @@ arrow:true,
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/anatomical-models.jpg" class="img-fluid" alt="" />
+																<a href="/3d-surgical-models"><img src="/images/main/anatomical-models.jpg" class="img-fluid" alt="" /></a>
 															</div>
 														</div>
 													</div>
@@ -495,7 +495,7 @@ arrow:true,
 												</div>
 											</div>
 										</div>
-									</article>							
+									</article>
 								</Slider>
 							</div>
 						</div>

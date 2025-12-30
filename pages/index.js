@@ -241,7 +241,7 @@ export default function Home() {
 											<h4 class="pbmit-subtitle">Welcome to Curewith3D</h4>
 											<h2 class="pbmit-title">We are</h2>
 											<div class="pbmit-heading-desc">
-												CureWith3D, a healthcare-innovation company focused on creating customized, patient-specific 3D-printed surgical guides, orthopedic & dental implants, and anatomical models. From segmentation and 3D modelling to surgical planning and follow-up support, we help patients understand their path and feel supported every step of the way. Based in India and connected globally, we deliver quality care and cost-effective solutions that make a difference.
+												Curewith3D brings innovation in healthcare with specialized and advanced, patient-specific 3D implants for Orthopaedic, Oral & Maxillofacial, and Neurosurgical surgeries. It delivers fully customized implants, precision-engineered surgical guides, and anatomically accurate 3D-printed models that enhance accuracy from preoperative planning to the final procedure. By combining engineering precision with clinical expertise, Curewith3D enables surgeons to operate with greater confidence, improved accuracy, and reduced intraoperative variability—resulting in safer, faster, and more predictable surgical outcomes.
 											</div>
 										</div>
 										{/* <div class="d-flex list-group-style">
@@ -434,7 +434,7 @@ export default function Home() {
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/patient-specific-implants.jpg" class="img-fluid" alt="" />
+																<a href="/patient-specific-implants"><img src="/images/main/patient-specific-implants.jpg" class="img-fluid" alt="" /></a>
 															</div>
 														</div>
 													</div>
@@ -471,7 +471,7 @@ export default function Home() {
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/custom-surgical-guides.jpg" class="img-fluid" alt="" />
+																<a href="/custom-3d-printed-surgical-guides"><img src="/images/main/custom-surgical-guides.jpg" class="img-fluid" alt="" /></a>
 															</div>
 														</div>
 													</div>
@@ -509,7 +509,7 @@ export default function Home() {
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/virtual-surgery planning.jpg" class="img-fluid" alt="" />
+																<a href="/virtual-surgical-planning"><img src="/images/main/virtual-surgery planning.jpg" class="img-fluid" alt="" /></a>
 															</div>
 														</div>
 													</div>
@@ -546,7 +546,7 @@ export default function Home() {
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<img src="/images/main/anatomical-models.jpg" class="img-fluid" alt="" />
+																<a href="/3d-surgical-models"><img src="/images/main/anatomical-models.jpg" class="img-fluid" alt="" /></a>
 															</div>
 														</div>
 													</div>

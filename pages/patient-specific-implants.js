@@ -231,7 +231,7 @@ export default function Home() {
 
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/patient-specific-implants/knee-replacement-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/patient-specific-implants/Pelvic-Implant.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Pelvis Implant</h5>
                                                 </div>
                                             </div>
@@ -248,18 +248,16 @@ export default function Home() {
                                                 </div>
                                             </div>
                                            
-                                          
-                                   
-											
+                                        
 											<div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/patient-specific-implants/BSSO.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>SSO / BSSO implant</h5>
                                                 </div>
                                             </div>
                                           <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/patient-specific-implants/hip-replacement-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/patient-specific-implants/Spinal-Cage.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Spinal Cage</h5>
                                                 </div>
                                             </div>
@@ -267,7 +265,7 @@ export default function Home() {
 											
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/patient-specific-implants/vertebral-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/patient-specific-implants/Tibia.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Custom Tibia Implant</h5>
                                                 </div>
                                             </div>

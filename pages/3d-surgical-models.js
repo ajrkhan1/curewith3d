@@ -164,7 +164,7 @@ export default function Home() {
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/all/lung-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="images/main/service/3d-surgical-models/all/Lung.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Lung Anatomy Model </h5>
                                                 </div>
                                             </div>
@@ -218,7 +218,7 @@ export default function Home() {
                                             </div>
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/3d-surgical-models/all/3d-model-of-knee-joint.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <img src="/images/main/service/3d-surgical-models/all/3D-Model-of-Knee-Joint.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>3D Model of Knee Joint</h5>
                                                 </div>
                                             </div>
