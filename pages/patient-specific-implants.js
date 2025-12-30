@@ -232,42 +232,43 @@ export default function Home() {
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
                                                     <img src="/images/main/service/patient-specific-implants/knee-replacement-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Knee Replacement Implants</h5>
+                                                    <h5>Pelvis Implant</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="/images/main/service/patient-specific-implants/hip-replacement-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Hip Replacement Implants</h5>
-                                                </div>
-                                            </div>
-                                            <div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="/images/main/service/patient-specific-implants/3D-joint-replacement-Implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>3D Joint Replacement Implants</h5>
-                                                </div>
-                                            </div>
-                                   
-											
-											<div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Patient-specific 3D trauma implants </h5>
-                                                </div>
-                                            </div>
-                                         
-                                     
-
 											<div className="col-sm-3">
                                                 <div class="innerbox">
                                                     <img src="/images/main/service/patient-specific-implants/cranial-implant.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
                                                     <h5>Cranial implant </h5>
                                                 </div>
                                             </div>
+											  <div className="col-sm-3">
+                                                <div class="innerbox">
+                                                    <img src="/images/main/service/patient-specific-implants/3D-joint-replacement-Implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Custom Talus Implant</h5>
+                                                </div>
+                                            </div>
+                                           
+                                          
+                                   
+											
+											<div className="col-sm-3">
+                                                <div class="innerbox">
+                                                    <img src="images/main/service/3d-surgical-models/brain-anatomy-model.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>SSO / BSSO implant</h5>
+                                                </div>
+                                            </div>
+                                          <div className="col-sm-3">
+                                                <div class="innerbox">
+                                                    <img src="/images/main/service/patient-specific-implants/hip-replacement-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Spinal Cage</h5>
+                                                </div>
+                                            </div>
+
+											
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
                                                     <img src="/images/main/service/patient-specific-implants/vertebral-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Vertebral implants</h5>
+                                                    <h5>Custom Tibia Implant</h5>
                                                 </div>
                                             </div>
                                   
@@ -276,7 +277,7 @@ export default function Home() {
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
                                                     <img src="/images/main/service/patient-specific-implants/chin-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
-                                                    <h5>Chin Implants</h5>
+                                                    <h5>Chin Implant</h5>
                                                 </div>
                                             </div>
                                           

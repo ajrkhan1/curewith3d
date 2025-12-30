@@ -64,20 +64,19 @@ export default function Footer() {
 						</div>
 						<div class="pbmit-footer-widget-col-2 col-md-3">
 							<div class="widget pbmit-two-column-menu">
-								<h2 class="widget-title">Useful Link</h2>
+								<h2 class="widget-title">Useful Links</h2>
 								<ul>
 									<li><a href="/">Home</a></li>
-									<li><a href="/about-us">About</a></li>
+									<li><a href="/about-us">About Us</a></li>
 									<li><a href="/resources/case-studies">Case Studies</a></li>
-									<li><a href="/3d-designs">3D Designs</a></li>
-									<li><a href="/resources/blog">Blog</a></li>
-									<li><a href="/contact-us">Contact</a></li>
+									<li><a href="/resources/blog">Blogs</a></li>
+									<li><a href="/contact-us">Contact Us</a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="pbmit-footer-widget-col-2 col-md-3">
 							<div class="widget pbmit-two-column-menu">
-								<h2 class="widget-title">Service</h2>
+								<h2 class="widget-title">Services</h2>
 								<ul>
 									<li><a href="/patient-specific-implants">Patient Specific Implants</a></li>
 									<li><a href="/custom-3d-printed-surgical-guides">Custom 3D Printed Surgical Guides</a></li>
