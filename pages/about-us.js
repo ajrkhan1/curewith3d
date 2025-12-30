@@ -181,7 +181,7 @@ arrow:true,
 							<div class="col-md-12 col-xl-6">
 								<div class="about-us-one-left-boxx">
 									<div class="ihbox-style-area">
-										
+									
 									</div>
 								</div>
 							</div>
@@ -215,7 +215,7 @@ arrow:true,
 							<div class="row g-0">
 								<div class="col-md-12 col-xl-6">
 									<div class="video-box pr-30">
-										<video class="pbmit-video about-video" src="/images/main/video.mp4" autoplay="" loop muted="muted" playsinline=""></video>
+										<img class="pbmit-video" src="/images/main/our-mission.jpg"/>
 									</div>
 								</div>
 								<div class="col-md-12 col-xl-6">

@@ -232,7 +232,7 @@ export default function Home() {
 							<div class="row g-0">
 								<div class="col-md-12 col-xl-6">
 									<div class="video-box">
-										<video class="pbmit-video" src="/images/main/video.mp4" autoplay="" loop muted="muted" playsinline=""></video>
+										<img class="pbmit-video" src="/images/main/welcome-to-curewith3d.png" autoplay="" loop muted="muted" playsinline=""/>
 									</div>
 								</div>
 								<div class="col-md-12 col-xl-6">
@@ -244,54 +244,9 @@ export default function Home() {
 												Curewith3D brings innovation in healthcare with specialized and advanced, patient-specific 3D implants for Orthopaedic, Oral & Maxillofacial, and Neurosurgical surgeries. It delivers fully customized implants, precision-engineered surgical guides, and anatomically accurate 3D-printed models that enhance accuracy from preoperative planning to the final procedure. By combining engineering precision with clinical expertise, Curewith3D enables surgeons to operate with greater confidence, improved accuracy, and reduced intraoperative variability—resulting in safer, faster, and more predictable surgical outcomes.
 											</div>
 										</div>
-										{/* <div class="d-flex list-group-style">
-										<div>
-											<ul class="list-group list-group-borderless">
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="pbmit-xleb-icon pbmit-xleb-icon-check"></i>						
-													</span>
-													<span class="pbmit-icon-list-text">Cleanliness Ensured </span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="pbmit-xleb-icon pbmit-xleb-icon-check"></i>						
-													</span>
-													<span class="pbmit-icon-list-text">Fast Report Delivery</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="pbmit-xleb-icon pbmit-xleb-icon-check"></i>						
-													</span>
-													<span class="pbmit-icon-list-text">Expert Phlebotomists</span>
-												</li>
-											</ul>
-										</div>
-										<div class="ps-5">
-											<ul class="list-group list-group-borderless">
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="pbmit-xleb-icon pbmit-xleb-icon-check"></i>						
-													</span>
-													<span class="pbmit-icon-list-text">Accuracy in Findings</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="pbmit-xleb-icon pbmit-xleb-icon-check"></i>						
-													</span>
-													<span class="pbmit-icon-list-text">Microbiology Lab</span>
-												</li>
-												<li class="list-group-item">
-													<span class="pbmit-icon-list-icon">
-														<i aria-hidden="true" class="pbmit-xleb-icon pbmit-xleb-icon-check"></i>						
-													</span>
-													<span class="pbmit-icon-list-text">Easy Testing Procedure</span>
-												</li>
-											</ul>
-										</div>
-									</div> */}
+										
 										<div class="pt-4">
-											<a class="pbmit-btn pbmit-btn-blackish" href="#">
+											<a class="pbmit-btn pbmit-btn-blackish" href="/about-us">
 												<span class="pbmit-button-content-wrapper">
 													<span class="pbmit-button-icon">
 														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">

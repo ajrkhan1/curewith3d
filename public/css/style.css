@@ -358,7 +358,7 @@ body{
 	border-radius: 20px;
 }
 .testimonial-two-bg{
-	background-image: url(../images/homepage-2/bg/lab-test-img.jpg);
+	background-image: url(../images/main/trusted-by-leading-surgeons.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,9 +438,8 @@ body{
 }
 .about-three-bg .pbmit-video{
 	object-fit: cover;
-	height: 380px;
-	width: 580px;
-	max-width: 100%;
+	height: auto;
+	width: 95%;
 	border-radius: 25px;
 }
 .about-three-content{
@@ -2322,7 +2321,7 @@ margin-bottom: 15px !important;
 }
 
 .about-us-one-left-boxx {
-    background-image: url(/images/main/3d-aboutus.jpg);
+    background-image: url(/images/main/pioneering-the-future.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
