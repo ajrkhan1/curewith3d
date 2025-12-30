@@ -110,7 +110,7 @@ export default function Home() {
 					<div class="container">
 						<div class="row g-0">
 							<div class="col-md-12 col-xl-6">
-								<div class="about-us-one-left-box">
+								<div class="about-us-one-left-box custom-3d-printed-surgical-guides1">
 									<div class="ihbox-style-area">
 										 
 									</div>

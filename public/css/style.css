@@ -2454,6 +2454,17 @@ margin-bottom: 15px !important;
   padding: 8px;
 }
 
+.custom-3d-printed-surgical-guides1{
+	background-image: url(../images/main/service/custom-3d-printed-surgical-guides/Custom-3D-Printed-Surgical-Guides.png);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-right: 20px;
+	border-radius: 20px;
+	height: 100%;
+	position: relative;
+}
+
 .pb-5{padding-bottom: 5px;}
 .pb-10{padding-bottom: 10px;}
 .pb-15{padding-bottom: 15px;}
