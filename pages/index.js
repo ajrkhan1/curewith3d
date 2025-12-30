@@ -1997,11 +1997,7 @@ export default function Home() {
 
 						</div>
 						<div class="col">
-							<div class="work-process">
-							<div class="box-loader"> <span></span>
-								<span></span>
-								<span></span>
-							</div>
+							<div class="work-process">							
 							<div class="step-num-box">
 								<div class="step-icon"><span>
 									<img src="/images/main/process/p1.png" class="img-fluid" alt="" />
@@ -2016,11 +2012,7 @@ export default function Home() {
 							</div>
 						</div>
 						<div class="col">
-							<div class="work-process">
-							<div class="box-loader"> <span></span>
-								<span></span>
-								<span></span>
-							</div>
+							<div class="work-process">						
 							<div class="step-num-box">
 								<div class="step-icon"><span><img src="/images/main/process/p2.png" class="img-fluid" alt="" /></span>
 								</div>
@@ -2034,10 +2026,7 @@ export default function Home() {
 						</div>
 						<div class="col">
 							<div class="work-process">
-								<div class="box-loader"> <span></span>
-								<span></span>
-								<span></span>
-							</div>
+							
 							<div class="step-num-box">
 								<div class="step-icon"><span><img src="/images/main/process/p3.png" class="img-fluid" alt="" /></span>
 								</div>
@@ -2051,10 +2040,7 @@ export default function Home() {
 						</div>
 						<div class="col">
 							<div class="work-process">
-								<div class="box-loader"> <span></span>
-								<span></span>
-								<span></span>
-							</div>
+								
 							<div class="step-num-box">
 								<div class="step-icon"><span><img src="/images/main/process/p4.png" class="img-fluid" alt="" /></span>
 								</div>
