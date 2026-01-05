@@ -141,7 +141,7 @@ export default function Index({ initialPosts, totalPages }) {
 											<div class="pbmit-featured-container">
 												<div class="pbmit-featured-img-wrapper">
 													<div class="pbmit-featured-wrapper">
-														<a href={`/resources/case-studies/${post.slug}`}><img src={post.yoast_head_json.og_image[0].url} class="img-fluid" alt=""/></a>
+														<a href={`/resources/blog/${post.slug}`}><img src={post.yoast_head_json.og_image[0].url} class="img-fluid" alt=""/></a>
 													</div>
 												</div>
 											</div>
@@ -163,7 +163,7 @@ export default function Index({ initialPosts, totalPages }) {
 													</div>
 												</div>
 												<h3 class="pbmit-post-title">
-													<a href={`/resources/case-studies/${post.slug}`}>{post.title.rendered}</a>
+													<a href={`/resources/blog/${post.slug}`}>{post.title.rendered}</a>
 												</h3>
 												<div class="pbminfotech-box-desc">
 													Most laboratory is a facility that provides controlled conditions in which… 
@@ -171,7 +171,7 @@ export default function Index({ initialPosts, totalPages }) {
 											</div>
 											<div class="pbmit-shape-wraper">
 												<div class="pbmit-shape-wraper-inner">
-													<a class="pbmit-blog-btn" href={`/resources/case-studies/${post.slug}`} title="Hospital Labs Focused on Patients Begin Here.">
+													<a class="pbmit-blog-btn" href={`/resources/blog/${post.slug}`} title="Hospital Labs Focused on Patients Begin Here.">
 														<span class="pbmit-button-icon-wrapper">
 															<span class="pbmit-button-icon">
 																<i class="pbmit-base-icon-black-arrow-1"></i>

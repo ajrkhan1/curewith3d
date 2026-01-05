@@ -107,11 +107,11 @@ export default function Home() {
  
         <div class="page-content" id="page">
 
-            <section class="about-us-section-one fadeIn animated pb-10 pt-60">
+            <section class="about-us-section-one fadeIn animated pb-10 pt-60 ">
 					<div class="container">
 						<div class="row g-0">
 							<div class="col-md-12 col-xl-6">
-								<div class="about-us-one-left-box">
+								<div class="about-us-one-left-box personalized-precision">
 									<div class="ihbox-style-area">
 										 
 									</div>
@@ -137,7 +137,7 @@ export default function Home() {
 							<div class="row g-0 align-items-center">
 								<div class="col-md-12 col-xl-6">
 									<div class="video-box pt-20 pb-20 pl-30 pr-60">
-										<img src="images/main/service/3d-surgical-models/8449.jpg" class="img-fluid w-100 imgreduis20" alt="Brain Anatomy Model"/>
+										<img src="images/main/service/What-Are-Patient.jpg" class="img-fluid w-100 imgreduis20" alt="Brain Anatomy Model"/>
 									</div>
 								</div>
 								<div class="col-md-12 col-xl-6">
@@ -346,7 +346,7 @@ export default function Home() {
 							</div>
 						</div>
                         <div class="col-md-12 col-xl-5 fadeInLeft animated">
-								<div class="contact-one-bg mr-0"></div>
+								<div class="contact-one-bg mr-0 leatstogether"></div>
 							</div>
 					</div>
 				</div>

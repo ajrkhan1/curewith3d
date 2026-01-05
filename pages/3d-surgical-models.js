@@ -114,7 +114,7 @@ export default function Home() {
 					<div class="container">
 						<div class="row g-0">
 							<div class="col-md-12 col-xl-6">
-								<div class="about-us-one-left-box">
+								<div class="about-us-one-left-box from-scan-to">
 									<div class="ihbox-style-area">
 										 
 									</div>
@@ -239,7 +239,7 @@ export default function Home() {
 							<div class="row g-0 align-items-center">
 								<div class="col-md-12 col-xl-6">
 									<div class="video-box pt-20 pb-20 pl-30 pr-60">
-										<img src="images/main/service/3d-surgical-models/8449.jpg" class="img-fluid w-100 imgreduis20" alt="Brain Anatomy Model"/>
+										<img src="images/main/service/how-our-3D.jpg" class="img-fluid w-100 imgreduis20" alt="Brain Anatomy Model"/>
 									</div>
 								</div>
 								<div class="col-md-12 col-xl-6">

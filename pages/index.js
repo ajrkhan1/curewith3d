@@ -1100,7 +1100,7 @@ export default function Home() {
 					<div class="container-fluid">
 						<div class="row g-0">
 							<div class="col-md-12 col-xl-6 fadeInLeft animated">
-								<div class="contact-one-bg"></div>
+								<div class="contact-one-bg transform-your-surgical"></div>
 							</div>
 							<div class="col-md-12 col-xl-6 fadeInRight animated">
 								<div class="contact-one-form-area pbmit-bg-color-blackish">

@@ -2465,6 +2465,58 @@ margin-bottom: 15px !important;
 	position: relative;
 }
 
+.personalized-precision{
+	background-image: url(../images/main/service/personalized-precision.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-right: 20px;
+	border-radius: 20px;
+	height: 100%;
+	position: relative;
+}
+
+.from-scan-to{
+	background-image: url(../images/main/service/from-scan-to.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-right: 20px;
+	border-radius: 20px;
+	height: 100%;
+	position: relative;
+}
+
+.contact-one-bg{
+	background-image: url(../images/main/service/send-a-message-to-staff.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-radius: 30px;
+	margin-right: 40px;
+	height: 100%;
+}
+
+.leatstogether{
+	background-image: url(../images/main/service/lets-3d-design.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-radius: 30px;
+	margin-right: 40px;
+	height: 100%;
+}
+
+.transform-your-surgical{
+	background-image: url(../images/main/service/transform-your-surgical.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-radius: 30px;
+	margin-right: 40px;
+	height: 100%;
+}
+
 .pb-5{padding-bottom: 5px;}
 .pb-10{padding-bottom: 10px;}
 .pb-15{padding-bottom: 15px;}
