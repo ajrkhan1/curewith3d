@@ -2370,7 +2370,7 @@ margin-bottom: 15px !important;
 .formsc .form-control{ color: #fff; border: 1px solid #fff !important;}
 .formsc .form-control::placeholder{color: #fff;}
 .formsc .form-select{ color: #fff; border: 1px solid #fff !important;}
-.ajimgfull{width: 100%;}
+.ajimgfull{width: 100%; height: auto;}
 .bannercx{
     background-image: url(../images/main/curewith3d-anner.webp);
     background-repeat: no-repeat;
@@ -2787,3 +2787,12 @@ margin-bottom: 15px !important;
     stroke-dashoffset: 10;}
 
     .work-process .step-desc h4{font-size: 19px; margin-bottom: 0px;}
+
+    .bloghhh{font-size: 36px;}
+@media (max-width:767px){
+    .bloghhh{
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 24px;
+    }
+}

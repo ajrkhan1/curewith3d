@@ -100,9 +100,11 @@ const SingleBlog = ({ posts, posts5 }) => {
                             {moment(posts.date).format("MMMM DD Y")}
                           </time>
                         </span>
+                        
                       </div>
-
+                      
                       <div className="pbmit-entry-content">
+                        <h1 className="bloghhh">{posts.title.rendered}</h1>
                         <div
                           dangerouslySetInnerHTML={{
                             __html: posts.content.rendered,

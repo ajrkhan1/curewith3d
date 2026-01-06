@@ -105,6 +105,7 @@ console.log(posts)
 												</span>												
 											</div>
 											<div className="pbmit-entry-content">
+												<h1 className="bloghhh">{posts.title.rendered}</h1>
 												<div dangerouslySetInnerHTML={{ __html: posts.content.rendered }} />
 											</div>
 											{/* <div className="pbmit-blog-meta-bottom">
