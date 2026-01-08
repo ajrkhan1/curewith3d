@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
        <Head>
-        <link rel="canonical" href={canonicalUrl} />
+        <link rel="canonical" href={canonicalUrl} /> 
       </Head>
       <PagesTopLoader />
     <Component {...pageProps} />

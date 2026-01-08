@@ -108,11 +108,11 @@ export default function Header() {
 						<div class="pbmit-header-content d-flex justify-content-between align-items-center">
 							<div class="pbmit-logo-menuarea d-flex justify-content-between align-items-center">
 								<div class="site-branding">
-									<h1 class="site-title">
+									<div class="site-title">
 										<a href="/">
 											<img class="logo-img" src="/images/logo.svg" alt="Curewith3d"/>
 										</a>
-									</h1>
+									</div>
 								</div>
 								<div class="site-navigation">
 									<nav class="main-menu navbar-expand-xl navbar-light">
