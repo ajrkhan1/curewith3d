@@ -54,7 +54,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Patient Specific Implants - Curewith3D</title>
+				<title>Patient Specific Implant & Orthopaedic Plate Manufacturer - Curewith3d</title>
 				<meta name="description" content="Your clarity guides you as you work through the various layers of the 3D human anatomy. With our 3D surgical models, the boundaries of radiology and reality" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
@@ -224,7 +224,7 @@ export default function Home() {
 										<div class="row align-items-center servicepage">
 											<div class="col-md-12 col-xl-12 text-center">
 												<div class="pbmit-heading">
-														<h3 class="pbmit-title">Patient Specific Implants</h3>
+														<h3 class="pbmit-title">Patient Specific Orthopedic Implants</h3>
 														<br></br>
 													</div>
 											</div>

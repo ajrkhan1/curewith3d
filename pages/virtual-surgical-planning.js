@@ -58,7 +58,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Virtual Surgical Planning - Curewith3D</title>
+				<title>Advanced Virtual Surgical Planning for Oral and Maxillofacial Surgery</title>
 				<meta name="description" content="Your clarity guides you as you work through the various layers of the 3D human anatomy. With our 3D surgical models, the boundaries of radiology and reality" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
