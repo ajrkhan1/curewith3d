@@ -139,7 +139,7 @@ export default function Home() {
 									<div class="video-box pt-20 pb-20 pl-30 pr-60">
 										<img src="images/main/service/What-Are-Patient.jpg" class="img-fluid w-100 imgreduis20" alt="Brain Anatomy Model"/>
 									</div>
-								</div>
+								</div> 
 								<div class="col-md-12 col-xl-6">
 									<div class="about-three-content">
 										<div class="pbmit-heading-subheading animation-style2 mb-10">											
