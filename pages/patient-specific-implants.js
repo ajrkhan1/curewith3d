@@ -54,8 +54,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Patient Specific Implant & Orthopaedic Plate Manufacturer - Curewith3d</title>
-				<meta name="description" content="Your clarity guides you as you work through the various layers of the 3D human anatomy. With our 3D surgical models, the boundaries of radiology and reality" />
+				<title>Patient Specific Implant & Orthopaedic Plate Manufacturer - Curewith3D</title>
+				<meta name="description" content="Curewith3D is a trusted manufacturer of patient-specific implants and orthopaedic plates, delivering customized 3D solutions for precise reconstruction and trauma care." />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />

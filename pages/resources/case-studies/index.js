@@ -46,8 +46,8 @@ export default function index({posts}) {
 	return (
 		<>
 			<Head>
-				<title>Clinical 3D Cases - Curewith3D</title>
-				<meta name="description" content="At Curewith3D, we're a team passionate about the transformative potential of 3D design and printing technology. We combine cutting-edge technology with"/>
+				<title>Our Favorite Clinical 3D Cases - Curewith3D</title>
+				<meta name="description" content="Explore Curewith3D’s clinical 3D cases showcasing patient-specific implants, surgical guides, and advanced medical 3D solutions across orthopaedic and maxillofacial surgeries."/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />				
 			</Head>

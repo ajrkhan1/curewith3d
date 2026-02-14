@@ -22,8 +22,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>3D Designs - Curewith3D</title>
-				<meta name="description" content="Your clarity guides you as you work through the various layers of the 3D human anatomy. With our 3D surgical models, the boundaries of radiology and reality" />
+				<title>3D Design Gallery for Medical Models | Curewith3D</title>
+				<meta name="description" content="Browse Curewith3D’s 3D design gallery featuring patient-specific medical models, anatomical structures, and precision-engineered solutions for surgical planning." />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
