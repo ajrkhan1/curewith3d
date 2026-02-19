@@ -90,7 +90,7 @@ const SingleBlog = ({ posts, posts5 }) => {
                           <i className="pbmit-base-icon-user-3"></i>
                           by
                           <a className="pbmit-author-link" href="/">
-                            CureWith3d
+                            {posts.yoast_head_json.author}
                           </a>
                         </span>
 

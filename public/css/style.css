@@ -2794,7 +2794,11 @@ margin-bottom: 15px !important;
     .pbmit-blog-classic-inner .pbmit-entry-content h3{font-size: 20px;}
     .pbmit-blog-classic-inner .pbmit-entry-content h4{font-size: 18px;}
     .pbmit-blog-classic-inner .pbmit-entry-content h5{font-size: 18px;}
+   
     .pbmit-blog-classic-inner .pbmit-entry-content ul li{list-style: disc; margin-left: 25px;}
+
+     .pbmit-blog-classic-inner .pbmit-entry-content p a{color: #0060aa;}
+    
 @media (max-width:767px){
     .bloghhh{
         font-size: 28px;
