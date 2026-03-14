@@ -7,6 +7,21 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { TypeAnimation } from 'react-type-animation';
 
 
+import LightGallery from 'lightgallery/react';
+
+// import styles
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
+
+import 'lightgallery/scss/lightgallery.scss';
+import 'lightgallery/scss/lg-zoom.scss';
+
+// import plugins if you need
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
+
+
 export default function Home() {
 
 	useCountUp({
@@ -1104,41 +1119,29 @@ export default function Home() {
 									{/* <p>Because precision begins before the incision.</p> */}
 								</div>
 							</div>
-							<div className="col-sm-4">
-								<article class="pbmit-miconheading-style-7 swiper-slide">
-									<div class="pbmit-ihbox-style-7">
-										<div class="pbmit-ihbox-box">
-											<div class="pbmit-icon-wrapper">
-												<img src="/images/news/news33.webp" class="img-fluid" alt=""/>												
-											</div>
-									
-										</div>
-									</div>
-								</article>
-							</div>
-							<div className="col-sm-4">
-								<article class="pbmit-miconheading-style-7 swiper-slide">
-									<div class="pbmit-ihbox-style-7">
-										<div class="pbmit-ihbox-box">
-											<div class="pbmit-icon-wrapper">
-												<img src="/images/news/news44.webp" class="img-fluid" alt=""/>											
-											</div>											
-										</div>
+						
 
-									</div>
-								</article>
+							<div className="col-sm-1">
+							 
 							</div>
-							<div className="col-sm-4">
-								<article class="pbmit-miconheading-style-7 swiper-slide">
-									<div class="pbmit-ihbox-style-7">
-										<div class="pbmit-ihbox-box">
-											<div class="pbmit-icon-wrapper">
-											<img src="/images/news/news22.webp" class="img-fluid" alt=""/>												
-											</div>											
-										</div>
-									</div>
-								</article>
+							<div className="col-sm-10 cfgf">
+							
+									<LightGallery speed={500} plugins={[lgThumbnail, lgZoom]}>
+									
+									<a href="/images/news/news33.webp">
+										<img alt="img1" className="dds" src="/images/news/news33.webp" />
+									</a>
+
+									<a href="/images/news/news44.webp">
+										<img alt="img1" className="dds" src="/images/news/news44.webp" />
+									</a>
+									<a href="/images/news/news22.webp">
+										<img alt="img1" className="dds" src="/images/news/news22.webp" />
+									</a>
+                                </LightGallery>
+						
 							</div>
+						 
 					
 
 						</div>

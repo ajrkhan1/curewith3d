@@ -2806,3 +2806,7 @@ margin-bottom: 15px !important;
         margin-bottom: 24px;
     }
 }
+
+.width15{width: 12%; float: left;}
+.dds{background: #0060aa; padding: 45px; width: 100%;}
+.cfgf a{float: left; width: 29%; margin: 20px;}
