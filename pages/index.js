@@ -1095,6 +1095,56 @@ export default function Home() {
 					</div>
 				</section>
 
+				<section class="px-xl-4 px-2 weserve">
+					<div class="container-fluid">
+						<div class="row">
+							<div className="col-sm-12">
+								<div class="pbmit-heading-subheading text-center animation-style2 mb-20 pt-50">							
+									<h2 class="pbmit-title">Latest News</h2>
+									{/* <p>Because precision begins before the incision.</p> */}
+								</div>
+							</div>
+							<div className="col-sm-4">
+								<article class="pbmit-miconheading-style-7 swiper-slide">
+									<div class="pbmit-ihbox-style-7">
+										<div class="pbmit-ihbox-box">
+											<div class="pbmit-icon-wrapper">
+												<img src="/images/news/news33.webp" class="img-fluid" alt=""/>												
+											</div>
+									
+										</div>
+									</div>
+								</article>
+							</div>
+							<div className="col-sm-4">
+								<article class="pbmit-miconheading-style-7 swiper-slide">
+									<div class="pbmit-ihbox-style-7">
+										<div class="pbmit-ihbox-box">
+											<div class="pbmit-icon-wrapper">
+												<img src="/images/news/news44.webp" class="img-fluid" alt=""/>											
+											</div>											
+										</div>
+
+									</div>
+								</article>
+							</div>
+							<div className="col-sm-4">
+								<article class="pbmit-miconheading-style-7 swiper-slide">
+									<div class="pbmit-ihbox-style-7">
+										<div class="pbmit-ihbox-box">
+											<div class="pbmit-icon-wrapper">
+											<img src="/images/news/news22.webp" class="img-fluid" alt=""/>												
+											</div>											
+										</div>
+									</div>
+								</article>
+							</div>
+					
+
+						</div>
+					</div>
+				</section>
+
 
 				<section class="px-xl-4 px-2 mt-50">
 					<div class="container-fluid">
