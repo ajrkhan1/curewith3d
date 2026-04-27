@@ -158,7 +158,7 @@ export default function Home() {
 											<h2 class="pbmit-element-title">
 												Corporate Address
 											</h2>
-											<div class="pbmit-heading-desc">
+											<div class="pbmit-heading-des">
 												 Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001
 											</div>
 										</div>
