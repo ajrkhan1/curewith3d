@@ -156,10 +156,10 @@ export default function Home() {
 									<div class="pbmit-ihbox-wrap">
 										<div class="pbmit-ihbox-contents">
 											<h2 class="pbmit-element-title">
-												Our Location
+												Corporate Address
 											</h2>
 											<div class="pbmit-heading-desc">
-												Sector 3, Dwarka, 110075
+												 Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001
 											</div>
 										</div>
 										<div class="pbmit-ihbox-icon">
