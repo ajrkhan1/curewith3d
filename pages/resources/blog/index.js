@@ -19,6 +19,7 @@ export async function getServerSideProps() {
     }
   )
 
+  
   const posts = await res.json()
   const totalPages = Number(res.headers.get("X-WP-TotalPages"))
 

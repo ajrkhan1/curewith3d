@@ -159,7 +159,7 @@ export default function Home() {
 												Corporate Address
 											</h2>
 											<div class="pbmit-heading-des">
-												 Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001
+												 Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001 
 											</div>
 										</div>
 										<div class="pbmit-ihbox-icon">
