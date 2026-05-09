@@ -13,12 +13,31 @@ export async function getServerSideProps(context) {
 
     const [post5, res] = await Promise.all([
       fetch(
-        "https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories=8"
+        "https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?_embed&categories=8&per_page=10",
+        {
+          headers: {
+            Accept: "application/json",
+            "User-Agent": "Next.js Server",
+          },
+        }
       ),
+
       fetch(
-        `https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?slug=${posturl}&_embed`
+        `https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/wp/v2/posts?slug=${posturl}&_embed`,
+        {
+          headers: {
+            Accept: "application/json",
+            "User-Agent": "Next.js Server",
+          },
+        }
       ),
     ])
+
+    if (!res.ok) {
+      return {
+        notFound: true,
+      }
+    }
 
     const posts5 = await post5.json()
     const postsData = await res.json()
@@ -32,10 +51,12 @@ export async function getServerSideProps(context) {
     return {
       props: {
         posts: postsData[0],
-        posts5,
+        posts5: posts5 || [],
       },
     }
   } catch (error) {
+    console.log("SERVER ERROR:", error)
+
     return {
       notFound: true,
     }
@@ -49,11 +70,17 @@ const SingleBlog = ({ posts, posts5 }) => {
   return (
     <>
       <Head>
-        <title>{posts.title.rendered}</title>
+        <title>
+          {posts?.title?.rendered || "Case Study"} -
+          Curewith3D
+        </title>
 
         <meta
           name="description"
-          content={posts?.yoast_head_json?.og_description || ""}
+          content={
+            posts?.yoast_head_json?.og_description ||
+            "Curewith3D Case Studies"
+          }
         />
 
         <link rel="icon" href="/favicon.ico" />
@@ -76,11 +103,13 @@ const SingleBlog = ({ posts, posts5 }) => {
                               <Image
                                 className="ajimgfull"
                                 src={
-                                  posts?.yoast_head_json?.og_image?.[0]
-                                    ?.url || "/placeholder.jpg"
+                                  posts?.yoast_head_json
+                                    ?.og_image?.[0]?.url ||
+                                  "/placeholder.jpg"
                                 }
                                 alt={
-                                  posts?.title?.rendered || "Blog Image"
+                                  posts?.title?.rendered ||
+                                  "Case Study"
                                 }
                                 width={1200}
                                 height={700}
@@ -113,9 +142,9 @@ const SingleBlog = ({ posts, posts5 }) => {
 
                               <time
                                 className="entry-date published"
-                                dateTime={posts.date}
+                                dateTime={posts?.date}
                               >
-                                {moment(posts.date).format(
+                                {moment(posts?.date).format(
                                   "MMMM DD YYYY"
                                 )}
                               </time>
@@ -125,7 +154,7 @@ const SingleBlog = ({ posts, posts5 }) => {
                           {/* BLOG CONTENT */}
                           <div className="pbmit-entry-content">
                             <h1 className="bloghhh">
-                              {posts.title.rendered}
+                              {posts?.title?.rendered}
                             </h1>
 
                             <div
@@ -164,15 +193,16 @@ const SingleBlog = ({ posts, posts5 }) => {
                           >
                             <Image
                               src={
-                                getpost?.yoast_head_json?.og_image?.[0]
-                                  ?.url || "/placeholder.jpg"
+                                getpost?.yoast_head_json
+                                  ?.og_image?.[0]?.url ||
+                                "/placeholder.jpg"
                               }
                               width={150}
                               height={100}
                               className="img-fluid"
                               alt={
                                 getpost?.title?.rendered ||
-                                "Recent Post"
+                                "Recent Case Study"
                               }
                               loading="lazy"
                             />
@@ -184,18 +214,14 @@ const SingleBlog = ({ posts, posts5 }) => {
                               <Link
                                 href={`/resources/case-studies/${getpost.slug}`}
                               >
-                                {getpost.title.rendered}
+                                {getpost?.title?.rendered}
                               </Link>
                             </span>
 
                             <span className="pbmit-rpw-date">
-                              <Link
-                                href={`/resources/case-studies/${getpost.slug}`}
-                              >
-                                {moment(getpost.date).format(
-                                  "MMMM DD YYYY"
-                                )}
-                              </Link>
+                              {moment(
+                                getpost?.date
+                              ).format("MMMM DD YYYY")}
                             </span>
                           </div>
                         </li>
