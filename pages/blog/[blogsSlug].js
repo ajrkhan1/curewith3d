@@ -164,7 +164,7 @@ const SingleBlog = ({ posts, posts5 }) => {
                         >
                           {/* IMAGE */}
                           <Link
-                            href={`/resources/blog/${post.slug}`}
+                            href={`/blog/${post.slug}`}
                             className="recent-post-thum"
                           >
                             <Image
@@ -187,7 +187,7 @@ const SingleBlog = ({ posts, posts5 }) => {
                           <div className="pbmit-rpw-content">
                             <span className="pbmit-rpw-title">
                               <Link
-                                href={`/resources/blog/${post.slug}`}
+                                href={`/blog/${post.slug}`}
                               >
                                 {post?.title?.rendered}
                               </Link>

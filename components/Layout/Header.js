@@ -161,7 +161,7 @@ export default function Header() {
 													<li class="dropdown">
 														<a href="#">resources</a>
 														<ul>															
-															<li><a href="/resources/blog/">Blogs</a></li>
+															<li><a href="/blog/">Blogs</a></li>
 															<li><a href="/resources/case-studies/">Case Studies</a></li>
 														</ul>
 													</li>

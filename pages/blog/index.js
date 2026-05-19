@@ -171,7 +171,7 @@ export default function Index({
                         <div className="pbmit-featured-img-wrapper">
                           <div className="pbmit-featured-wrapper">
                             <Link
-                              href={`/resources/blog/${post.slug}`}
+                              href={`/blog/${post.slug}`}
                             >
                               <Image
                                 src={
@@ -225,7 +225,7 @@ export default function Index({
                         {/* TITLE */}
                         <h3 className="pbmit-post-title">
                           <Link
-                            href={`/resources/blog/${post.slug}`}
+                            href={`/blog/${post.slug}`}
                           >
                             {post.title.rendered}
                           </Link>
@@ -244,7 +244,7 @@ export default function Index({
                         <div className="pbmit-shape-wraper-inner">
                           <Link
                             className="pbmit-blog-btn"
-                            href={`/resources/blog/${post.slug}`}
+                            href={`/blog/${post.slug}`}
                             title={post.title.rendered}
                           >
                             <span className="pbmit-button-icon-wrapper">
