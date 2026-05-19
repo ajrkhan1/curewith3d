@@ -140,7 +140,7 @@ export default function Index({ posts }) {
                         <div className="pbmit-featured-img-wrapper">
                           <div className="pbmit-featured-wrapper">
                             <Link
-                              href={`/resources/case-studies/${getpost.slug}`}
+                              href={`/case-studies/${getpost.slug}`}
                             >
                               <Image
                                 src={
@@ -191,7 +191,7 @@ export default function Index({ posts }) {
                         {/* TITLE */}
                         <h3 className="pbmit-post-title">
                           <Link
-                            href={`/resources/case-studies/${getpost.slug}`}
+                            href={`/case-studies/${getpost.slug}`}
                           >
                             {getpost?.title?.rendered}
                           </Link>
@@ -210,7 +210,7 @@ export default function Index({ posts }) {
                         <div className="pbmit-shape-wraper-inner">
                           <Link
                             className="pbmit-blog-btn"
-                            href={`/resources/case-studies/${getpost.slug}`}
+                            href={`/case-studies/${getpost.slug}`}
                             title={
                               getpost?.title?.rendered ||
                               "Read More"

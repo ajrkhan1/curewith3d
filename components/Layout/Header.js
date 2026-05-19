@@ -162,7 +162,7 @@ export default function Header() {
 														<a href="#">resources</a>
 														<ul>															
 															<li><a href="/blog/">Blogs</a></li>
-															<li><a href="/resources/case-studies/">Case Studies</a></li>
+															<li><a href="/case-studies/">Case Studies</a></li>
 														</ul>
 													</li>
 													<li><a href="/contact-us">Contact Us</a></li>

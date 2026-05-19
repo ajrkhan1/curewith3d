@@ -68,7 +68,7 @@ export default function Footer() {
 								<ul>
 									<li><a href="/">Home</a></li>
 									<li><a href="/about-us">About Us</a></li>
-									<li><a href="/resources/case-studies">Case Studies</a></li>
+									<li><a href="/case-studies">Case Studies</a></li>
 									<li><a href="/blog">Blogs</a></li>
 									<li><a href="/contact-us">Contact Us</a></li>
 								</ul>
