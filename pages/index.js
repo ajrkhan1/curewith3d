@@ -221,16 +221,16 @@ export default function Home() {
 							<div className="col-sm-5">
 								<Slider {...settings}>
 									<div className="bannersl">
-								     	 <img src="/images/main/slider/1.png" class="img-fluid w-100" alt="Brain Anatomy Model"/> 
+								     	 <img src="/images/main/slider/maxillofacial-reconstruction-model.webp" class="img-fluid w-100" alt="3D anatomical skull model used for oral and maxillofacial reconstruction planning"/> 
 									</div>
 									<div className="bannersl">
-								     	 <img src="/images/main/slider/2.png" class="img-fluid w-100" alt="Brain Anatomy Model"/> 
+								     	 <img src="/images/main/slider/pelvic-orthopedic-implant.webp" class="img-fluid w-100" alt="Patient-specific pelvic implant developed for complex orthopedic reconstruction surgery"/> 
 									</div>
 									<div className="bannersl">
-								     	 <img src="/images/main/slider/3.png" class="img-fluid w-100" alt="Brain Anatomy Model"/> 
+								     	 <img src="/images/main/slider/cranial-reconstruction-implant.webp" class="img-fluid w-100" alt="3D printed cranial implant designed for skull reconstruction and neurosurgery applications"/> 
 									</div>
 									<div className="bannersl">
-								     	 <img src="/images/main/slider/4.png" class="img-fluid w-100" alt="Brain Anatomy Model"/> 
+								     	 <img src="/images/main/slider/orthopedic-bone-fixation-plate.webp" class="img-fluid w-100" alt="Customized orthopedic bone fixation plate manufactured using precision metal 3D printing"/> 
 									</div>
 								</Slider>
 							</div>
@@ -247,7 +247,7 @@ export default function Home() {
 							<div class="row g-0">
 								<div class="col-md-12 col-xl-6">
 									<div class="video-box">
-										<img class="pbmit-video" src="/images/main/welcome-to-curewith3d.png" autoplay="" loop muted="muted" playsinline=""/>
+										<img class="pbmit-video" src="/images/main/curewith3d-medical-3d-printing-solutions.webp" muted="muted" alt="Advanced medical 3D printing solutions and patient-specific implants by Curewith3D"/>
 									</div>
 								</div>
 								<div class="col-md-12 col-xl-6">
@@ -368,9 +368,7 @@ export default function Home() {
 												Custom 3D Printed Surgical Guides
 											</h2>
 										</div>
-									</article>
-									
-									
+									</article>									
 								</div>
 							</Marquee>
 						</div>
@@ -404,7 +402,7 @@ export default function Home() {
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<a href="/patient-specific-implants"><img src="/images/main/patient-specific-implants.jpg" class="img-fluid" alt="" /></a>
+																<a href="/patient-specific-implants"><img src="/images/main/patient-specific-implants.webp" class="img-fluid" alt="Surgeons examining patient-specific implants developed using advanced medical 3D printing" /></a>
 															</div>
 														</div>
 													</div>
@@ -441,7 +439,7 @@ export default function Home() {
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<a href="/custom-3d-printed-surgical-guides"><img src="/images/main/custom-surgical-guides.jpg" class="img-fluid" alt="" /></a>
+																<a href="/custom-3d-printed-surgical-guides"><img src="/images/main/custom-3d-surgical-guides.webp" class="img-fluid" alt="	Customized 3D printed surgical guides designed for accurate and efficient surgical procedures" /></a>
 															</div>
 														</div>
 													</div>
@@ -479,7 +477,7 @@ export default function Home() {
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<a href="/virtual-surgical-planning"><img src="/images/main/virtual-surgery planning.jpg" class="img-fluid" alt="" /></a>
+																<a href="/virtual-surgical-planning"><img src="/images/main/virtual-surgical-planning-modeling.webp" class="img-fluid" alt="Virtual surgical planning software used for precision healthcare and advanced surgical simulation" /></a>
 															</div>
 														</div>
 													</div>
@@ -516,7 +514,7 @@ export default function Home() {
 													<div class="pbmit-service-image-wrapper">
 														<div class="pbmit-featured-img-wrapper">
 															<div class="pbmit-featured-wrapper">
-																<a href="/3d-surgical-models"><img src="/images/main/anatomical-models.jpg" class="img-fluid" alt="" /></a>
+																<a href="/3d-surgical-models"><img src="/images/main/custom-3d-anatomical-models.webp" class="img-fluid" alt="	Customized 3D printed surgical guides designed for accurate and efficient surgical procedures"/></a>
 															</div>
 														</div>
 													</div>
@@ -638,7 +636,7 @@ export default function Home() {
 											<div class="pbmit-column-innerx">
 												<div class="row g-0 align-items-center">												
 													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="/images/main/orthopedic.jpg" class="img-fluid" alt="" />
+														<img src="/images/main/orthopedic.webp" class="img-fluid" alt="Orthopedics" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">	
 														<div className="innerx">
@@ -689,7 +687,7 @@ export default function Home() {
 											<div class="pbmit-column-innerx">
 												<div class="row g-0 align-items-center">
 													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="/images/main/oral-maxillofacial-surgery.jpg" class="img-fluid" alt="" />
+														<img src="/images/main/oral-maxillofacial-surgery.webp" class="img-fluid" alt="oral maxillofacial surgery" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
 														<div className="innerx">
@@ -719,31 +717,7 @@ export default function Home() {
 																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
 															</span>
 																Ankylosis release cutting guides 
-															</li>
-															{/* <li class="list-group-item">
-																<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-																Custom surgical guides for Bilateral Sagittal Split Osteotomy (BSSO) 
-															</li>
-															<li class="list-group-item">
-																<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-																Custom subperiosteal mplants 
-															</li>
-															<li class="list-group-item">
-																<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-																Bespoke Anatomical models 
-															</li>
-															<li class="list-group-item">
-																<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-																Virtual surgery planning (VSP) 
-															</li> */}
+															</li>															
 														</ul>
 														</div>
 													</div>
@@ -755,12 +729,11 @@ export default function Home() {
 											<div class="pbmit-column-innerx">
 												<div class="row g-0 align-items-center">
 													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="/images/main/neurosurgery.jpg" class="img-fluid" alt="" />
+														<img src="/images/main/neurosurgery.webp" class="img-fluid" alt="neurosurgery" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
 														<div className="innerx">
-														<h2>Neurosurgery  </h2>
-														{/* <div>Advanced 3D-printed, custom-fit spinal and cranial solutions engineered to achieve precise anatomical reconstruction and biomechanical stability. Developed to restore cranial and spinal defects while minimizing intraoperative complication risk. </div> */}
+														<h2>Neurosurgery  </h2>														
 														<div>Advanced 3D-printed, custom-fit spinal and cranial solutions engineered to achieve precise anatomical reconstruction and biomechanical stability.</div>
 														<ul class="list-group ajrt">
 														
@@ -806,7 +779,7 @@ export default function Home() {
 											<div class="pbmit-column-innerx">
 												<div class="row g-0 align-items-center">
 													<div class="col-md-12 col-xl-5 pbmit-tab-img">
-														<img src="/images/main/oncology-and-reconstructive-surgery.jpg" class="img-fluid" alt="" />
+														<img src="/images/main/oncology-and-reconstructive-surgery.webp" class="img-fluid" alt="oncology and reconstructive surgery" />
 													</div>
 													<div class="col-md-12 col-xl-7 pbmit-tab-list">
 														<div className="innerx">
@@ -1039,7 +1012,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/proven-accuracy.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/proven-accuracy.webp" class="img-fluid" alt="proven accuracy"/>
 												<h2 class="pbmit-element-title">
 													Proven Accuracy 
 												</h2>
@@ -1056,7 +1029,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/faster-turnaround.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/faster-turnaround.webp" class="img-fluid" alt="faster turnaround"/>
 												<h2 class="pbmit-element-title">
 													Faster Turnaround 
 												</h2>
@@ -1074,7 +1047,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-											<img src="/images/main/regulatory-compliance.jpg" class="img-fluid" alt=""/>
+											<img src="/images/main/regulatory-compliance.webp" class="img-fluid" alt="regulatory compliance"/>
 												<h2 class="pbmit-element-title">
 													Regulatory Compliance 
 												</h2>
@@ -1092,7 +1065,7 @@ export default function Home() {
 									<div class="pbmit-ihbox-style-7">
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
-												<img src="/images/main/24x7-support.jpg" class="img-fluid" alt=""/>
+												<img src="/images/main/24x7-support.webp" class="img-fluid" alt="24x7-support"/>
 												<h2 class="pbmit-element-title">
 													Dedicated Support
 												</h2>
