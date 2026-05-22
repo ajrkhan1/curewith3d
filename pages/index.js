@@ -1066,9 +1066,7 @@ export default function Home() {
 										<div class="pbmit-ihbox-box">
 											<div class="pbmit-icon-wrapper">
 												<img src="/images/main/24x7-support.webp" class="img-fluid" alt="24x7-support"/>
-												<h2 class="pbmit-element-title">
-													Dedicated Support
-												</h2>
+												<h2 class="pbmit-element-title">Dedicated Support</h2>
 											</div>
 											<div class="pbmit-content-wrapper">
 												<div class="pbmit-heading-desc">24/7 support team available throughout the design, production, and implementation process.</div>
