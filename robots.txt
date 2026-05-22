@@ -1,0 +1,5 @@
+User-agent 
+Allow 
+Disallow css
+Disallow _next
+Sitemap httpswww.curewith3d.comsitemap.xml
