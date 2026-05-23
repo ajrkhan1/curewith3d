@@ -1,5 +1,6 @@
-User-agent 
-Allow 
-Disallow css
-Disallow _next
-Sitemap httpswww.curewith3d.comsitemap.xml
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /_next/
+
+Sitemap: https://www.curewith3d.com/sitemap.xml
