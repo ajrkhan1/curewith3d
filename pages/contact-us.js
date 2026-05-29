@@ -156,10 +156,10 @@ export default function Home() {
 									<div class="pbmit-ihbox-wrap">
 										<div class="pbmit-ihbox-contents">
 											<h2 class="pbmit-element-title">
-												Corporate Address
+												Registered Office
 											</h2>
 											<div class="pbmit-heading-des">
-												 Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001 
+												 M-14, Khasra No 99/24, M Block Raja Puri, Uttam Nagar, New Delhi – 110059
 											</div>
 										</div>
 										<div class="pbmit-ihbox-icon">
@@ -170,7 +170,7 @@ export default function Home() {
 									</div>
 									<div class="pbmit-btn-wrap">
 										<div class="pbmit-ihbox-btn">
-											<a target="_blank" href="https://www.google.com/maps/place/Curewith3D/data=!4m2!3m1!1s0x0:0x244061915c35ecd0?sa=X&ved=1t:2428&ictx=111">
+											<a target="_blank" href="#">
 												<span class="pbmit-button-text">Read More</span>
 												<span class="pbmit-button-icon-wrapper">
 													<span class="pbmit-button-icon">
@@ -183,6 +183,41 @@ export default function Home() {
 								</div>
 							</div>
 						</article>
+
+						<article class="pbmit-miconheading-style-5 col-md-6 col-lg-3">
+							<div class="pbmit-ihbox-style-5">
+								<div class="pbmit-ihbox-headingicon">
+									<div class="pbmit-ihbox-wrap">
+										<div class="pbmit-ihbox-contents">
+											<h2 class="pbmit-element-title">
+												Corporate Office
+											</h2>
+											<div class="pbmit-heading-des">
+												 Plot No. 231, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122001
+											</div>
+										</div>
+										<div class="pbmit-ihbox-icon">
+											<div class="pbmit-ihbox-icon-wrapper pbmit-icon-type-icon">
+												<i class="fa fa-street-view" aria-hidden="true"></i>
+											</div>
+										</div>
+									</div>
+									<div class="pbmit-btn-wrap">
+										<div class="pbmit-ihbox-btn">
+											<a target="_blank" href="#">
+												<span class="pbmit-button-text">Read More</span>
+												<span class="pbmit-button-icon-wrapper">
+													<span class="pbmit-button-icon">
+														<i class="pbmit-base-icon-black-arrow-1"></i>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+
 						<article class="pbmit-miconheading-style-5 col-md-6 col-lg-3">
 							<div class="pbmit-ihbox-style-5">
 								<div class="pbmit-ihbox-headingicon">
@@ -216,7 +251,7 @@ export default function Home() {
 								</div>
 							</div>
 						</article>
-						<article class="pbmit-miconheading-style-5 col-md-6 col-lg-3">
+						{/* <article class="pbmit-miconheading-style-5 col-md-6 col-lg-3">
 							<div class="pbmit-ihbox-style-5">
 								<div class="pbmit-ihbox-headingicon">
 									<div class="pbmit-ihbox-wrap">
@@ -248,7 +283,7 @@ export default function Home() {
 									</div>
 								</div>
 							</div>
-						</article>
+						</article> */}
 					</div>
 				</div>
             </section>
