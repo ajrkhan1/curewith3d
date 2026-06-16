@@ -193,7 +193,7 @@ INDEX:
 	 border-radius: 50px;
 	 cursor: pointer;
 	 color: #666;
-	 background-color: var(--pbmit-blackish-color);
+
 	 background-image: url(../images/bg/down-arrow.png);
 	  background-size: 11px 13px;
 }

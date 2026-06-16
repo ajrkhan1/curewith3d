@@ -11,6 +11,46 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function Home() {
 
+		const registerUser = async event => {
+      event.preventDefault()
+
+      document.getElementById("submitbuttonform").value = "Submitting form...."
+
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function () {
+         // console.log(this.responseText.status);
+      }
+      xhttp.open("Post", 'https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/contact-form-7/v1/contact-forms/437/feedback');
+      xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+      xhttp.onreadystatechange = function () {
+         if (xhttp.readyState == 4) {
+            var res = JSON.parse(xhttp.responseText);
+            console.log(res)
+            if (res.status == "mail_sent") {
+               document.getElementById("contactForm").reset();
+
+               document.getElementById("showlabel").innerHTML = "Your submission has been received and we will contact you soon";
+
+               document.getElementById("showlabel").style.display = "block";
+               window.setTimeout(function () {
+                   window.location.href = "/thankyou"
+               }, 10);
+
+            } else {
+               document.getElementById("showlabel").innerHTML = "There was a problem with the request.";
+               document.getElementById("showlabel").style.display = "block";
+
+            }
+         }
+      };
+      xhttp.send("your-name=" + event.target.name.value +
+            "&your-email=" + event.target.email.value +
+            "&phoneno=" + event.target.phone.value +
+            "&service=" + event.target.service.value +
+            "&your-message=" + event.target.message.value)
+
+   }
+
 	useCountUp({
 		ref: 'counter',
 		end: 1234567,
@@ -338,27 +378,33 @@ export default function Home() {
 									<h2 class="pbmit-title">Send a message to staff</h2>
 								</div>
 								<p class="pb-4">Your email address will not be published. Required fields are marked *</p>
-								<form class="contact-form" method="post" id="contact-form" action="https://xleb-demo.pbminfotech.com/html-demo/send-dummy.php">
-									<div class="row">
-										<div class="col-md-6">
-											<input type="text" class="form-control" placeholder="Your Name" name="name" required/>
+								<form class="contact-form" id="contactForm" onSubmit={registerUser}>
+									<div className="row">
+										<div className="col-md-6">
+										<input type="text" className="form-control" placeholder="Your Name" name="name" />
 										</div>
-										<div class="col-md-6">
-											<input type="email" class="form-control" placeholder="Your Email" name="email" required/>
+										<div className="col-md-6">
+										<input type="email" name="email" className="form-control" placeholder="Email Address" />
+										{/* ✅ "emial" → "email" fix kiya */}
 										</div>
-										<div class="col-md-6">
-											<input type="tel" class="form-control" placeholder="Your Phone" name="phone" required/>
+										<div className="col-md-6">
+										<input type="text" className="form-control" name="phone" maxLength="13" minLength="10" pattern="[0-9]*" placeholder="Phone No.*" />
 										</div>
-										<div class="col-md-6">
-											<input type="text" class="form-control" placeholder="Subject" name="subject" required/>
+										<div className="col-md-6">
+										<select className="form-select" name="service" required>
+											<option value="">Choose a Service</option>
+											<option value="Patient Specific Implants">Patient Specific Implants</option>											
+											<option value="Custom 3D Printed Surgical Guides">Custom 3D Printed Surgical Guides</option>
+											<option value="Virtual Surgical Planning" selected>Virtual Surgical Planning</option>
+											<option value="3D Surgical Models">3D Surgical Models</option>
+										</select>
 										</div>
-										<div class="col-md-12">
-											<textarea name="message" cols="40" rows="10" class="form-control" placeholder="Message" required></textarea>
+										<div className="col-md-12">
+										<textarea name="message" cols="40" rows="10" className="form-control" placeholder="Message" required></textarea>
 										</div>
-									
 									</div>
 									<div class="pbmit-button-wrapper">
-										<button class="pbmit-btn pbmit-btn-white">
+										<button type="submit" className="pbmit-btn pbmit-btn-white" id="submitbuttonform">
 											<span class="pbmit-button-content-wrapper">
 												<span class="pbmit-button-icon">
 													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
@@ -371,6 +417,7 @@ export default function Home() {
 												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100"><circle fill="#0036FF" stroke="#0036FF" stroke-width="15" r="15" cx="40" cy="50"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></circle><circle fill="#0036FF" stroke="#0036FF" stroke-width="15" r="15" cx="100" cy="50"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></circle><circle fill="#0036FF" stroke="#0036FF" stroke-width="15" r="15" cx="160" cy="50"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></circle></svg>
 											</span>
 										</button>
+										<p id="showlabel" style={{ display: "none" }}></p>
 									</div>
 									<div class="col-md-12 col-lg-12 message-status"></div>
 								</form>

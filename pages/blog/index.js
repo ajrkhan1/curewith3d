@@ -157,6 +157,7 @@ export default function Index({
 
         {/* POSTS */}
         <section className="section-lgx pbmit-element-viewtype-masonry">
+          
           <div className="container">
             <div className="row pbmit-element-posts-wrapper">
               {posts?.map((post) => (
