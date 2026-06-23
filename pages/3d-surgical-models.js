@@ -104,6 +104,67 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+				<script
+						dangerouslySetInnerHTML={
+							{__html:`
+							{
+								"@context": "https://schema.org",
+								"@graph": [
+
+									{
+									"@type": "Service",
+									"@id": "https://www.curewith3d.com/3d-surgical-models#service",
+									"name": "3D Surgical Models",
+									"url": "https://www.curewith3d.com/3d-surgical-models",
+									"serviceType": "Patient-Specific 3D Surgical Models",
+									"description": "CT/MRI based anatomical bone models, dental models, tumor models, to facilitate pre-surgery planning for complex orthopedic, facial trauma, OMF & cranial cases",
+									"provider": {
+										"@id": "https://www.curewith3d.com/#organization"
+									},
+									"areaServed": {
+										"@type": "Country",
+										"name": "India"
+									},
+									"availableChannel": {
+										"@type": "ServiceChannel",
+										"serviceUrl": "https://www.curewith3d.com/3d-surgical-models"
+									}
+									},
+
+									{
+									"@type": "MedicalProcedure",
+									"@id": "https://www.curewith3d.com/3d-surgical-models#procedure",
+									"name": "Patient-Specific 3D Surgical Model Creation",
+									"description": "CT/MRI based anatomical bone models, dental models, tumor models, to facilitate pre-surgery planning for complex orthopedic, facial trauma, OMF & cranial cases",
+									"howPerformed": "Patient CT or MRI scans are segmented using specialized medical imaging software to reconstruct a precise three-dimensional anatomical model. The digital model is reviewed for clinical accuracy and manufactured using medical-grade 3D printing technology to produce a highly detailed physical replica for preoperative planning and surgical simulation.",
+									"bodyLocation": "Brain, Skull, Spine, Heart, Lung, Pelvis, Mandible, Maxilla, Knee, Hand, Foot and other patient-specific anatomical structures"
+									},
+
+									{
+									"@type": "BreadcrumbList",
+									"@id": "https://www.curewith3d.com/3d-surgical-models#breadcrumb",
+									"itemListElement": [
+										{
+										"@type": "ListItem",
+										"position": 1,
+										"name": "Home",
+										"item": "https://www.curewith3d.com/"
+										},
+										{
+										"@type": "ListItem",
+										"position": 2,
+										"name": "3D Surgical Models",
+										"item": "https://www.curewith3d.com/3d-surgical-models"
+										}
+									]
+									}
+
+								]
+								}
+
+							`}
+						}
+                />
 			</Head>
 
 		<div class="surgical-models-banne">

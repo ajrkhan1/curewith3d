@@ -104,6 +104,67 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+				<script
+						dangerouslySetInnerHTML={
+							{__html:`
+							{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Service",
+      "@id": "https://www.curewith3d.com/virtual-surgical-planning#service",
+      "name": "Virtual Surgical Planning",
+      "url": "https://www.curewith3d.com/virtual-surgical-planning",
+      "serviceType": "Virtual Surgical Planning (VSP)",
+      "description": "Curewith3D offers advanced virtual surgical planning (VSP) for oral and maxillofacial surgery, enabling precise preoperative analysis and patient-specific treatment solutions.",
+      "provider": {
+        "@id": "https://www.curewith3d.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://www.curewith3d.com/virtual-surgical-planning"
+      }
+    },
+
+    {
+      "@type": "MedicalProcedure",
+      "@id": "https://www.curewith3d.com/virtual-surgical-planning#procedure",
+      "name": "Virtual Surgical Planning for Patient-Specific Surgery",
+      "description": "Curewith3D offers advanced virtual surgical planning (VSP) for oral and maxillofacial surgery, enabling precise preoperative analysis and patient-specific treatment solutions.",
+      "howPerformed": "Patient CT or MRI imaging data is converted into a 3D anatomical model. Surgeons and biomedical engineers collaboratively perform virtual osteotomies, reconstruction planning, implant positioning, and surgical simulations. The finalized surgical plan is then used to manufacture patient-specific implants and surgical guides for precise execution during surgery.",
+      "bodyLocation": "Cranium, Maxilla, Mandible, Orbit, Spine, Pelvis, Orthopedic, Dental and other patient-specific anatomical structures"
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.curewith3d.com/virtual-surgical-planning#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.curewith3d.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Virtual Surgical Planning",
+          "item": "https://www.curewith3d.com/virtual-surgical-planning"
+        }
+      ]
+    }
+
+  ]
+}
+
+							`}
+						}
+                />
 			</Head>
 
 		<div class="vsp-models-banne">

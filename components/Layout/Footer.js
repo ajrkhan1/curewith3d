@@ -1,6 +1,43 @@
 import React from 'react'
 
 export default function Footer() { 
+
+		const registerUserx = async event => {
+      event.preventDefault()
+
+      document.getElementById("submitbuttonform").value = "Submitting form...."
+
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function () {
+         // console.log(this.responseText.status);
+      }
+      xhttp.open("Post", 'https://wordpress-1457894-6050110.cloudwaysapps.com/wp-json/contact-form-7/v1/contact-forms/439/feedback');
+      xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
+      xhttp.onreadystatechange = function () {
+         if (xhttp.readyState == 4) {
+            var res = JSON.parse(xhttp.responseText);
+            console.log(res)
+            if (res.status == "mail_sent") {
+               document.getElementById("contactForm").reset();
+
+               document.getElementById("showlabel").innerHTML = "Your submission has been received and we will contact you soon";
+
+               document.getElementById("showlabel").style.display = "block";
+               window.setTimeout(function () {
+                   window.location.href = "/thankyou"
+               }, 10);
+
+            } else {
+               document.getElementById("showlabel").innerHTML = "There was a problem with the request.";
+               document.getElementById("showlabel").style.display = "block";
+
+            }
+         }
+      };
+      xhttp.send("your-email=" + event.target.email.value)
+
+   }
+
   return (
     <>
 <footer class="site-footer pbmit-bg-color-blackish">
@@ -13,12 +50,12 @@ export default function Footer() {
 							</div>	
 						</div>
 						<div class="col-md-12 col-xl-8">
-							<form>
+							<form id="contactForm" onSubmit={registerUserx}>
 								<div class="pbmit-footer-newsletter">
 									<h3 class="pbmit-footer-news-title">Subscribe to Our <br/>Newsletter</h3>
 									<div class="pbmit-news-wrap">
-										<input type="email" class="form-control" name="EMAIL" placeholder="Enter Your Email Address"/>
-										<button class="pbmit-btn">
+										<input type="email" class="form-control" name="email" placeholder="Enter Your Email Address"/>
+										<button class="pbmit-btn" typeof='submit'>
 											<span class="pbmit-button-content-wrapper">
 												<span class="pbmit-button-icon">
 													<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">

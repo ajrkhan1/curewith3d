@@ -100,6 +100,67 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+				<script
+						dangerouslySetInnerHTML={
+							{__html:`
+							{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Service",
+      "@id": "https://www.curewith3d.com/patient-specific-implants#service",
+      "name": "Patient Specific Implants",
+      "url": "https://www.curewith3d.com/patient-specific-implants",
+      "serviceType": "Patient-Specific 3D Printed Implants",
+      "description": "Curewith3D is a trusted manufacturer of patient-specific implants and orthopaedic plates, delivering customized 3D solutions for precise reconstruction and trauma care.",
+      "provider": {
+        "@id": "https://www.curewith3d.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://www.curewith3d.com/patient-specific-implants"
+      }
+    },
+
+    {
+      "@type": "MedicalProcedure",
+      "@id": "https://www.curewith3d.com/patient-specific-implants#procedure",
+      "name": "Patient-Specific Implant Planning and Reconstruction",
+      "description": "Curewith3D is a trusted manufacturer of patient-specific implants and orthopaedic plates, delivering customized 3D solutions for precise reconstruction and trauma care.",
+      "howPerformed": "Patient CT or MRI scans are converted into a precise 3D anatomical model. Biomedical engineers collaborate with surgeons to virtually design the implant. After clinical approval, the implant is manufactured using medical-grade 3D printing technology and prepared for surgical implantation.",
+      "bodyLocation": "Cranium, Mandible, Maxilla, Pelvis, Spine, Tibia, Talus and other patient-specific anatomical structures"
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.curewith3d.com/patient-specific-implants#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.curewith3d.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Patient Specific Implants",
+          "item": "https://www.curewith3d.com/patient-specific-implants"
+        }
+      ]
+    }
+
+  ]
+}
+
+							`}
+						}
+                />
 			</Head>
 
 		<div class="patient-specific-implants">

@@ -227,6 +227,74 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
                 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+				<script
+          dangerouslySetInnerHTML={
+            {__html:`
+              {
+                    "@context": "https://schema.org",
+                    "@graph": [
+                      {
+                        "@type": "MedicalBusiness",
+                        "@id": "https://www.curewith3d.com/#organization",
+                        "name": "CureWith3D",
+                        "url": "https://www.curewith3d.com/",
+                        "logo": {
+                          "@type": "ImageObject",
+                          "url": "https://www.curewith3d.com/images/logo.svg"
+                        },
+                        "image": "https://www.curewith3d.com/images/logo.svg",
+                        "description": "Curewith3D is India's leading brand providing patient-specific surgical solutions, such as custom dental & orthopedic implant, surgical guides, models & VSP",
+                        "telephone": "+91-9205559804",
+                        "email": "curewith3d@anvka.com",
+                        "address": {
+                          "@type": "PostalAddress",
+                          "streetAddress": "Plot No. 231, Phase IV, Udyog Vihar, Sector 18",
+                          "addressLocality": "Gurugram",
+                          "addressRegion": "Haryana",
+                          "postalCode": "122001",
+                          "addressCountry": "IN"
+                        },
+                        "contactPoint": {
+                          "@type": "ContactPoint",
+                          "telephone": "+91-9205559804",
+                          "contactType": "customer support",
+                          "areaServed": "IN",
+                          "availableLanguage": [
+                            "English",
+                            "Hindi"
+                          ]
+                        },
+                        "sameAs": [
+                          "https://www.linkedin.com/company/curewith3d",
+                          "https://www.facebook.com/Curewith3D/",
+                          "https://www.instagram.com/curewith3d/"
+                        ]
+                      },
+                      {
+                        "@type": "WebSite",
+                        "@id": "https://www.curewith3d.com/#website",
+                        "url": "https://www.curewith3d.com/",
+                        "name": "CureWith3D"
+                      },
+                      {
+                        "@type": "BreadcrumbList",
+                        "@id": "https://www.curewith3d.com/#breadcrumb",
+                        "@itemListElement": [
+                          {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://www.curewith3d.com/"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+
+              `}
+          }
+          />
 			</Head>
 			<div class="page-content">
 

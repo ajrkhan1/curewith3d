@@ -100,6 +100,67 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 				<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+				<script
+						dangerouslySetInnerHTML={
+							{__html:`
+							{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Service",
+      "@id": "https://www.curewith3d.com/custom-3d-printed-surgical-guides#service",
+      "name": "Custom 3D Printed Surgical Guides",
+      "url": "https://www.curewith3d.com/custom-3d-printed-surgical-guides",
+      "serviceType": "Patient-Specific 3D Printed Surgical Guides",
+      "description": "Curewith3D designs custom 3D printed surgical guides to enhance surgical accuracy, reduce operating time, and improve outcomes in orthopaedic and maxillofacial procedures.",
+      "provider": {
+        "@id": "https://www.curewith3d.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://www.curewith3d.com/custom-3d-printed-surgical-guides"
+      }
+    },
+
+    {
+      "@type": "MedicalProcedure",
+      "@id": "https://www.curewith3d.com/custom-3d-printed-surgical-guides#procedure",
+      "name": "Patient-Specific Surgical Guide Planning and Manufacturing",
+      "description": "Curewith3D designs custom 3D printed surgical guides to enhance surgical accuracy, reduce operating time, and improve outcomes in orthopaedic and maxillofacial procedures.",
+      "howPerformed": "Patient imaging data is converted into a detailed 3D anatomical model. Biomedical engineers collaborate with surgeons to virtually design customized cutting, drilling, alignment, or positioning guides. The guides are manufactured using medical-grade biocompatible materials, validated for anatomical accuracy, sterilized, and prepared for surgical use.",
+      "bodyLocation": "Orthopedic, Cranio-Maxillofacial, Dental, Spine, Pelvis, Tibia, Femur, Mandible, Maxilla and other patient-specific anatomical structures"
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.curewith3d.com/custom-3d-printed-surgical-guides#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.curewith3d.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Custom 3D Printed Surgical Guides",
+          "item": "https://www.curewith3d.com/custom-3d-printed-surgical-guides"
+        }
+      ]
+    }
+
+  ]
+}
+
+							`}
+						}
+                />
 			</Head>
 
 		<div class="custom-3D-printed-surgical-guides-banner">
