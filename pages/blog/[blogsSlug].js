@@ -48,6 +48,44 @@ export async function getServerSideProps(context) {
    COMPONENT
 ========================= */
 const SingleBlog = ({ posts, posts5 }) => {
+
+  const schema = {
+          "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "BlogPosting",
+                headline: posts.title.rendered,
+                "description": posts.yoast_head_json.description,
+                "image": posts?.yoast_head_json?.og_image?.[0]?.url,
+                "author": { "@type": "Person", "name": "Nishu Negi" },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "CareTab.ai",
+                  "logo": { "@type": "ImageObject", "url": "https://caretab.ai/assets/img/logo/logo.png" }
+                },
+                "datePublished": posts.date,
+                "dateModified": posts.modified,                
+                 mainEntityOfPageq: {"@type": "WebPage", "@id": `https://caretab.ai/blogs/${posts.slug}`,},
+ 
+              },
+              {
+                "@type": "MedicalWebPage",
+                "name": posts.title.rendered,
+                "url": `https://caretab.ai/blogs/${posts.slug}`,
+                "about": { "@type": "MedicalTherapy", "name": posts.title.rendered, },
+                "lastReviewed": "2026-06-18"
+              },
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://caretab.ai/" },
+                  { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://caretab.ai/blogs" },
+                  { "@type": "ListItem", "position": 3, "name": posts.title.rendered, "item": `https://caretab.ai/blogs/${posts.slug}`, }
+                ]
+              }
+            ]
+        };
+
   return (
     <>
       <Head>
@@ -64,6 +102,11 @@ const SingleBlog = ({ posts, posts5 }) => {
         />
 
         <link rel="icon" href="/favicon.ico" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
       </Head>
 
       <div className="page-content">
