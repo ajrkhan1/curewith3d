@@ -221,8 +221,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Curewith3D: Top Dental & Orthopedic Implant Manufacturer</title>
-				<meta name="description" content="Curewith3D is India's leading brand providing patient-specific surgical solutions, such as custom dental & orthopedic implant, surgical guides, models & VSP" />
+				<title>Patient-Specific Implants & Virtual Surgical Planning | Curewith3D</title>
+				<meta name="description" content="Curewith3D delivers patient-specific implants, customised orthopedic implants, virtual surgical planning, and 3D surgical solutions for orthopedic, CMF, neuro, and reconstructive procedures, helping surgeons achieve greater precision and improved patient outcomes."/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
