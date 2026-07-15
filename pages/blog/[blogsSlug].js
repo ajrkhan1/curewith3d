@@ -60,27 +60,27 @@ const SingleBlog = ({ posts, posts5 }) => {
                 "author": { "@type": "Person", "name": "Nishu Negi" },
                 "publisher": {
                   "@type": "Organization",
-                  "name": "CareTab.ai",
-                  "logo": { "@type": "ImageObject", "url": "https://caretab.ai/assets/img/logo/logo.png" }
+                  "name": "Curewith3D",
+                  "logo": { "@type": "ImageObject", "url": "https://www.curewith3d.com/images/logo.svg" }
                 },
                 "datePublished": posts.date,
                 "dateModified": posts.modified,                
-                 mainEntityOfPageq: {"@type": "WebPage", "@id": `https://caretab.ai/blogs/${posts.slug}`,},
+                 mainEntityOfPageq: {"@type": "WebPage", "@id": `https://www.curewith3d.com/blog/${posts.slug}`,},
  
               },
               {
                 "@type": "MedicalWebPage",
                 "name": posts.title.rendered,
-                "url": `https://caretab.ai/blogs/${posts.slug}`,
+                "url": `https://www.curewith3d.com/blog/${posts.slug}`,
                 "about": { "@type": "MedicalTherapy", "name": posts.title.rendered, },
                 "lastReviewed": "2026-06-18"
               },
               {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://caretab.ai/" },
-                  { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://caretab.ai/blogs" },
-                  { "@type": "ListItem", "position": 3, "name": posts.title.rendered, "item": `https://caretab.ai/blogs/${posts.slug}`, }
+                  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.curewith3d.com/" },
+                  { "@type": "ListItem", "position": 2, "name": "Blogs", "item": "https://www.curewith3d.com/blog" },
+                  { "@type": "ListItem", "position": 3, "name": posts.title.rendered, "item": `https://www.curewith3d.com/blog/${posts.slug}`, }
                 ]
               }
             ]
