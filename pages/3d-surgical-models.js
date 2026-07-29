@@ -234,7 +234,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-				</section>
+			</section>
 
             <section class="site-content service-details pb-10 pt-10">
 				<div class="container">

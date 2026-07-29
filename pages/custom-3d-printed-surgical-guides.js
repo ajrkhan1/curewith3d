@@ -247,7 +247,7 @@ export default function Home() {
 							</div>
 						</div>
 					</div>
-				</section>
+			</section>
 
 				<section class="px-xl-4 weserve pt-40">
 					<div class="container">
@@ -644,7 +644,7 @@ export default function Home() {
 							</div>
 					</div>
 				</div>
-			</section>
+			    </section>
           
 
         </div>

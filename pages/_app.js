@@ -1,6 +1,7 @@
 import Layout from '../components/Layout/Layout'
 import { PagesTopLoader } from 'nextjs-toploader/pages';
 import '../styles/globals.css'
+import '../styles/curewith3d-home.css';
 import { useRouter } from "next/router";
 import Head from "next/head";
 

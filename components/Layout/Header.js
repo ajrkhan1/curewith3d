@@ -7,7 +7,6 @@ export default function Header() {
 
   function toggleMenu() {
     setMenuOpen(!menuOpen);
-    setOpenSubmenu(null);
   }
 
   function closeMenu() {
@@ -40,9 +39,8 @@ export default function Header() {
                       </a>
                     </div>
                   </div>
-
                   <div className="site-navigation">
-                    <nav className={menuOpen ? "main-menu navbar-expand-xl navbar-light active" : "main-menu navbar-expand-xl navbar-light"}>
+                    <nav className="main-menu navbar-expand-xl navbar-light">
                       <div className="navbar-header">
                         <button
                           className="navbar-toggler"
@@ -55,9 +53,16 @@ export default function Header() {
                         </button>
                       </div>
 
-                      <div className="pbmit-mobile-menu-bg" onClick={closeMenu}></div>
+                      <div
+                        className={menuOpen ? "pbmit-mobile-menu-bg active" : "pbmit-mobile-menu-bg"}
+                        onClick={closeMenu}
+                      ></div>
 
-                      <div className="collapse navbar-collapse clearfix show" id="pbmit-menu">
+                      <div
+                        className={menuOpen ? "collapse navbar-collapse clearfix show" : "collapse navbar-collapse clearfix"}
+                        id="pbmit-menu"
+                      >
+						
                         <div className="pbmit-menu-wrap">
                           <span className="closepanel" onClick={closeMenu}>
                             <svg
@@ -79,24 +84,32 @@ export default function Header() {
                               <a href="/about-us" onClick={closeMenu}>About Us</a>
                             </li>
 
-                            <li className="dropdown">
-                              <a href="#" onClick={handleServicesClick}>Services</a>
-                              <ul className={openSubmenu === "services" ? "open" : ""}>
+                            <li className={openSubmenu === "services" ? "dropdown menu-open" : "dropdown"}>
+                              <a href="#" onClick={handleServicesClick}>
+                                Services
+                                <span className="dropdown-arrow">
+                                  {openSubmenu === "services" ? "-" : "+"}
+                                </span>
+                              </a>
+                              <ul>
                                 <li><a href="/patient-specific-implants" onClick={closeMenu}>Patient Specific Implants</a></li>
                                 <li><a href="/custom-3d-printed-surgical-guides" onClick={closeMenu}>Custom 3D Printed Surgical Guides</a></li>
                                 <li><a href="/virtual-surgical-planning" onClick={closeMenu}>Virtual Surgical Planning</a></li>
                                 <li><a href="/3d-surgical-models" onClick={closeMenu}>3D Surgical Models</a></li>
                               </ul>
-							  <span onClick={handleServicesClick} class="righticon"><i class="pbmit-base-icon-angle-right"></i></span>
                             </li>
 
-                            <li className="dropdown">
-                              <a href="#" onClick={handleResourcesClick}>resources</a>
-                              <ul className={openSubmenu === "resources" ? "open" : ""}>
+                            <li className={openSubmenu === "resources" ? "dropdown menu-open" : "dropdown"}>
+                              <a href="#" onClick={handleResourcesClick}>
+                                resources
+                                <span className="dropdown-arrow">
+                                  {openSubmenu === "resources" ? "-" : "+"}
+                                </span>
+                              </a>
+                              <ul>
                                 <li><a href="/blog/" onClick={closeMenu}>Blogs</a></li>
                                 <li><a href="/case-studies/" onClick={closeMenu}>Case Studies</a></li>
                               </ul>
-							  <span onClick={handleResourcesClick} class="righticon"><i class="pbmit-base-icon-angle-right"></i></span>
                             </li>
 
                             <li>
@@ -134,6 +147,160 @@ export default function Header() {
           </div>
         </div>
       </header>
+
+ 
+
+      <style jsx global>{`
+        /* ===== DESKTOP (1200px and up): submenu opens on HOVER ===== */
+        @media (min-width: 1200px) {
+          .navbar-toggler {
+            display: none !important;
+          }
+          .pbmit-mobile-menu-bg {
+            display: none !important;
+          }
+          .navbar-collapse {
+            display: block !important;
+            position: static !important;
+            transform: none !important;
+            height: auto !important;
+            width: auto !important;
+            background: transparent !important;
+          }
+          .navigation {
+            display: flex !important;
+          }
+          .navigation > li {
+            position: relative;
+          }
+          .navigation > li > ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 240px;
+            z-index: 999;
+            background: #fff;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+          }
+          .navigation > li:hover > ul {
+            display: block !important;
+          }
+          .navigation .dropdown-arrow {
+            display: none;
+          }
+          .closepanel {
+            display: none;
+          }
+        }
+
+        /* ===== MOBILE (below 1200px): hamburger + click submenu ===== */
+        @media (max-width: 1199px) {
+          .navbar-collapse {
+            display: none;
+            position: fixed !important;
+            top: 0 !important;
+            right: 0 !important;
+            left: auto !important;
+            width: 300px !important;
+            max-width: 85% !important;
+            height: 100vh !important;
+            background: #ffffff !important;
+            z-index: 1001 !important;
+            overflow-y: auto !important;
+            transition: transform 0.3s ease !important;
+            transform: translateX(100%);
+            margin: 0 !important;
+            padding: 0 !important;
+          }
+          .navbar-collapse.show {
+            display: block !important;
+            transform: translateX(0) !important;
+          }
+          .pbmit-mobile-menu-bg {
+            display: none;
+            position: fixed !important;
+            inset: 0 !important;
+            background: rgba(0, 0, 0, 0.5) !important;
+            z-index: 1000 !important;
+          }
+          .pbmit-mobile-menu-bg.active {
+            display: block !important;
+          }
+          .pbmit-menu-wrap {
+            background: #ffffff !important;
+            width: 100% !important;
+            height: 100% !important;
+          }
+          .navigation {
+            display: block !important;
+            padding: 20px !important;
+            margin: 0 !important;
+            list-style: none !important;
+            width: 100% !important;
+          }
+          .navigation li {
+            display: block !important;
+            width: 100% !important;
+            border-bottom: 1px solid #eee !important;
+            list-style: none !important;
+          }
+          .navigation > li > a {
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            padding: 12px 0 !important;
+            color: #222222 !important;
+            font-size: 16px !important;
+            text-decoration: none !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+          }
+          .navigation ul ul {
+            display: none;
+            padding-left: 15px !important;
+            margin: 0 !important;
+            list-style: none !important;
+            background: #ffffff !important;
+          }
+          .navigation ul ul li a {
+            color: #444444 !important;
+            padding: 10px 0 !important;
+            display: block !important;
+            font-size: 14px !important;
+          }
+          .navigation li.menu-open > ul {
+            display: block !important;
+          }
+          .dropdown-arrow {
+            font-weight: bold;
+            padding: 0 8px;
+            color: #222222 !important;
+          }
+          .closepanel {
+            display: block !important;
+            text-align: right !important;
+            padding: 15px !important;
+            cursor: pointer;
+            color: #222222 !important;
+          }
+          .closepanel svg {
+            fill: #222222 !important;
+          }
+          .navbar-toggler {
+            display: block !important;
+            background: none !important;
+            border: none !important;
+            font-size: 24px !important;
+            cursor: pointer;
+            color: #222222 !important;
+          }
+          .navbar-toggler i {
+            color: #222222 !important;
+            font-size: 24px !important;
+          }
+        }
+      `}</style>
     </>
   )
 }

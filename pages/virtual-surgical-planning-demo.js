@@ -1,15 +1,22 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import React from "react";
 import Slider from "react-slick";
 import Marquee from "react-fast-marquee";
 import CountUp, { useCountUp } from 'react-countup';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { TypeAnimation } from 'react-type-animation';
-
+import React, { useState } from "react";
 
 export default function Home() {
+	const [openFaq, setOpenFaq] = useState(0);
+
+	const faqs = [
+		{ q: "What is virtual surgery planning?", a: "Virtual surgery planning is a digital preoperative simulation process that uses 3D imaging to plan surgical procedures before entering the operating room." },
+		{ q: "How does orthognathic surgery planning benefit from virtual tools?", a: "It improves accuracy in jaw positioning, occlusal alignment, and facial symmetry, reducing intraoperative uncertainty." },
+		{ q: "Does virtual planning reduce operating time?", a: "Yes. By predefining surgical steps, surgeons can execute procedures more efficiently." },
+		{ q: "Can virtual planning be combined with custom implants?", a: "Absolutely. Digital plans can directly guide the design of patient-specific implants and surgical guides." },
+	];
 
 		const registerUser = async event => {
       event.preventDefault()
@@ -541,7 +548,7 @@ export default function Home() {
 					</div>
 				</div>
             </section>
-
+            
 			<section class="site-content service-details pb-10 pt-10">
 				<div class="container">
 					<div class="row">
@@ -588,61 +595,146 @@ export default function Home() {
 				</div>
             </section>
 
-            <section className="mb-30">
-					<div class="container pbmit-bg-color-white borderradius">
-						<div class="about-three-bg pt-30 pb-30">
-							<div class="row g-0 align-items-center">
-								<div class="col-md-12 col-xl-6">
-									<div class="video-box pt-20 pb-20 pl-30 pr-60">
-										<img src="/images/main/service/simple-workflow.jpg" class="img-fluid w-100 imgreduis20" alt="Brain Anatomy Model"/>
-									</div>
-								</div>
-								<div class="col-md-12 col-xl-6">
-									<div class="about-three-content">
-										<div class="pbmit-heading-subheading animation-style2 mb-10">											
-											<h2 class="pbmit-title">Simple Workflow. Clear Output</h2>
-											<ul class="list-group ajrt">
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Upload CT/MRI or DICOM files. 
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Our biomedical engineers prepare segmented anatomy. 
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Join the online planning session. 
-														</li>
-														<li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Approve the final plan. 
-														</li>
-                                                        <li class="list-group-item">
-															<span class="pbmit-icon-list-icon">
-																<i aria-hidden="true" class="pbmit-base-icon-checked"></i>						
-															</span>
-															Receive 3D visualization, guides, and a case report. 
-														</li>
-													</ul>
-										</div>									
-									 
+			 <section class="background">
+				<br></br><br></br>
+				<div class="container">
+					<div class="pbmit-heading-subheading animation-style2 text-center">						
+						<h2 class="pbmit-title">Simple Workflow. Clear Output</h2>
+						<p>Our streamlined digital workflow ensures accuracy, transparency, and collaboration.</p>
+					</div>
+					<div class="row pbmit-element-posts-wrapper">
+						<article class="pbmit-service-style-3 col-md-6 col-lg-3">
+							<div class="pbminfotech-post-item">
+								<div class="pbminfotech-box-content">									
+									<h3 class="pbmit-service-title">
+										<a href="#">Image Acquisition</a>
+									</h3>
+									<div class="pbmit-service-description">
+										We receive high-resolution CT or MRI scans in DICOM format.
 									</div>
 								</div>
 							</div>
+							<a class="pbmit-link" href="#"></a>
+						</article>
+						<article class="pbmit-service-style-3 col-md-6 col-lg-3">
+							<div class="pbminfotech-post-item">
+								<div class="pbminfotech-box-content">
+									<h3 class="pbmit-service-title">
+										<a href="#">3D Anatomical Segmentation</a>
+									</h3>
+									<div class="pbmit-service-description">
+										Our engineers convert scan data into a detailed 3D anatomical model of the region of interest.
+									</div>
+								</div>
+							</div>
+							<a class="pbmit-link" href="#"></a>
+						</article>
+						<article class="pbmit-service-style-3 col-md-6 col-lg-3">
+							<div class="pbminfotech-post-item">
+								<div class="pbminfotech-box-content">
+									<h3 class="pbmit-service-title">
+										<a href="#">Virtual Surgical Planning</a>
+									</h3>
+									<div class="pbmit-service-description">
+										We collaborate with the surgeon to plan resections, alignments, and reconstruction goals.
+									</div>
+								</div>
+							</div>
+							<a class="pbmit-link" href="#"></a>
+						</article>
+						<article class="pbmit-service-style-3 col-md-6 col-lg-3">
+							<div class="pbminfotech-post-item">
+								<div class="pbminfotech-box-content">								
+									<h3 class="pbmit-service-title">
+										<a href="#">Patient-Specific Guides & Implant Design</a>
+									</h3>
+									<div class="pbmit-service-description">
+										Using advanced CAD software, we design patient-specific guides and implant designs for precise osteotomy and mimic natural anatomy.
+									</div>
+								</div>
+							</div>
+							<a class="pbmit-link" href="#"></a>
+						</article>
+						<article class="pbmit-service-style-3 col-md-6 col-lg-3">
+							<div class="pbminfotech-post-item">
+								<div class="pbminfotech-box-content">
+									<h3 class="pbmit-service-title">
+										<a href="#">Surgeon Approval</a>
+									</h3>
+									<div class="pbmit-service-description">
+										The surgeon reviews and approves the design before manufacturing.
+									</div>
+								</div>
+							</div>
+							<a class="pbmit-link" href="#"></a>
+						</article>
+						<article class="pbmit-service-style-3 col-md-6 col-lg-3">
+							<div class="pbminfotech-post-item">
+								<div class="pbminfotech-box-content">
+									<h3 class="pbmit-service-title">
+										<a href="#">Additive Manufacturing</a>
+									</h3>
+									<div class="pbmit-service-description">
+										We manufacture the model, guides, and implant using precision 3D printing technologies.
+									</div>
+								</div>
+							</div>
+							<a class="pbmit-link" href="#"></a>
+						</article>
+						<article class="pbmit-service-style-3 col-md-6 col-lg-3">
+							<div class="pbminfotech-post-item">
+								<div class="pbminfotech-box-content">
+									<h3 class="pbmit-service-title">
+										<a href="#">Post-Processing</a>
+									</h3>
+									<div class="pbmit-service-description">
+										Implants undergo surface finishing and quality checks.
+									</div>
+								</div>
+							</div>
+							<a class="pbmit-link" href="#"></a>
+						</article>
+						<article class="pbmit-service-style-3 col-md-6 col-lg-3">
+							<div class="pbminfotech-post-item">
+								<div class="pbminfotech-box-content">
+									<h3 class="pbmit-service-title">
+										<a href="#">Delivery & Surgical Support</a>
+									</h3>
+									<div class="pbmit-service-description">
+										The implant is delivered ready for sterilization, along with surgical guides and models, if required.
+									</div>
+								</div>
+							</div>
+							<a class="pbmit-link" href="#"></a>
+						</article>
+					</div>
+				</div>
+            </section><br/><br/>
+
+			 <section className="section-lg pt-50 pb-50 pbmit-bg-color-light">
+					<div className="container">
+						<div className="pbmit-heading-subheading text-center animation-style2 mb-30">
+							<h4 className="pbmit-subtitle">Frequently Asked Questions</h4>
+						</div>
+						<div className="row g-3">
+							{faqs.map((f, i) => (
+								<div className="col-md-6" key={i}>
+									<div className={`cx-faq-item ${openFaq === i ? "active" : ""}`} onClick={() => setOpenFaq(openFaq === i ? -1 : i)}>
+										<div className="cx-faq-question">
+											<span>{f.q}</span>
+											<span className="cx-faq-toggle">{openFaq === i ? "−" : "+"}</span>
+										</div>
+										{openFaq === i && <div className="cx-faq-answer">{f.a}</div>}
+									</div>
+								</div>
+							))}
 						</div>
 					</div>
-			</section>
+				</section>
+ 
 
-                <section class="section-lgb">
+                <section class="background">
+					<br/><br/>
 				<div class="container">
 					<div class="row g-0">
 						
@@ -702,6 +794,7 @@ export default function Home() {
 							</div>
 					</div>
 				</div>
+			
 			</section>
           
 
