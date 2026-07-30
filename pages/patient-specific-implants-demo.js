@@ -650,99 +650,73 @@ export default function Home() {
 								<div class="pbmit-service_content">									 
 									<div class="">
 										<div class="row align-items-center servicepage">
-											<div className="col-md-2"></div>
-											<div class="col-md-8 text-center">
+											<div class="col-md-12 col-xl-12 text-center">
 												<div class="pbmit-heading">
-													<br></br>
-                                                    <h3 class="pbmit-title">When Are Patient-Specific Implants Recommended?</h3>
-													<p className="text-center">
-														Patient-Specific Implants (PSIs) are recommended when standard implants cannot provide the precision, fit, or stability required for complex surgical cases. Designed from the patient's CT or MRI data, they help restore anatomy more accurately and support predictable surgical outcomes.
-													</p>
-													<h4>Common Clinical Indications</h4>
-													<br/>
-												</div>
+														<br></br>
+														<h3 class="pbmit-title">When Are Patient-Specific Implants Recommended?</h3>
+														<p>Patient-Specific Implants (PSIs) are recommended when standard implants cannot provide the precision, fit, or stability required for complex surgical cases. Designed from the patient's CT or MRI data, they help restore anatomy more accurately and support predictable surgical outcomes.</p>
+													
+														<h4>Common Clinical Indications</h4>											
+													</div>
 											</div>
-											<div className="col-md-2"></div>
 
                                             <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
-													<div className="cxbg">
-														<h6>Complex Trauma</h6>                                                    
-													    <p>Reconstruction of severe fractures, malunions, nonunions, and post-traumatic bone loss.</p>
-													</div>
-                                                </div>
-                                            </div>
-                                            <div className="col-sm-3">
-                                                <div class="innerbox">
-                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
-													<div className="cxbg">
-														<h6>Bone Tumors</h6>                                                    
-													    <p>Customized reconstruction following tumor resection, including limb salvage procedures.</p>
-													</div>
+                                                    <img src="/images/main/service/patient-specific-implants/Pelvic-Implant.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Pelvis Implant</h5>
                                                 </div>
                                             </div>
 											<div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
-													<div className="cxbg">
-														<h6>Cranio-Maxillofacial Reconstruction</h6>                                                    
-													    <p>Restoration of cranial, mandibular, orbital, and facial defects after trauma, tumor resection, or congenital conditions.</p>
-													</div>
+                                                    <img src="/images/main/service/patient-specific-implants/cranial-implant.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Cranial implant </h5>
                                                 </div>
                                             </div>
-											<div className="col-sm-3">
+											  <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
-													<div className="cxbg">
-														<h6>Revision Surgeries</h6>                                                    
-													    <p>Management of failed implants, previous reconstructions, bone loss, and altered anatomy.</p>
-													</div>
+                                                    <img src="/images/main/service/patient-specific-implants/3D-joint-replacement-Implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Custom Talus Implant</h5>
                                                 </div>
                                             </div>
+                                           
+                                        
 											<div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
-													<div className="cxbg">
-														<h6>Congenital Deformities</h6>                                                    
-													    <p>Correction of complex skeletal abnormalities requiring individualized implant solutions.</p>
-													</div>
+                                                    <img src="images/main/service/patient-specific-implants/BSSO.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>SSO / BSSO implant</h5>
                                                 </div>
                                             </div>
-											<div className="col-sm-3">
+                                          <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
-													<div className="cxbg">
-														<h6>Large Bone Defects</h6>                                                    
-													    <p>Reconstruction of segmental bone loss caused by trauma, infection, or tumor excision.</p>
-													</div>
+                                                    <img src="/images/main/service/patient-specific-implants/Spinal-Cage.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Spinal Cage</h5>
                                                 </div>
                                             </div>
 
-											<div className="col-sm-3">
+											
+                                            <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
-													<div className="cxbg">
-														<h6>Pelvic Reconstruction</h6>                                                    
-													    <p>Patient-specific solutions for complex pelvic defects, acetabular reconstruction, and oncologic resections.</p>
-													</div>
+                                                    <img src="/images/main/service/patient-specific-implants/Tibia.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Custom Tibia Implant</h5>
                                                 </div>
                                             </div>
-											<div className="col-sm-3">
+                                  
+
+										 
+                                            <div className="col-sm-3">
                                                 <div class="innerbox">
-                                                    <img src="/images/main/service/vsp/Osteotomies.jpg" class="img-fluid w-100" alt="Virtual Surgery Planning (VSP)"/>
-													<div className="cxbg">
-														<h6>Limb Salvage Procedures</h6>                                                    
-													    <p>Personalized implants designed to preserve limb function following extensive bone resection.</p>
-													</div>
+                                                    <img src="/images/main/service/patient-specific-implants/chin-implants.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Chin Implant</h5>
                                                 </div>
                                             </div>
-											<div className="col-sm-2"></div>
-											<div className="col-sm-8">
-												<p className="text-center">
-													When conventional implants are unable to address unique anatomical challenges, Patient-Specific Implants provide a personalized solution that enhances surgical precision, implant stability, and long-term functional outcomes.
-												</p>
-											</div>
+                                          
+                                            <div className="col-sm-3">
+                                                <div class="innerbox">
+                                                    <img src="/images/main/service/patient-specific-implants/patient-specific-dental-implant.jpg" class="img-fluid w-100" alt="Brain Anatomy Model"/>
+                                                    <h5>Patient-specific dental implant</h5>
+                                                </div>
+                                            </div>
+										
 										</div>
 									</div>
 								</div>
@@ -751,7 +725,10 @@ export default function Home() {
 					 
 					</div>
 				</div>
+					<br></br>
             </section>
+
+	
 
 	 
 
