@@ -56,6 +56,15 @@ export default function Home() {
 		},
 	];
 
+		const comparisonRows = [
+		{ feature: "Anatomical Fit", psi: "Custom-designed to match the patient's unique anatomy with exceptional precision.", standard: "Manufactured in standard sizes, often requiring adjustments during surgery." },
+		{ feature: "Surgical Accuracy", psi: "Supports highly accurate implant positioning and reconstruction through personalized design.", standard: "Accuracy depends on intraoperative modifications and surgeon adaptation." },
+		{ feature: "Operating Time", psi: "Reduces surgical time by minimizing implant adjustments and simplifying placement.", standard: "May increase operating time due to contouring, bending, or resizing of implants." },
+		{ feature: "Implant Stability", psi: "Provides improved contact with bone surfaces, enhancing fit and stability.", standard: "Stability may be affected if the implant does not conform perfectly to the patient's anatomy." },
+		{ feature: "Revision Rates", psi: "Personalized fit may help reduce complications associated with poor implant fit, potentially lowering the need for revision procedures.", standard: "Higher likelihood of revisions in complex cases where anatomical mismatch affects long-term outcomes." },
+		{ feature: "Patient Outcomes", psi: "Promotes improved functional restoration, aesthetics, comfort, and overall surgical predictability.", standard: "Clinical outcomes may vary depending on implant fit and intraoperative adjustments." },
+	];
+
 	
 	
 
@@ -1025,6 +1034,34 @@ export default function Home() {
 					</div>
 				</section>
 
+				<section className="section-lg pt-50 pb-50 background">
+					<div className="container">
+						<div className="pbmit-heading-subheading text-center animation-style2 mb-20">
+							<h2 className="pbmit-title">Patient-Specific Implants vs. Standard Implants</h2>
+						</div>
+						<div className="table-responsive pci">
+							<table className="cx-compare-table">
+								<thead>
+									<tr>
+										<th>Feature</th>
+										<th>Patient-Specific Implants (PSI)</th>
+										<th>Standard Implants</th>
+									</tr>
+								</thead>
+								<tbody>
+									{comparisonRows.map((row, i) => (
+										<tr key={i}>
+											<td className="cx-compare-feature">{row.feature}</td>
+											<td>{row.psi}</td>
+											<td>{row.standard}</td>
+										</tr>
+									))}
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</section>
+
 			
 
 			 <section className="section-lg pt-50 pb-50">
@@ -1047,6 +1084,8 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+
+				
  
 
                 <section class="background">

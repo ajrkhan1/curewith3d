@@ -2820,3 +2820,8 @@ margin-bottom: 15px !important;
 .cxbg p{color: #fff; padding: 0px; margin: 0px;}
 .whitecc{color: #fff;}
 .rediubbod{border-radius: 12px;}
+
+.pci table, td, th {
+  border: 1px solid;
+  padding: 10px;
+}
