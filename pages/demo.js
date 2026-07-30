@@ -140,8 +140,8 @@ export default function Home() {
 								</div>
 
 								<div className="hero-btn-row mt-4">
-									<a href="/upload-scan" className="pbmit-btn pbmit-btn-red">Upload CT / MRI Scan</a>
-									<a href="/contact-us" className="pbmit-btn pbmit-btn-outline">Request Consultation</a>
+									<a href="/contact-us" className="pbmit-btn pbmit-btn-red">Request Consultation</a>
+									
 								</div>
 							</div>
 
