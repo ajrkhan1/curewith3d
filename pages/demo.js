@@ -51,10 +51,10 @@ export default function Home() {
 	};
 
 	const coreServices = [
-		{ img: "/images/main/patient-specific-implants.webp", title: "Patient Specific Implants", desc: "Custom-designed implants using CT/MRI data for orthopedic, cranial, maxillofacial and reconstructive surgeries.", link: "/patient-specific-implants" },
-		{ img: "/images/main/custom-3d-surgical-guides.webp", title: "Custom 3D Printed Surgical Guides", desc: "Patient-specific surgical guides that improve accuracy, reduce operative time and ensure better outcomes.", link: "/custom-3d-printed-surgical-guides" },
-		{ img: "/images/main/virtual-surgical-planning-modeling.webp", title: "Virtual Surgical Planning", desc: "Advanced digital planning to simulate surgeries, optimize implant design and reduce intraoperative uncertainties.", link: "/virtual-surgical-planning" },
-		{ img: "/images/main/custom-3d-anatomical-models.webp", title: "3D Surgical Models", desc: "High accuracy anatomical models for surgical planning, patient communication and medical education.", link: "/3d-surgical-models" },
+		{ img: "/images/main/patient-specific-implants.webp", title: "Patient Specific Implants", desc: "Custom-designed implants using CT/MRI data for orthopedic, cranial, maxillofacial and reconstructive surgeries.", link: "/patient-specific-implants-demo" },
+		{ img: "/images/main/custom-3d-surgical-guides.webp", title: "Custom 3D Printed Surgical Guides", desc: "Patient-specific surgical guides that improve accuracy, reduce operative time and ensure better outcomes.", link: "/custom-3d-printed-surgical-guides-demo" },
+		{ img: "/images/main/virtual-surgical-planning-modeling.webp", title: "Virtual Surgical Planning", desc: "Advanced digital planning to simulate surgeries, optimize implant design and reduce intraoperative uncertainties.", link: "/virtual-surgical-planning-demo" },
+		{ img: "/images/main/custom-3d-anatomical-models.webp", title: "3D Surgical Models", desc: "High accuracy anatomical models for surgical planning, patient communication and medical education.", link: "/3d-surgical-models-demo" },
 	];
 
 	const howWeWork = [
@@ -78,15 +78,14 @@ export default function Home() {
 	];
 
 	const testimonials = [
-		{ text: "Curewith3D's surgical guides have significantly reduced our surgery time and improved patient outcomes.", name: "Dr. Ashish Chaudhry", role: "Orthopedic Surgeon", img: "/images/main/testimonial/m1.jpg" },
-		{ text: "The accuracy of surgical guides and virtual planning has transformed the way we plan complex surgeries.", name: "Dr. Manish Kumar", role: "Neurosurgeon", img: "/images/main/testimonial/m2.jpg" },
-		{ text: "Excellent quality, timely delivery and great support throughout the surgical journey.", name: "Dr. Richa Singh", role: "Maxillofacial Surgeon", img: "/images/main/testimonial/f1.jpg" },
+		{ text: "Curewith3D's surgical guides have significantly reduced our surgery time and improved patient outcomes.", name: "Dr. Ashish Chaudhry", role: "Orthopedic Surgeon", img: "/images/homepage-2/testimonial/m1.jpg" },
+		{ text: "The accuracy of surgical guides and virtual planning has transformed the way we plan complex surgeries.", name: "Dr. Manish Kumar", role: "Neurosurgeon", img: "/images/homepage-2/testimonial/m2.jpg" },
+		{ text: "Excellent quality, timely delivery and great support throughout the surgical journey.", name: "Dr. Richa Singh", role: "Maxillofacial Surgeon", img: "/images/homepage-2/testimonial/f1.jpg" },
 	];
 
 	const newsItems = [
-		{ img: "/images/news/news33.webp", title: "Complexed Joints help Uzbek woman use her fingers again", date: "July 28, 2022", link: "/news" },
-		{ img: "/images/news/news22.webp", title: "Girl with rare condition undergoes surgery in Delhi to fix spine curvature", date: "July 20, 2022", link: "/news" },
-		{ img: "/images/news/news44.webp", title: "किर्गिस्तान की 12 वर्षीय बच्ची को मिला नया जीवन", date: "July 18, 2022", link: "/news" },
+		{ img: "/images/news/news33.webp", title: "Complexed Joints help Uzbek woman use her fingers again", date: "July 28, 2022", link: "https://www.stratasys.com/en/resources/case-studies/aakash-healthcare/" },
+		{ img: "/images/news/news44.webp", title: "A 12-year-old girl from Kyrgyzstan was given a new lease on life.", date: "July 18, 2022", link: "https://timesofindia.indiatimes.com/city/delhi/delhi-3d-printed-joints-help-uzbek-woman-use-her-fingers-again/articleshow/100059321.cms" },
 	];
 
 	const faqs = [
@@ -154,7 +153,7 @@ export default function Home() {
 									<div className="col-4">
 										<ul className="hero-trust-list list-unstyled">
 											<li><img src="/images/home/trust-bar/Trusted by 100+ Hospitals.svg" alt="Faster Surgical Planning" />Trusted by 100+ Hospitals</li>
-											<li><img src="/images/home/trust-bar/ISO 90012015 Certified.svg" alt="Faster Surgical Planning" />ISO 9001:2015 Certified</li>
+											<li><img src="/images/home/trust-bar/ISO 90012015 Certified.svg" alt="Faster Surgical Planning" />ISO 9001:2018 Certified</li>
 											<li><img src="/images/home/trust-bar/Medical Grade Manufacturing.svg" alt="Faster Surgical Planning" />Medical Grade Manufacturing</li>
 											<li><img src="/images/home/trust-bar/Fast Turnaround Time.svg" alt="Faster Surgical Planning" />Fast Turnaround Time</li>
 											<li><img src="/images/home/trust-bar/Dedicated Clinical Support.svg" alt="Faster Surgical Planning" />Dedicated Clinical Support</li>
@@ -399,18 +398,52 @@ export default function Home() {
 							<h4 className="pbmit-subtitle colorw">Why Choose Curewith3D?</h4>
 						</div>
 						<div className="row g-4">
-							{whyChoose.map((w, i) => (
-								<div className="col-6 col-md-4 col-lg-2 text-center" key={i}>
-									<div className="cx-why-item">
-										<img src={`/images/main/whychoose/icon-${i + 1}.svg`} className="img-fluid" alt={w.title} />
-										<h5>{w.title}</h5>
-										<p>{w.desc}</p>
-									</div>
+							<div className="col-6 col-md-4 col-lg-2 text-center">
+								<div className="cx-why-item">
+									<img src="/images/home/WhyChooseCurewit3D/Proven Accuracy.svg" alt="Proven Accuracy"/>										
+									<h5>Proven Accuracy</h5>
+									<p>High precision designs for complex surgeries.</p>
 								</div>
-							))}
+							</div>
+							<div className="col-6 col-md-4 col-lg-2 text-center">
+								<div className="cx-why-item">
+									<img src="/images/home/WhyChooseCurewit3D/Fast Turnaround.svg" alt="Proven Accuracy"/>										
+									<h5>Fast Turnaround</h5>
+									<p>Quick delivery to support time-sensitive cases.</p>
+								</div>
+							</div>
+							<div className="col-6 col-md-4 col-lg-2 text-center">
+								<div className="cx-why-item">
+									<img src="/images/home/WhyChooseCurewit3D/Regulatory Compliance.svg" alt="Proven Accuracy"/>										
+									<h5>Regulatory Compliance</h5>
+									<p>ISO certified with strict quality standards.</p>
+								</div>
+							</div>
+							<div className="col-6 col-md-4 col-lg-2 text-center">
+								<div className="cx-why-item">
+									<img src="/images/home/WhyChooseCurewit3D/Dedicated Support.svg" alt="Proven Accuracy"/>										
+									<h5>Dedicated Support</h5>
+									<p>Expert support from planning to surgery.</p>
+								</div>
+							</div>
+							<div className="col-6 col-md-4 col-lg-2 text-center">
+								<div className="cx-why-item">
+									<img src="/images/home/WhyChooseCurewit3D/Advanced Technology.svg" alt="Proven Accuracy"/>										
+									<h5>Advanced Technology</h5>
+									<p>State-of-the-art 3D printing and software.</p>
+								</div>
+							</div>
+							<div className="col-6 col-md-4 col-lg-2 text-center">
+								<div className="cx-why-item">
+									<img src="/images/home/WhyChooseCurewit3D/Surgeon Collaboration.svg" alt="Proven Accuracy"/>										
+									<h5>Surgeon Collaboration</h5>
+									<p>We work closely with surgeons at every step.</p>
+								</div>
+							</div>							
 						</div>
 					</div>
 				</section>
+				<br></br><br></br>
 
 				{/* ================= TESTIMONIALS ================= */}
 				<section className="pbmit-bg-color-secondary testimonial-sec-two mb-40">
@@ -460,16 +493,18 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+				
 
 				{/* ================= LATEST NEWS ================= */}
-				<section className="section-lg pt-50 pb-50">
+				<section className="background pt-50 pb-50">
 					<div className="container">
 						<div className="pbmit-heading-subheading text-center animation-style2 mb-30">
 							<h4 className="pbmit-subtitle">Latest News &amp; Articles</h4>
 						</div>
 						<div className="row g-4">
+							<div className="col-md-3"></div>
 							{newsItems.map((n, i) => (
-								<div className="col-md-4" key={i}>
+								<div className="col-md-3" key={i}>
 									<div className="cx-news-card">
 										<a href={n.link}><img src={n.img} className="img-fluid w-100" alt={n.title} /></a>
 										<div className="cx-news-body">
@@ -507,61 +542,64 @@ export default function Home() {
 				</section>
 
 				{/* ================= CTA + CONTACT FORM ================= */}
-				<section className="px-xl-4 px-2 mt-50">
-					<div className="container-fluid">
-						<div className="row g-0">
-							<div className="col-md-12 col-xl-6 fadeInLeft animated">
-								<div className="contact-one-bg transform-your-surgical" />
+				<section class="px-xl-4 px-2 mt-50">
+					<div class="container-fluid">
+						<div class="row g-0">
+							<div class="col-md-12 col-xl-6 fadeInLeft animated">
+								<div class="contact-one-bg transform-your-surgical"></div>
 							</div>
-							<div className="col-md-12 col-xl-6 fadeInRight animated">
-								<div className="contact-one-form-area pbmit-bg-color-blackish">
-									<div className="pbmit-heading-subheading animation-style2">
-										<h4 className="pbmit-subtitle">Contact Us</h4>
-										<h2 className="pbmit-title">Ready to Plan Your Next Complex Surgery?</h2>
-										<p className="colorw">Partner with Curewith3D for Patient Specific Implants, Custom 3D Printed Surgical Guides, Virtual Surgical Planning and 3D Surgical Models tailored to your clinical needs.</p>
+							<div class="col-md-12 col-xl-6 fadeInRight animated">
+								<div class="contact-one-form-area pbmit-bg-color-blackish">
+									<div class="pbmit-heading-subheading animation-style2">
+										<h4 class="pbmit-subtitle">Contact Us</h4>
+										<h2 class="pbmit-title">Transform Your Surgical Precision Today</h2>
 									</div>
 									<form className="formsc" id="contactForm" onSubmit={registerUser}>
-										<div className="row">
-											<div className="col-md-6">
-												<input type="text" className="form-control" placeholder="Your Name" name="name" />
-											</div>
-											<div className="col-md-6">
-												<input type="email" name="email" className="form-control" placeholder="Email Address" />
-											</div>
-											<div className="col-md-6">
-												<input type="text" className="form-control" name="phone" maxLength="13" minLength="10" pattern="[0-9]*" placeholder="Phone No.*" />
-											</div>
-											<div className="col-md-6">
-												<select className="form-select" name="service" required>
-													<option value="">Choose a Service</option>
-													<option value="3D Surgical Models">3D Surgical Models</option>
-													<option value="Patient Specific Implants">Patient Specific Implants</option>
-													<option value="Custom 3D Printed Surgical Guides">Custom 3D Printed Surgical Guides</option>
-												</select>
-											</div>
-											<div className="col-md-12">
-												<textarea name="message" cols="40" rows="6" className="form-control" placeholder="Message" required></textarea>
-											</div>
+									<div className="row">
+										<div className="col-md-6">
+										<input type="text" className="form-control" placeholder="Your Name" name="name" />
 										</div>
-										<div className="pbmit-button-wrapper">
-											<button type="submit" className="pbmit-btn pbmit-btn-red" id="submitbuttonform">
-												<span className="pbmit-button-content-wrapper">
-													<span className="pbmit-button-icon">
-														<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
-															<path d="m31 50.979c-.362.007-.727-.081-1.049-.28-.929-.572-1.212-1.814-.653-2.742.047-.082 5.886-9.826 17.032-15.958h-43.33c-1.103 0-2-.897-2-2s.897-2 2-2h43.33c-11.084-6.097-16.989-15.884-17.047-15.982-.547-.934-.244-2.177.689-2.73.946-.561 2.192-.236 2.757.715.909 1.45 9.433 14.449 24.722 18.046.915.225 1.549 1.026 1.549 1.952s-.63 1.729-1.532 1.948c-15.354 3.61-23.849 16.626-24.767 18.099-.36.577-1.025.919-1.7.932z"></path>
-														</svg>
-													</span>
-													<span className="pbmit-button-text">Get Cost Estimate</span>
-												</span>
-											</button>
-											<p id="showlabel" style={{ display: "none" }}></p>
+										<div className="col-md-6">
+										<input type="email" name="email" className="form-control" placeholder="Email Address" />
+										{/* ✅ "emial" → "email" fix kiya */}
 										</div>
+										<div className="col-md-6">
+										<input type="text" className="form-control" name="phone" maxLength="13" minLength="10" pattern="[0-9]*" placeholder="Phone No.*" />
+										</div>
+										<div className="col-md-6">
+										<select className="form-select" name="service" required>
+											<option value="">Choose a Service</option>
+											<option value="3D Surgical Models">3D Surgical Models</option>
+											<option value="Patient Specific Implants">Patient Specific Implants</option>
+											<option value="Custom 3D Printed Surgical Guides">Custom 3D Printed Surgical Guides</option>
+										</select>
+										</div>
+										<div className="col-md-12">
+										<textarea name="message" cols="40" rows="10" className="form-control" placeholder="Message" required></textarea>
+										</div>
+									</div>
+
+									<div className="pbmit-button-wrapper">
+										<button type="submit" className="pbmit-btn pbmit-btn-white" id="submitbuttonform">
+										<span className="pbmit-button-content-wrapper">
+											<span className="pbmit-button-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+												<path d="m31 50.979c-.362.007-.727-.081-1.049-.28-.929-.572-1.212-1.814-.653-2.742.047-.082 5.886-9.826 17.032-15.958h-43.33c-1.103 0-2-.897-2-2s.897-2 2-2h43.33c-11.084-6.097-16.989-15.884-17.047-15.982-.547-.934-.244-2.177.689-2.73.946-.561 2.192-.236 2.757.715.909 1.45 9.433 14.449 24.722 18.046.915.225 1.549 1.026 1.549 1.952s-.63 1.729-1.532 1.948c-15.354 3.61-23.849 16.626-24.767 18.099-.36.577-1.025.919-1.7.932z"></path>
+											</svg>
+											</span>
+											<span className="pbmit-button-text">Get Cost Estimate</span>
+										</span>
+										</button>
+										<p id="showlabel" style={{ display: "none" }}></p>
+									</div>
 									</form>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
+
+				<br></br><br></br>
 
 			</div>
 		</>
